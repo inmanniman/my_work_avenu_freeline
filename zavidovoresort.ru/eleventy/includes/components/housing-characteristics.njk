@@ -1,0 +1,13 @@
+<div class="housing-characteristics">
+  <h4 class="housing-characteristics__title">Характеристики</h4>
+  <table>
+    <tbody>
+    {% for item in params.content %}
+      <tr>
+        <td>{{ item.title }}</td>
+        <td class="housing-characteristics__characteristics-data">{{ item.data }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>

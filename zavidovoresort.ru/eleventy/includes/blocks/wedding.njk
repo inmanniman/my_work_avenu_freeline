@@ -1,0 +1,28 @@
+<section class="wedding js-sliders">
+  <div class="swiper" data-slider-name="widding_slider">
+    <div class="swiper-wrapper">
+      {% for item in params.wedding %}
+        <div class="swiper-slide">
+          <a href="/" class="wedding__slide">
+            <picture class="wedding__image-wrap">
+              <source
+                srcset="/assets/images/{{ item.images.webp }}, /assets/images/{{ item.images.webp2x }} 2x"
+                type="image/webp">
+              <img srcset="/assets/images/{{ item.images.img }}, /assets/images/{{ item.images.img2x }} 2x"
+                   src="/assets/images/{{ item.images.img }}" loading="lazy"
+                   alt="wedding ceremony" width="1440" height="484">
+            </picture>
+            <div class="wedding__wrapper-content">
+              <h3 class="wedding__title">{{ item.title }}</h3>
+              <p class="wedding__desc">{{ item.desc }}</p>
+              <div class="wedding__wrapper-btn">
+                <button class="wedding__btn base-btn base-btn_type_secondary">Подробнее</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination js-swiper-pagination wedding__pagination"></div>
+  </div>
+</section>

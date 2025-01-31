@@ -1,0 +1,140 @@
+.collateral-security {
+  display: none;
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 36px;
+  }
+
+  &__wrapper-input-txt &__subtitle {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__wrapper-input-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__input-info {
+    background: #F2F1F5;
+    border-radius: 4px;
+    border: none;
+    width: 20%;
+    height: 56px;
+    padding-left: 16px;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      padding-left: 16px;
+
+      color: #898C90;
+    }
+    &:focus {
+      width: 100%;
+    }
+  }
+
+  &__wrapper-input-flex span {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  &__lease-term-radio {
+    display: none;
+
+    &:checked + label {
+      background-color: #64666F;
+      color: #fff;
+      transition: 0.5s;
+    }
+  }
+
+  &__radio-btn{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 23px 58px;
+    background-color: #F2F1F5;
+    border-radius: 66px;
+    cursor: pointer;
+  }
+
+  &__btn-prev {
+    font-weight: 400;
+    font-size: 18px;
+    color: #4E505A;
+    cursor: pointer;
+    &:hover {
+      color: #000000;
+    }
+  }
+
+  &__btn-condition {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 62px;
+    color: #FFFFFF;
+    background: #D80027;
+    border-radius: 66px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ff0f3b;
+    }
+  }
+
+  &__wrapper-btn-condition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 730px) {
+    &__radio-btn {
+      ont-size: 4vw;
+      padding: 3vw 7vw;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    &__input-info {
+      width: 50%;
+    }
+
+    &__title {
+      font-size: 7vw;
+    }
+
+    &__wrapper-input-flex span {
+      font-size: 4vw;
+    }
+
+    &__wrapper-input-flex {
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    &__btn-condition {
+      font-size: 4vw;
+      padding: 3vw 3vw;
+    }
+
+    &__flex {
+      gap: 6vw;
+    }
+  }
+}

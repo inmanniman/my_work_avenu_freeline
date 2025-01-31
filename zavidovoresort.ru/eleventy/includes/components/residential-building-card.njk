@@ -1,0 +1,30 @@
+<div class="residential-building-card">
+  <div class="residential-building-card__image">
+    <picture>
+      <source
+        srcset="/assets/images/residential-buildings/{{ params.residentialBuildingData.images.webp }}, /assets/images/residential-buildings/{{ params.residentialBuildingData.images.webp2x }} 2x"
+        type="image/webp">
+      <img
+        srcset="/assets/images/residential-buildings/{{ params.residentialBuildingData.images.img }}, /assets/images/residential-buildings/{{ params.residentialBuildingData.images.img2x }} 2x"
+        src="/assets/images/residential-buildings/{{ params.residentialBuildingData.images.img }}" loading="lazy"
+        alt="residential building" width="1400" height="652">
+    </picture>
+  </div>
+  <div class="residential-building-card__content">
+    <div class="residential-building-card__content-description">
+      <h3 class="residential-building-card__title">
+        {{ params.residentialBuildingData.title }}
+      </h3>
+      <div class="residential-building-card__subtitle">
+        {{ params.residentialBuildingData.subtitle }}
+      </div>
+      <p class="residential-building-card__description">
+        {{ params.residentialBuildingData.description }}
+      </p>
+    </div>
+    <div class="residential-building-card__button-list">
+      <a href="{{ params.residentialBuildingData.hrefBook }}" class="residential-building-card__button base-btn base-btn_type_primary">Забронировать</a>
+      <a href="{{ params.residentialBuildingData.hrefMoreDetails }}" class="residential-building-card__button base-btn base-btn_type_secondary">Подробнее</a>
+    </div>
+  </div>
+</div>

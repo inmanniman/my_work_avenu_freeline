@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Отель",
+    "url": "/otel.html",
+    "submenu": [
+      {
+        "name": "Name",
+        "url": "/name.html"
+      },
+      {
+        "name": "Name1",
+        "url": "/name1.html"
+      },
+      {
+        "name": "Name2",
+        "url": "/name2.html"
+      }
+    ]
+  },
+  {
+    "name": "Проживание",
+    "url": "/habitation.html",
+    "submenu": [
+      {
+        "name": "Name",
+        "url": "/name.html"
+      },
+      {
+        "name": "Name1",
+        "url": "/name1.html"
+      },
+      {
+        "name": "Name2",
+        "url": "/name2.html"
+      }
+    ]
+  },
+  {
+    "name": "Услуги",
+    "url": "/services.html",
+    "submenu": [
+      {
+        "name": "Name",
+        "url": "/name.html"
+      },
+      {
+        "name": "Name1",
+        "url": "/name1.html"
+      },
+      {
+        "name": "Name2",
+        "url": "/name2.html"
+      }
+    ]
+  },
+  {
+    "name": "Мероприятия",
+    "url": "/events.html",
+    "submenu": [
+      {
+        "name": "Name",
+        "url": "/name.html"
+      },
+      {
+        "name": "Name1",
+        "url": "/name1.html"
+      },
+      {
+        "name": "Name2",
+        "url": "/name2.html"
+      }
+    ]
+  },
+  {
+    "name": "Аюрведа",
+    "url": "/ayurveda.html",
+    "submenu": [
+      {
+        "name": "Name",
+        "url": "/name.html"
+      },
+      {
+        "name": "Name1",
+        "url": "/name1.html"
+      },
+      {
+        "name": "Name2",
+        "url": "/name2.html"
+      }
+    ]
+  },
+  {
+    "name": "Акции",
+    "url": "/stocks.html"
+  },
+  {
+    "name": "Блог",
+    "url": "/blog.html"
+  },
+  {
+    "name": "Контакты",
+    "url": "/contacts.html"
+  }
+]

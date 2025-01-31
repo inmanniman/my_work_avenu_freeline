@@ -1,0 +1,22 @@
+{%- from "utils/component.njk" import component -%}
+<a href="" class="article-mini">
+  <picture class="article-mini__image-wrap">
+    <source media="(max-width: 550px)"
+            srcset="/assets/images/blog/{{ params.images.img_m }}, /assets/images/blog/{{ params.images.img_m2x }} 2x"
+            type="image/webp">
+    <source media="(max-width: 550px)"
+            srcset="/assets/images/blog/{{ params.images.webp_m }}, /assets/images/blog/{{ params.images.webp_m2x }} 2x">
+    <source
+      srcset="/assets/images/blog/{{ params.images.webp }}, /assets/images/blog/{{ params.images.webp2x }} 2x"
+      type="image/webp">
+    <img srcset="/assets/images/blog/{{ params.images.img }}, /assets/images/blog/{{ params.images.img2x }} 2x"
+         src="/assets/images/blog/{{ params.images.img }}" class="article-mini__image" loading="lazy"
+         alt="article image" width="690" height="378">
+  </picture>
+  <div class="article-mini__content">
+    <time class="article-mini__data" datetime="{{ params.data.datetime }}">{{ params.data.time }}</time>
+    <h2 class="article-mini__title">{{ params.title }}</h2>
+    <p class="article-mini__description">{{ params.description }}</p>
+    {{ component('read-more') }}
+  </div>
+</a>

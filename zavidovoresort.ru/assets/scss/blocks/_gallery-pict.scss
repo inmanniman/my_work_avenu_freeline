@@ -1,0 +1,34 @@
+.gallery-pict {
+  &__title {
+    padding-top: 34px;
+    margin: 0;
+  }
+  &__unit {
+    margin: 48px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  &__img {
+    border-radius: 32px;
+  }
+  @media screen and (max-width: 1024px) {
+    &__unit {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__title {
+      padding-top: 0;
+    }
+    &__unit {
+      margin: 24px 0 64px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    &__img {
+      border-radius: 16px;
+    }
+  }
+}

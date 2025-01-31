@@ -1,0 +1,160 @@
+.type-work {
+  padding: 100px 0 114px 0;
+
+  &__title {
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 108%;
+    max-width: 662px;
+    margin: 0;
+  }
+
+  &__content {
+    margin: 0 auto;
+  }
+
+  &__aside {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 1160px;
+    margin-top: 99px;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f1f5;
+    border-radius: 16px;
+    width: 228px;
+    height: 202px;
+    padding: 24px 0 32px 32px;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 8px;
+    left: -8px;
+  }
+
+  &__desc {
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #495053;
+    margin: 0;
+    width: 210px;
+    top: 8px;
+    left: -7px;
+  }
+
+  @media screen and (max-width: 1190px) {
+    &__aside {
+      max-width: 860px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 891px) {
+    &__aside {
+      max-width: 560px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    &__icon {
+      top: 0;
+      left: 0;
+    }
+    &__title {
+      font-size: 32px;
+    }
+
+    &__aside {
+      display: block;
+    }
+
+    &__box {
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+      height: 54px;
+      margin-bottom: 46px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    &__desc {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 63px 12px 122px 13px;
+    &__box {
+      margin-bottom: 20px;
+      padding: 31px 0 31px 32px;
+    }
+
+    &__title {
+      margin-bottom: 51px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    padding: 41px 0 171px 0;
+
+    &__title {
+      position: relative;
+      font-weight: 400;
+      font-size: 24px;
+      max-width: 278px;
+      margin: 0;
+      width: 100%;
+      left: 3px;
+      text-align: start;
+      margin-bottom: 39px;
+    }
+
+    &__aside {
+      display: block;
+      gap: normal;
+    }
+
+    &__box {
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+      gap: 28px;
+      height: 54px;
+      margin-bottom: 16px;
+      justify-content: normal;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(3n) > h3,
+      &:nth-child(4n) > h3 {
+        width: 170px;
+      }
+
+      &:nth-child(6n) > h3,
+      &:nth-child(9n) > h3 {
+        width: 130px;
+      }
+    }
+    &__desc {
+      line-height: 19px;
+      width: 136px;
+      top: 3px;
+      left: 0;
+    }
+  }
+}

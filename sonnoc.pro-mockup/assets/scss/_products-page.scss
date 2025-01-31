@@ -1,0 +1,30 @@
+.products-page {
+  position: relative;
+
+  &__top {
+    min-height: 70px;
+  }
+
+  &__info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 447px;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  @media (max-width: 700px) {
+    &__top {
+      min-height: 100px;
+    }
+
+    &__info {
+      top: 40px;
+      left: 0;
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<nav hidden class="js-m-menu m-menu">
+  <button class="btn m-menu__close-btn js-m-menu-btn-close">
+    <svg class="m-menu__svg" width="28" height="28">
+      <use href="/assets/sprite.svg#close"></use>
+    </svg>
+  </button>
+  <ul>
+    <li>
+      <a href="/about-the-company.html">О компании</a>
+    </li>
+    <li>
+      <details class="m-menu__dropdown-wrapper">
+        <summary>
+          <a class="mm-listitem__text" href="/products.html">Продукция</a>
+        </summary>
+        <div class="m-menu__dropdown NoPanel">
+          <ul>
+            <li class="mm-listitem">
+              <a href="" class="mm-listitem__text">Короткофокусные проекторы</a>
+            </li>
+            <li class="mm-listitem">
+              <a href="" class="mm-listitem__text">Портативные проекторы</a>
+            </li>
+            <li class="mm-listitem">
+              <a href="" class="mm-listitem__text">Инсталляционные проекторы</a>
+            </li>
+          </ul>
+        </div>
+      </details>
+    </li>
+    <li>
+      <a href="/news.html">Новости</a>
+    </li>
+    <li>
+      <a href="/">Калькулятор</a>
+    </li>
+    <li>
+      <a href="/contacts.html">Контакты</a>
+    </li>
+  </ul>
+</nav>
+<template id="mmenu-top">{{ component('mmenu-top') }}</template>
+<template id="mmenu-bottom">{{ component('mmenu-bottom') }}</template>

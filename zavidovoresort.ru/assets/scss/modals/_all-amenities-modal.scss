@@ -1,0 +1,23 @@
+.all-amenities-modal {
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+
+  &__content {
+    .convenience-elements {
+      &__grid {
+        column-gap: 55px;
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__title {
+      max-width: 184px;
+    }
+  }
+}

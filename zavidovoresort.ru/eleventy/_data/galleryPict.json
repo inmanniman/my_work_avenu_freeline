@@ -1,0 +1,34 @@
+[
+  {
+    "images": {
+      "img": "gallery-pict.jpg",
+      "img2x": "gallery-pict@2x.jpg",
+      "webp": "gallery-pict.webp",
+      "webp2x": "gallery-pict@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "gallery-pict.jpg",
+      "img2x": "gallery-pict@2x.jpg",
+      "webp": "gallery-pict.webp",
+      "webp2x": "gallery-pict@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "gallery-pict.jpg",
+      "img2x": "gallery-pict@2x.jpg",
+      "webp": "gallery-pict.webp",
+      "webp2x": "gallery-pict@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "gallery-pict.jpg",
+      "img2x": "gallery-pict@2x.jpg",
+      "webp": "gallery-pict.webp",
+      "webp2x": "gallery-pict@2x.webp"
+    }
+  }
+]

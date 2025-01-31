@@ -1,0 +1,33 @@
+.convenience-elements {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  &__item {
+    display: flex;
+    gap: 16px;
+    //align-items: end;
+    justify-content: left;
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+
+  &__item-description {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 550px) {
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+    &__item {
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "images": {
+      "img": "finalist.jpg",
+      "img2x": "finalist@2x.jpg",
+      "webp": "finalist.webp",
+      "webp2x": "finalist@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "cert.jpg",
+      "img2x": "cert@2x.jpg",
+      "webp": "cert.webp",
+      "webp2x": "cert@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "diplom.jpg",
+      "img2x": "diplom@2x.jpg",
+      "webp": "diplom.webp",
+      "webp2x": "diplom@2x.webp"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+.events {
+  padding-top: 32px;
+  padding-bottom: 100px;
+
+  &__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 48px 0 64px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+    padding-bottom: 64px;
+
+    &__main {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px;
+      padding: 24px 0 32px;
+    }
+  }
+}

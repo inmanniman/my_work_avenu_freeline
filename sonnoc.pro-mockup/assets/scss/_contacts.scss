@@ -1,0 +1,40 @@
+.contacts {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+
+  &__content {
+    max-width: 280px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__caption {
+    display: block;
+    margin-bottom: 8px;
+    color: #929292;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+
+    &__title {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+blockquote {
+    margin: 30px 0 50px;
+    padding: 71px 100px;
+    color: #4f4f4f;
+    background-color: #f2f4f6;
+    p {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.articles__info>p {
+    margin-bottom: 0;
+}
+
+.form__fields .errors {
+    position: relative;
+    top: -5px;
+    left: 10px;
+    color: #f00;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+form .form__field {
+    margin-bottom: 10px;
+}
+
+.form__field .error_input {
+    color: #d81c1c;
+    border-bottom: 1px solid #d81c1c;
+}
+
+.nav__item-current {
+    color: #000;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.aside-nav__item-current {
+    color: #333;
+    font-size: 20px;
+    line-height: 27.5px;
+}
+
+.articles-v2 p {
+    text-align: left;
+}
+
+.articles-w p {
+    margin-bottom: 0;
+    text-align: left;
+}
+.modal-success{
+    display: block;
+    padding: 0;
+}
+.modal__title {
+    margin-bottom: 28px;
+}
+.infoForm .form-title {
+    padding: 17px 0px 24px;
+}
+.privacy_policy {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    a {
+        color: #3c6dae;
+        text-decoration: none;
+        border-color: transparent;
+    }
+    .button{
+        padding: 5px 10px;
+        color: #fff;
+        background: #424c57;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+}
+.graphSVG,
+.graphSVG-2,
+.graphSVG-2021 {
+  width: 100%;
+  height: auto;
+}
+.graphSVG-block,
+.graphSVG-block-2,
+.graphSVG-block-2021 {
+  display: inline-block;
+  width: 100%;
+  max-width: 660px;
+}
+.block2__link.link-arrow {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.graph__btn{
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transition: .3s ease-in-out;
+    color: #3c6dae;
+    text-decoration: none;
+    border-color: transparent;
+    span {
+      border-bottom: 1px dotted #3c6dae;
+    }
+  }
+  &.is-active{
+    &:hover {
+      color: #fff;
+      span {
+        border-bottom: 1px dotted #4f4f4f;
+      }
+    }
+  }
+}
+.container780{
+  .date+h2{
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+    blockquote {
+        margin: 24px -20px;
+        padding: 35px 10px 30px;
+    }
+    .articles-v2__img img {
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header__logo .logo img {
+        display: block;
+        max-width: 126px;
+    }
+    .footer__logo.logo img {
+        display: block;
+        max-width: 126px;
+    }
+}

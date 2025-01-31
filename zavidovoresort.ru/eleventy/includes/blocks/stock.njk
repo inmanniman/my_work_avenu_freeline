@@ -1,0 +1,25 @@
+{%- from "utils/component.njk" import component -%}
+<div class="stock container">
+  <h1 class="stock__title title">
+<<<<<<< HEAD
+    Блог
+  </h1>
+  <div class="stock__content">
+    {% for item in params.stockArticles %}
+      {{ component('stock-block',
+=======
+    Акции
+  </h1>
+  <div class="stock__content">
+    {% for item in params.stockArticles %}
+      {{ component('article-mini',
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+        {
+          data: item.data,
+          title: item.title,
+          description: item.description,
+          images: item.images
+        }) }}
+    {% endfor %}
+  </div>
+</div>

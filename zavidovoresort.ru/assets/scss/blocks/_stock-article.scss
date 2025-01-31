@@ -1,0 +1,249 @@
+.stock-article {
+<<<<<<< HEAD
+  padding-top: 50px;
+  padding-bottom: 50px;
+=======
+  padding-top: 32px;
+  padding-bottom: 20px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD
+    gap: 24px;
+    margin-top: 64px;
+  }
+
+=======
+    gap: 32px;
+    margin-top: 48px;
+
+    picture {
+      overflow: hidden;
+      border-radius: 48px;
+      max-width: 1045px;
+      margin-left: auto;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.88px;
+  }
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+  &__block {
+    max-width: 690px;
+    margin: 0 auto;
+
+<<<<<<< HEAD
+    h2,
+    h3,
+    p,
+    ul {
+      margin: 0 auto 24px;
+    }
+
+=======
+    h3,
+    p {
+      margin: 0 auto 24px;
+    }
+    ul {
+      margin-bottom: 10px;
+    }
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    h2 {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 37px;
+      letter-spacing: -0.02em;
+    }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    span {
+      display: block;
+      margin-bottom: 32px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: -0.02em;
+
+      a {
+        color: var(--main-blue);
+        text-decoration: none;
+      }
+    }
+
+<<<<<<< HEAD
+    picture {
+      overflow: hidden;
+      border-radius: 48px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+=======
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+<<<<<<< HEAD
+        padding-bottom: 16px;
+=======
+        padding-bottom: 12px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+
+        &::before {
+          max-width: 24px;
+          max-height: 24px;
+          content: url('~/images/circle-check.svg');
+        }
+      }
+    }
+
+    &:first-child {
+      picture {
+        height: 378px;
+        margin: 0 auto 32px;
+      }
+    }
+
+    &:not(:first-child) {
+      picture {
+        height: 461px;
+      }
+
+      &:nth-of-type(even) {
+        picture {
+          margin-bottom: 32px;
+          margin-left: auto;
+        }
+      }
+
+      &:nth-of-type(odd) {
+        picture {
+          margin-right: auto;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+<<<<<<< HEAD
+    &__content {
+      margin-top: 24px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+=======
+    padding-top: 0;
+    padding-bottom: 16px;
+
+    &__content {
+      margin-top: 24px;
+    }
+    h2 {
+      font-size: 32px;
+      line-height: 37px;
+      letter-spacing: -0.02em;
+    }
+    &__block {
+      &:first-child {
+        picture {
+          margin-bottom: 24px;
+        }
+      }
+
+      ul {
+        li {
+          padding-bottom: 8px;
+        }
+      }
+
+      span {
+        margin-bottom: 24px;
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding-bottom: 32px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+
+    &__title {
+      margin-bottom: 24px;
+    }
+<<<<<<< HEAD
+
+    picture {
+      max-height: 288px;
+      border-radius: 24px;
+    }
+
+    h2,
+    h3,
+    p,
+    ul {
+      margin: 0 auto 16px;
+    }
+
+    ul {
+      li {
+        padding-bottom: 8px;
+      }
+=======
+    &__content {
+      gap: 24px;
+    }
+    picture {
+      height: 288px;
+      border-radius: 24px;
+    }
+
+    p,
+    ul {
+      margin: 0 auto 24px;
+    }
+    p:last-child {
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+      line-height: 32px;
+      letter-spacing: -1.92px;
+    }
+    span {
+      line-height: 16px;
+      letter-spacing: -0.32px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    }
+  }
+}

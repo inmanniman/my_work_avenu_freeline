@@ -1,0 +1,11 @@
+.base-link {
+  color: var(--main-blue);
+  font-family: var(--main-font-family);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.5s;
+
+  &:hover {
+    color: #297389;
+  }
+}

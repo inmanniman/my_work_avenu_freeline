@@ -1,0 +1,29 @@
+<div class="product-block">
+  <a data-fancybox
+     data-src="{{ params.data.img }}"
+     class="product-block__img-wrapper">
+    <img class="product-block__img" src="{{ params.data.img }}" width="{{ params.data.imgWidth }}"
+         height="{{ params.data.imgHeight }}" alt="">
+  </a>
+  <div class="product-block__info">
+    <h1 class="product-block__title">{{ params.data.name }}</h1>
+    <span class="product-block__series">Серия {{ params.data.series }}</span>
+    <ul class="product-block__list">
+      {% for item in params.data.advantages %}
+      <li class="product-block__li">{{ item.info }}</li>
+      {% endfor %}
+    </ul>
+    <div class="product-block__icons">
+      {% for icon in params.data.icons %}
+      <div class="product-block__icon-wrapper">
+        <svg width="50" height="50" class="product-block__svg">
+          <use href="{{ icon.src }}"></use>
+        </svg>
+        {{ icon.caption }}
+      </div>
+      {% endfor %}
+    </div>
+    <button data-fancybox data-src="#form-request" class="product-block__btn btn btn_type_primary">Оставить заявку
+    </button>
+  </div>
+</div>

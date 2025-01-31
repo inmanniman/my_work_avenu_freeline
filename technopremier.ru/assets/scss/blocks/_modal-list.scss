@@ -1,0 +1,170 @@
+.modal-list {
+  display: none;
+
+  &__wrapper-buy-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 44px;
+  }
+
+  &__wrapper-column-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+  }
+
+  &__wrapper-name-transport {
+    display: flex;
+    gap: 19px;
+  }
+
+  &__img {
+    max-width: 80px;
+    width: 100%;
+    max-height: 47px;
+    height: auto;
+  }
+
+  &__name-transport {
+    font-weight: 400;
+    font-size: 18px;
+    white-space: pre-line;
+    width: 122px;
+  }
+
+  &__icon-basket {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__wrapper-summ-transport {
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+    align-items: center;
+  }
+
+  &__option {
+    padding: 17px 16px;
+    gap: 10px;
+    width: 94px;
+    height: 56px;
+    font-size: 18px;
+    background: #F2F1F5;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  &__line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #F2F1F5;
+  }
+
+
+  &__wrapper-add-buy-transport {
+    margin-top: 56px;
+    width: 267px;
+  }
+
+  &__add-buy-transport {
+    padding: 16px 24px;
+    background: #F2F1F5;
+    border-radius: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #383A45;
+    cursor: pointer;
+
+    &:active {
+      background: #b5b2b8;
+    }
+  }
+
+  &__wrapper-all-sum-border {
+    border-top: 5px solid #F2F1F5;
+    margin-top: 40px;
+  }
+
+  &__wrapper-all-sum {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: end;
+  }
+
+  &__wrapper-btn-condition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  &__btn-prev {
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+
+    color: #4E505A;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+
+  &__btn-condition {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 62px;
+    color: #FFFFFF;
+    background: #D80027;
+    border-radius: 66px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ff0f3b;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    &__wrapper-column-row {
+      gap: 0;
+    }
+    &__wrapper-summ-transport {
+      gap: 0;
+    }
+
+    &__option {
+      padding: 5px 5px;
+      width: 13vw;
+      height: 10vw;
+      font-size: 3vw;
+    }
+
+    &__name-transport {
+      font-size: 3vw;
+    }
+    &__wrapper-name-transport {
+      gap: 0;
+      align-items: center;
+    }
+
+    &__summ-transport {
+      font-size: 3vw;
+    }
+
+    &__btn-condition {
+      font-size: 4vw;
+      padding: 2vw 3vw;
+    }
+    &__img {
+      max-width: 60px;
+    }
+
+    &__add-buy-transport {
+      padding: 9px 10px;
+      font-size: 13px;
+    }
+  }
+}

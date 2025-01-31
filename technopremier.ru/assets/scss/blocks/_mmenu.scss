@@ -1,0 +1,43 @@
+.mm-menu {
+  --mm-color-background: #fff;
+  //--mm-color-border: rgb(0 0 0 / 0.15);
+  //--mm-color-icon: rgb(0 0 0 / 0.4);
+  //--mm-color-text: rgb(0 0 0 / 0.8);
+  //--mm-color-text-dimmed: rgb(0 0 0 / 0.4);
+  //--mm-color-background-highlight: rgb(0 0 0 / 0.05);
+  //--mm-color-background-emphasis: rgb(255 255 255 / 0.75);
+  //--mm-color-focusring: #06c;
+  &__soc {
+    &-item {
+
+    }
+    &-svg{
+      width: 30px;
+      height: 30px;
+    }
+    &-wa {
+      fill: #28D146;
+    }
+
+    &-tg {
+      fill: #229ED9;
+    }
+
+    &-ph {
+      fill: #c71610;
+    }
+
+    &-env {
+      fill: #333;
+    }
+
+  }
+}
+.mm-navbar__title{
+  justify-content: left;
+  background: #efefef;
+  font-weight: 600;
+  span{
+    color: #333;
+  }
+}

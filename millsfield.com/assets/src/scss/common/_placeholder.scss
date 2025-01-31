@@ -1,0 +1,39 @@
+::-webkit-input-placeholder {
+  color: #888d93;
+  -webkit-transition: .3s;
+  transition: .3s
+}
+
+::-moz-placeholder {
+  color: #888d93;
+  -moz-transition: .3s;
+  transition: .3s
+}
+
+:-moz-placeholder {
+  color: #888d93;
+  -moz-transition: .3s;
+  transition: .3s
+}
+
+:-ms-input-placeholder {
+  color: #888d93;
+  -ms-transition: all .3s;
+  transition: .3s
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
+}

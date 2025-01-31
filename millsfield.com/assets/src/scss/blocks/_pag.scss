@@ -1,0 +1,91 @@
+.pag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 0;
+  margin-bottom: 80px
+}
+
+.pag__item {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 10px;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+.pag__item::before {
+  content: '';
+  left: 0
+}
+
+.pag__item span {
+  color: #333
+}
+
+.pag__item a, .pag__item span {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 6px 0 5px
+}
+
+.pag__item svg, .pag__item svg path {
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+.pag__item:last-child {
+  margin-right: 0
+}
+
+.pag__item_next, .pag__item_prev {
+  padding-top: 2px
+}
+
+.pag__item.active, .pag__item.active:hover {
+  border-color: #333
+}
+
+.pag__item.disabled {
+  border-color: #607d8b;
+  background-color: #607d8b;
+  pointer-events: none;
+  cursor: default;
+  opacity: .5
+}
+
+.pag__item:hover {
+  border-color: #3c6dae
+}
+
+.pag__item:hover svg path {
+  fill: #3c6dae
+}
+
+.pag__item.not-a-link:hover {
+  border: 1px solid #e0e0e0
+}

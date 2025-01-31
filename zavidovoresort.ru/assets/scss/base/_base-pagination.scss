@@ -1,0 +1,33 @@
+.base-pagination {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 22px;
+  color: var(--main-blue);
+  background: none;
+  border: 1px solid var(--main-blue);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+
+  &:hover {
+    color: #fff;
+    background-color: var(--main-blue);
+  }
+
+  &_type {
+    &_right {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding: 11px;
+
+    svg {
+      max-width: 10px;
+      max-height: 10px;
+    }
+  }
+}

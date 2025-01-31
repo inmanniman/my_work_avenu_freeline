@@ -1,0 +1,35 @@
+.residential-buildings {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &:last-child {
+    padding-bottom: 100px;
+  }
+  &__title {
+    margin: 0 0 48px;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -3.84px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    &:last-child {
+      padding-bottom: 64px;
+    }
+
+    &__title {
+      margin: 0 0 32px;
+      font-size: 48px;
+      letter-spacing: -2.88px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__title {
+      margin: 0 0 24px;
+      font-size: 32px;
+      letter-spacing: -1.92px;
+    }
+  }
+}

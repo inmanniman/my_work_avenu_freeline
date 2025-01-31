@@ -1,0 +1,98 @@
+---
+title: История бренда
+layout: page.njk
+permalink: about-the-company.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="brand-history container">
+  {{ block('banner',{
+  img: "/images/history-banner.jpg",
+  title: "История бренда"
+  }) }}
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  title: "История бренда"
+  } ]
+  }) }}
+  <div class="brand-history__content-wrapper">
+    <nav class="brand-history__navigation-wrapper">
+      <span class="brand-history__title-navigation">Компания Sonnoc</span>
+      <ul class="brand-history__navigation">
+        <li>
+          <a class="brand-history__point link" href="#2015">2015</a>
+        </li>
+        <li>
+          <a class="brand-history__point link" href="#2017">2017</a>
+        </li>
+        <li>
+          <a class="brand-history__point link" href="#2018">2018</a>
+        </li>
+        <li>
+          <a class="brand-history__point link" href="#2019">2019</a>
+        </li>
+        <li>
+          <a class="brand-history__point link" href="#2020">2020</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="brand-history__content">
+      <div class="brand-history__info-block">
+        <svg class="brand-history__img" width="300" height="273">
+          <use href="/assets/sprite.svg#about-company"></use>
+        </svg>
+        <div class="brand-history__info">
+          <h2 class="brand-history__company-name title">Компания Sonnoc</h2>
+          <p>Компания Sonnoc – разработчик и производитель высококачественного проекционного оборудования. Бренд был
+            основан в 2013 году как дочерняя компания Donview – крупнейшего производителя интерактивных решений. В
+            настоящее время проекторы Sonnoc широко применяются в сфере образования и бизнеса, доказав свою
+            эффективность.</p>
+        </div>
+      </div>
+      <ul class="brand-history__list">
+        <li class="brand-history__period" id="2015">
+          <div class="brand-history__year">2015</div>
+          <p>В 2015 году проекторы Sonnoc были официально представлены на рынке Китая. Компания Sonnoc одна из первых
+            начала применять лазерные источники света, а появление фирменных проекторов стало настоящей «лазерной
+            революцией» в индустрии. Высокая яркость, насыщенные цвета, длительный срок службы, низкое энергопотребление
+            и практичная, не требующая обслуживания конструкция, обеспечили проекторам Sonnoc особенную
+            популярность.</p>
+        </li>
+        <li class="brand-history__period" id="2017">
+          <div class="brand-history__year">2017</div>
+          <p>В 2017 году произошло очередное обновление модельного ряда, в результате которого продуктовая линейка
+            Sonnoc стала особенно востребована в образовательных учреждениях и различных сферах бизнеса.</p>
+        </li>
+        <li class="brand-history__period" id="2018">
+          <div class="brand-history__year">2018</div>
+          <p>В 2018 году Sonnoc выпустила 4 высокопроизводительных одночиповых DLP проектора с лазерным источником
+            света. Особенностью моделей стала функция сшивки изображений. Таким образом появилась возможность создавать
+            большие проекции сверхвысокого разрешения. Также в проекторах была реализована новая технология управления
+            цветом HSG, и технология активного 3D в разрешении WUXGA 60 Гц, совместимая с протоколом управления Crestron
+            IPLink.</p>
+        </li>
+        <li class="brand-history__period" id="2019">
+          <div class="brand-history__year">2019</div>
+          <p>В 2019 году компания Sonnoc впервые представила ультракороткофокусный DLP проектор с разрешением WUXGA,
+            который позволяет получить большую проекцию с рекордно малой дистанции. Время непрерывной работы лазерного
+            источника света в новой модели достигает 25 000 часов, а герметичная конструкция оптической системы
+            эффективно препятствует проникновению пыли, избавляя от необходимости регулярного обслуживания и замены
+            фильтров.</p>
+        </li>
+        <li class="brand-history__period" id="2020">
+          <div class="brand-history__year">2020</div>
+          <p>В 2020 году Sonnoc выпустила ещё 4 одночиповых проектора, базирующихся на технологии DLP и лазерном
+            источнике света. Все модели имеют немецкий сертификат лазерной безопасности Rheinland TUY и американский
+            сертификат защиты здоровья FDA. Проекторы оснащены новейшими DMD-чипами и самыми современными лазерными
+            источниками света, они поддерживают разрешение 4K и расширенный динамический диапазон HDR. Кроме того,
+            поддерживается режим 3D в формате 1920x1080/120 Гц.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,434 @@
+---
+title: Примеры инсталляций
+layout: page.njk
+permalink: examples-of-installations.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="container">
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  title: "Примеры инсталляций"
+  } ]
+  }) }}
+  <div class="installations">
+    <h1 class="installations__title title">Продукция</h1>
+    <div class="tabs js-tabs">
+      <div class="tabs__buttons" role="tablist" aria-label="Sample Tabs">
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-1"
+                id="tab-1"
+                tabindex="0">
+          Музеи и выставки
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-2"
+                id="tab-2"
+                tabindex="-1">
+          Сфера образования
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-3"
+                id="tab-3"
+                tabindex="-1">
+          Правительства и предприятия
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-4"
+                id="tab-4"
+                tabindex="-1">
+          Ещё немного примеров
+        </button>
+      </div>
+      <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+        <div class="installations__block">
+          <div class="installations__text-block">
+            <h2 class="installations__subtitle title">Музей Фучжоу</h2>
+            <p>История развития музея города Миньхоу длится более 60 лет. После его реконструкции в залах используются
+              проекторы Sonnoc для создания иммерсивного пространства CAVE, променада по экологическому склону и других
+              выставочных экспонатов.</p>
+          </div>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation6.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation6.jpg" width="579" height="386" alt="">
+            </a>
+            <div class="installations__column">
+              <div class="installations__grid">
+                <a data-fancybox
+                   data-src="/images/installation7.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation7.jpg" width="280" height="182" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation8.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation8.jpg" width="280" height="182" alt="">
+                </a>
+              </div>
+              <div class="installations__grid">
+                <a data-fancybox
+                   data-src="/images/installation9.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation9.jpg" width="280" height="184" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation10.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation10.jpg" width="280" height="184" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <div class="installations__text-block">
+            <h2 class="installations__subtitle title">Музей Конфуция</h2>
+            <p>Музей Конфуция, посвященный древнекитайскому мыслителю.
+              За данный архитектурный проект отвечает господин Ву Ляньгун - академик и профессор архитектурной школы
+              Университета Цинхуа, а за общий выставочный дизайн музея - Чжан Ли, доцент Академии изящных искусств
+              Университета Цинхуа. В выставочных залах используются новейшие высококлассные проекторы Sonnoc.</p>
+          </div>
+          <div class="installations__flex-wrapper installations__flex-wrapper_adaptive">
+            <a data-fancybox
+               data-src="/images/installation11.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation11.jpg" width="377" height="330" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation12.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation12.jpg" width="298" height="330" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation13.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation13.jpg" width="465" height="330" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <div class="installations__text-block">
+            <h2 class="installations__subtitle title">Научный музей гигантской панды</h2>
+            <p>Зал «Panda Science Quest Hall» является одним из «залов-спутников» нового «Музея гигантской панды». Он
+              расположен на первом этаже нового здания исследовательского центра и занимает площадь около 1 000
+              квадратных
+              метров. В выставочном зале используется ряд новейших высококлассных инженерных проекторов Sonnoc.</p>
+          </div>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation14.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation14.jpg" width="580" height="409" alt="">
+            </a>
+            <div class="installations__column">
+              <div class="installations__grid">
+                <a data-fancybox
+                   data-src="/images/installation15.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation15.jpg" width="280" height="203" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation16.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation16.jpg" width="280" height="203" alt="">
+                </a>
+              </div>
+              <div class="installations__grid">
+                <a data-fancybox
+                   data-src="/images/installation17.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation17.jpg" width="280" height="186" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation18.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation18.jpg" width="280" height="186" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <div class="installations__text-block">
+            <h2 class="installations__subtitle title">Выставочный зал Национального дворца Хэбэй Дачан</h2>
+            <p>В выставочном зале знаменитого семейного дворца Дачан установлено более 20 комплектов новейших
+              высокотехнологичных проекторов Sonnoc. Благодаря широкому использованию функции интеллектуальной сшивки
+              изображений, вертикальной проекции и других технологий, в сочетании с сенсорным экраном, интерактивной
+              системой XBOX и другими новыми методами создания трехмерных изображений, визуальная система позволяет
+              каждому посетителю почувствовать эволюцию развития города.</p>
+          </div>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation19.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation19.jpg" width="580" height="358" alt="">
+            </a>
+            <div class="installations__column">
+              <div class="installations__flex-wrapper">
+                <a data-fancybox
+                   data-src="/images/installation20.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation20.jpg" width="243" height="172" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation21.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation21.jpg" width="317" height="173" alt="">
+                </a>
+              </div>
+              <div class="installations__flex-wrapper">
+                <a data-fancybox
+                   data-src="/images/installation22.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation22.jpg" width="328" height="166" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation23.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation23.jpg" width="232" height="166" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" hidden>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Пекинский университет</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation24.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation24.jpg" width="580" height="303" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation25.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation25.jpg" width="580" height="303" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Северо-китайский технологический университет</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation26.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation26.jpg" width="580" height="465" alt="">
+            </a>
+            <div class="installations__column">
+              <a data-fancybox
+                 data-src="/images/installation27.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation27.jpg" width="580" height="326" alt="">
+              </a>
+              <div class="installations__grid">
+                <a data-fancybox
+                   data-src="/images/installation28.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation28.jpg" width="280" height="119" alt="">
+                </a>
+                <a data-fancybox
+                   data-src="/images/installation29.jpg"
+                   class="installations__link-wrapper">
+                  <img class="installations__img" src="/images/installation29.jpg" width="280" height="119" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Столичный экономический университет</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation30.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation30.jpg" width="580" height="371" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation31.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation31.jpg" width="580" height="371" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Пекинский национальный институт бухгалтерского учета</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation32.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation32.jpg" width="580" height="386" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation33.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation33.jpg" width="580" height="386" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Начальная школа «Людикс»</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation34.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation34.jpg" width="580" height="325" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation35.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation35.jpg" width="580" height="324" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Школа информационной инженерии Чананьского университета</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation36.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation36.jpg" width="580" height="339" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation37.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation37.jpg" width="580" height="339" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="panel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" hidden>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Отель Xi'an W Hotel</h2>
+          <div class="installations__flex-wrapper installations__flex-wrapper_adaptive">
+            <a data-fancybox
+               data-src="/images/installation38.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation38.jpg" width="880" height="424" alt="">
+            </a>
+            <div class="installations__column installations__column_adaptive">
+              <a data-fancybox
+                 data-src="/images/installation39.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation39.jpg" width="280" height="207" alt="">
+              </a>
+              <a data-fancybox
+                 data-src="/images/installation40.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation40.jpg" width="280" height="197" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Бюро «Пресса и публикации»</h2>
+          <div class="installations__flex-wrapper installations__flex-wrapper_adaptive">
+            <a data-fancybox
+               data-src="/images/installation41.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation41.jpg" width="880" height="349" alt="">
+            </a>
+            <div class="installations__column installations__column_adaptive">
+              <a data-fancybox
+                 data-src="/images/installation42.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation42.jpg" width="280" height="167" alt="">
+              </a>
+              <a data-fancybox
+                 data-src="/images/installation43.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation43.jpg" width="280" height="162" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Dakang Holdings Co., Ltd. Проект</h2>
+          <div class="installations__grid installations__grid_adaptive">
+            <a data-fancybox
+               data-src="/images/installation44.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation44.jpg" width="580" height="406" alt="">
+            </a>
+            <a data-fancybox
+               data-src="/images/installation45.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation45.jpg" width="580" height="406" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Сервисный центр по муниципальным делам Гуанчжоу</h2>
+          <div class="installations__flex-wrapper installations__flex-wrapper_adaptive">
+            <a data-fancybox
+               data-src="/images/installation46.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation46.jpg" width="880" height="405" alt="">
+            </a>
+            <div class="installations__column installations__column_adaptive">
+              <a data-fancybox
+                 data-src="/images/installation47.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation47.jpg" width="280" height="216" alt="">
+              </a>
+              <a data-fancybox
+                 data-src="/images/installation48.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation48.jpg" width="280" height="169" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Сервисный центр по муниципальным делам Гуанчжоу</h2>
+          <div class="installations__flex-wrapper">
+            <div class="installations__column">
+              <a data-fancybox
+                 data-src="/images/installation49.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation49.jpg" width="580" height="449" alt="">
+              </a>
+              <a data-fancybox
+                 data-src="/images/installation50.jpg"
+                 class="installations__link-wrapper">
+                <img class="installations__img" src="/images/installation50.jpg" width="580" height="453" alt="">
+              </a>
+            </div>
+            <a data-fancybox
+               data-src="/images/installation51.jpg"
+               class="installations__link-wrapper">
+              <img class="installations__img" src="/images/installation51.jpg" width="580" height="922" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="installations__block">
+          <h2 class="installations__subtitle title">Сервисный центр по муниципальным делам Гуанчжоу</h2>
+          <a data-fancybox
+             data-src="/images/installation52.jpg"
+             class="installations__link-wrapper">
+            <img class="installations__img" src="/images/installation52.jpg" width="1180" height="542" alt="">
+          </a>
+        </div>
+      </div>
+      <div id="panel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4" hidden>
+
+      </div>
+    </div>
+  </div>
+</div>

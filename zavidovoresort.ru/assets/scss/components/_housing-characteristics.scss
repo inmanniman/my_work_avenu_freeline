@@ -1,0 +1,32 @@
+.housing-characteristics {
+  &__title {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+
+  table {
+    width: 100%;
+
+    tbody {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+
+      tr {
+        td {
+          padding: 8px 0;
+        }
+      }
+    }
+  }
+
+  &__characteristics-data {
+    width: 20%;
+    font-weight: 700;
+    text-align: right;
+  }
+}

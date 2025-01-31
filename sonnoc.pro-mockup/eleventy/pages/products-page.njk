@@ -1,0 +1,239 @@
+---
+title: Продукция
+layout: page.njk
+permalink: products.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="container">
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  title: "Продукция"
+  } ]
+  }) }}
+  <div class="products-page">
+    <div class="products-page__top">
+      <h1 class="products-page__title title">Продукция</h1>
+    </div>
+    <div class="tabs js-tabs">
+      <div class="tabs__buttons" role="tablist" aria-label="Sample Tabs">
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-1"
+                id="tab-1"
+                tabindex="0">
+          Все
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-2"
+                id="tab-2"
+                tabindex="-1">
+          Короткофокусные проекторы
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-3"
+                id="tab-3"
+                tabindex="-1">
+          Портативные проекторы
+        </button>
+        <button class="btn tabs__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-4"
+                id="tab-4"
+                tabindex="-1">
+          Инсталляционные проекторы
+        </button>
+      </div>
+      <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+        <div class="products-page__info">
+          Проекторы на базе 3LCD-матриц создают высококачественную, четкую картинку с насыщенными цветами, оснащены
+          низким
+          уровнем шума, что увеличивает срок службы.
+        </div>
+        {{ block('products-grid',{
+        products: [
+        { data: {
+        name: "SNP-AS355LX",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        link: '/',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        }
+        ]
+        }) }}
+        {{ component('pagination') }}
+      </div>
+      <div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" hidden>
+        <div class="products-page__info">
+          Проекторы на базе 3LCD-матриц создают
+        </div>
+        {{ block('products-grid',{
+        products: [
+        { data: {
+        name: "SNP-AS355LX",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        link: '/',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        }
+        ]
+        }) }}
+      </div>
+      <div id="panel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" hidden>
+        {{ block('products-grid',{
+        products: [
+        { data: {
+        name: "SNP-AS355LX",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        link: '/',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        }
+        ]
+        }) }}
+        {{ component('pagination') }}
+      </div>
+      <div id="panel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4" hidden>
+        {{ block('products-grid',{
+        products: [
+        { data: {
+        name: "SNP-AS355LX",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        link: '/',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        },
+        { data: {
+        name: "SNP-AS355LW",
+        series: "A1S",
+        luminance: "3500 lm",
+        resolution: "XGA",
+        img: '/images/projector.jpg',
+        imgWidth: 280,
+        imgHeight: 208
+        }
+        }
+        ]
+        }) }}
+        {{ component('pagination') }}
+      </div>
+    </div>
+  </div>
+</div>

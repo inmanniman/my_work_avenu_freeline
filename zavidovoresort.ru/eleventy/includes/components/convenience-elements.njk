@@ -1,0 +1,14 @@
+<div class="convenience-elements">
+  <div class="convenience-elements__grid">
+    {% for item in params.content %}
+      <div class="convenience-elements__item">
+        <svg width="24" height="24">
+          <use href="/assets/sprite.svg#{{ item.svg }}"></use>
+        </svg>
+        <p class="convenience-elements__item-description">
+          {{ item.description }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

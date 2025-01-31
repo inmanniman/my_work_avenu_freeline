@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <title>{{ renderData.title or title }}</title>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="{{ preview or site.description }}"/>
+
+  <link rel="stylesheet" href="{{ '/assets/css/app.css' | url }}"/>
+</head>
+<body class="page__body">
+<div class="page__layout">
+  {% include 'layout/header.njk' %}
+
+  <main class="page__main">{{ content | safe }}</main>
+  {% include 'layout/footer.njk' %}
+</div>
+<script type="module" src="{{ '/assets/js/app.js' | url }}"></script>
+</body>
+</html>

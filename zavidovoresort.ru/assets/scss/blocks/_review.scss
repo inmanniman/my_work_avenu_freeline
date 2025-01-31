@@ -1,0 +1,226 @@
+.review {
+<<<<<<< HEAD
+  padding-top: 64px;
+=======
+  padding-top: 32px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+  padding-bottom: 100px;
+
+  &__content {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+
+  &__desc {
+    display: block;
+    margin: 32px 0 64px;
+    margin-bottom: 64px;
+    color: var(--main-black);
+    font-weight: 400;
+    font-size: 16px;
+<<<<<<< HEAD
+=======
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+
+    &_bold {
+      font-weight: 700;
+    }
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+  }
+
+  &__wrapper-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+<<<<<<< HEAD
+    margin-bottom: 64px;
+  }
+
+  &__label-checkbox {
+    display: inline;
+    gap: 11px;
+    align-items: center;
+    padding: 0 8px;
+    color: #1a2932;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    cursor: pointer;
+
+    &::before {
+      display: inline-block;
+      box-sizing: border-box;
+      width: 14px;
+      height: 14px;
+      margin-right: 12px;
+      border: 2px solid #125aa3;
+      border-radius: 4px;
+      transition: 0.3s border-color;
+      content: '';
+    }
+
+    &:hover {
+      &::before {
+        border-color: #5290d0;
+      }
+    }
+  }
+
+  &__checkbox {
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+  }
+
+  &__checkbox:checked + &__label-checkbox {
+    &::before {
+      background: url('~/images/check.svg') center center no-repeat;
+    }
+=======
+    margin-bottom: 24px;
+  }
+
+  &__wrapper-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input-textarea {
+    resize: none;
+  }
+
+  &__checkbox-wrapper {
+    margin-bottom: 16px;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+  }
+
+  &__btn {
+    align-self: start;
+<<<<<<< HEAD
+=======
+    margin-bottom: 64px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+  }
+
+  &__wrapper-review {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 64px;
+  }
+
+<<<<<<< HEAD
+  &__review {
+    border: 1px solid#E0E0E0;
+  }
+
+  &__review-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: var(--main-blue);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  &__wrapper-letter-name {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  &__letter-name {
+    display: block;
+    padding: 6px 10px;
+    color: var(--main-blue);
+    background-color: #fff;
+    border-radius: 50px;
+  }
+
+  &__name {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  &__date {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &__review-text {
+    padding: 16px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 32px;
+=======
+  &__label-checkbox {
+    color: #b2b2b2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.15;
+  }
+
+  &__link {
+    color: #57acc5;
+    text-decoration: underline;
+  }
+
+  &__label-text {
+    display: inline;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    padding-bottom: 64px;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__desc {
+      margin-top: 24px;
+    }
+<<<<<<< HEAD
+  }
+
+  @media screen and (max-width: 320px) {
+    &__review-top {
+      flex-direction: column;
+      gap: 1px;
+      align-items: start;
+=======
+
+    &__wrapper-review {
+      margin-bottom: 32px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__wrapper-input {
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    &__label-text {
+      font-size: 12px;
+      line-height: 1;
+    }
+    &__checkbox-wrapper {
+      margin-left: 5px;
+    }
+    &__label-checkbox {
+      display: block;
+      margin-right: 0;
+      margin-left: 0;
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    }
+  }
+}

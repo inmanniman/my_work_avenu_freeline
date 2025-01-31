@@ -1,0 +1,21 @@
+.base-search {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 34px;
+  color: #fff;
+  background-color: var(--main-blue);
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s, opacity 0.5s;
+
+  &:hover {
+    color: var(--main-blue);
+    background-color: #fff;
+  }
+
+  &:focus {
+    opacity: 0.4;
+  }
+}

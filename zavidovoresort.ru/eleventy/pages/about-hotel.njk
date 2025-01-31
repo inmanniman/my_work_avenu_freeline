@@ -1,0 +1,16 @@
+---
+title: Об отеле
+layout: page.njk
+permalink: about-hotel.html
+variationHeader: description
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+{{ component('navigation') }}
+{{ block('about-hotel', {
+  dataHotel: dataHotel
+}) }}
+  {{ block('photo-gallery', {
+  photoGallery: photoGallery
+}) }}

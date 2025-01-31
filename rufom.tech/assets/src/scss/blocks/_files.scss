@@ -1,0 +1,21 @@
+.files{
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 30px;
+  align-items: center;
+  &_list{
+
+  }
+  &_img{
+
+  }
+  &_name{
+
+  }
+  &_download{
+    a{
+      color: #0071ce;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.navigation {
+  background-color: #F2F1F5;
+  padding: 10px 0 10px;
+
+  &__wrapper-content {
+    display: flex;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__link {
+    color: #4F4F4F;
+  }
+  &__link-active {
+    color: #D80027;
+  }
+  &__separator{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+  }
+  &__separator-svg{
+    width: 14px;
+    height: 14px;
+  }
+  @media screen and (max-width: 1260px){
+    &__wrapper-content {
+      justify-content: left;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+
+  }
+}

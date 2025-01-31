@@ -1,0 +1,20 @@
+{%- from "utils/component.njk" import component -%}
+<div class="blog container">
+  <h1 class="blog__title title">
+    Блог
+  </h1>
+  <div class="blog__content">
+    {% for item in params.blogArticles %}
+      {{ component('article-mini',
+        {
+          data: item.data,
+          title: item.title,
+          description: item.description,
+          images: item.images
+        }) }}
+    {% endfor %}
+  </div>
+  <div class="blog__pagination">
+    {{ component('pagination') }}
+  </div>
+</div>

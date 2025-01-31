@@ -1,0 +1,21 @@
+.date-info {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap
+}
+
+.date-info__year {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 154%;
+  margin-right: 125px
+}
+
+.date-info__text {
+  text-align: justify
+}

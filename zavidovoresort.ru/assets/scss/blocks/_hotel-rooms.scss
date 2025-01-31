@@ -1,0 +1,41 @@
+.hotel-rooms {
+  padding-top: 32px;
+  padding-bottom: 50px;
+
+  &__title {
+    margin: 0 0 48px;
+  }
+
+  &__list-rooms {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    &__list-rooms {
+      grid-template-columns: repeat(2, 1fr);
+      width: fit-content;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+    padding-bottom: 32px;
+
+    &__title {
+      margin: 0 0 32px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__title {
+      margin: 0 0 24px;
+    }
+
+    &__list-rooms {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+}

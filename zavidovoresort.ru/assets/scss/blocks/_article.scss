@@ -1,0 +1,132 @@
+.article {
+  padding-top: 32px;
+  padding-bottom: 50px;
+
+  &__title {
+    margin-bottom: 42px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__block {
+    h2,
+    h3,
+    p,
+    ul {
+      margin: 0 auto 24px;
+    }
+
+    h2 {
+      max-width: 690px;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 37px;
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      max-width: 690px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      max-width: 690px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    picture {
+      overflow: hidden;
+      border-radius: 48px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    ul {
+      max-width: 690px;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding-bottom: 16px;
+
+        &::before {
+          max-width: 24px;
+          max-height: 24px;
+          content: url('~/images/circle-check.svg');
+        }
+      }
+    }
+
+    &:first-child {
+      picture {
+        max-width: 690px;
+        height: 378px;
+        margin: 0 auto 32px;
+      }
+    }
+
+    &:not(:first-child) {
+      picture {
+        max-width: 1045px;
+        height: 461px;
+      }
+
+      &:nth-of-type(even) {
+        picture {
+          margin-bottom: 32px;
+          margin-left: auto;
+        }
+      }
+
+      &:nth-of-type(odd) {
+        picture {
+          margin-right: auto;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding-top: 0;
+    padding-bottom: 30px;
+
+    &__title {
+      margin-bottom: 24px;
+    }
+
+    picture {
+      max-height: 288px;
+      border-radius: 24px;
+    }
+
+    h2,
+    h3,
+    p,
+    ul {
+      margin: 0 auto 16px;
+    }
+
+    ul {
+      li {
+        padding-bottom: 8px;
+      }
+    }
+  }
+}

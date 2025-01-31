@@ -1,0 +1,127 @@
+.programs {
+  position: relative;
+  margin-top: 0;
+  padding-bottom: 100px;
+
+  &__title {
+    margin-bottom: 48px;
+  }
+
+  &__slide {
+    display: grid;
+    grid-template-columns: minmax(200px, 522px) 1fr;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 48px;
+  }
+
+  &__content {
+    display: flex;
+    padding: 40px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &__title-content {
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  &__description {
+    display: -webkit-box; //display: -webkit-box;
+    height: 3.3em;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  &__img-wrapper {
+    max-width: 878px;
+    max-height: 520px;
+    overflow: hidden;
+    border-radius: 48px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    &__slide {
+      display: grid;
+      grid-template-columns: minmax(150px, 350px) 1fr;
+    }
+
+    &__title-content {
+      margin-bottom: 16px;
+      font-size: 28px;
+    }
+
+    &__description {
+      margin-bottom: 16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 32px;
+
+    &__slide {
+      grid-template-columns: 1fr;
+      border-radius: 24px;
+    }
+
+    &__img-wrapper {
+      max-height: 270px;
+      border-radius: 24px;
+    }
+
+    &__content {
+      padding: 24px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    margin-top: 20px;
+    &__img-wrapper {
+      max-height: 158px;
+    }
+    &__title-content {
+      font-size: 24px;
+    }
+
+    &__btn {
+      position: relative;
+      width: 100%;
+      margin-top: 24px;
+      text-align: center;
+      right: 0px;
+    }
+  }
+  @media (max-width: 330px) {
+    &__description {
+      height: 5.5em;
+    }
+  }
+}

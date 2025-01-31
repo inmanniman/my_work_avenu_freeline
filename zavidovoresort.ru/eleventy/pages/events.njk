@@ -1,0 +1,11 @@
+--- 
+title: Events 
+layout: page.njk 
+permalink: events.html 
+variationHeader: reservation
+---
+
+{%- from "utils/block.njk" import block -%}
+{{ block('events', {
+    dataEvents: dataEvents
+}) }}

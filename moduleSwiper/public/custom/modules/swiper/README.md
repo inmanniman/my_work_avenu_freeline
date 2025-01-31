@@ -1,0 +1,1 @@
+При установке Swiper в файле yourProject/assets/js/app.ts вставить "import './../../public/custom/modules/swiper/js/createSwiper.js';"

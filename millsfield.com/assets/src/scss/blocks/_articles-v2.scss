@@ -1,0 +1,208 @@
+.articles-v2__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap
+}
+
+.articles-v2__item {
+  color: #333;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-right: 20px;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin-bottom: 49px
+}
+
+.articles-v2__item:nth-child(3n) {
+  margin-right: 0
+}
+
+.articles-v2__img {
+  margin-bottom: 20px;
+  width: 380px;
+  height: 200px;
+  position: relative;
+  overflow: hidden
+}
+
+.articles-v2__img img {
+  display: block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+.articles-v2__img img.mob {
+  display: none;
+  width: 100%
+}
+
+.articles-v2__title {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  color: #333;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  letter-spacing: -1px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.articles-v2__info {
+  font-size: 16px;
+  line-height: 120%;
+  color: #828282;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+.articles-v2__date {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-size: 12px;
+  line-height: 120%;
+  color: #828282;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+.articles-v2__info span {
+  display: inline
+}
+
+.articles-v2__info span.mob {
+  display: none
+}
+
+a.articles-v2__item:hover .articles-v2__img img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0)
+}
+
+a.articles-v2__item:hover .articles-v2__title {
+  color: #333
+}
+
+a.articles-v2__item:hover .articles-v2__date, a.articles-v2__item:hover .articles-v2__info {
+  color: #828282
+}
+
+@media only screen and (max-width: 1199px) {
+  .articles-v2__item:nth-child(1n) {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .articles-v2__inner {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+
+  .articles-v2__img, .articles-v2__item {
+    width: 360px
+  }
+
+  .articles-v2__title {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 9px
+  }
+
+  .articles-v2__info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 19px
+  }
+
+  .articles-v2__img img {
+    display: none
+  }
+
+  .articles-v2__img img.mob {
+    display: block
+  }
+
+  .articles-v2__info span {
+    display: none
+  }
+
+  .articles-v2__info span.mob {
+    display: inline
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .articles-v2__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+
+  .articles-v2__item {
+    margin-bottom: 19px
+  }
+
+  .articles-v2__item:nth-child(1n) {
+    margin-right: 0
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .articles-v2__item {
+    width: 100%
+  }
+
+  .articles-v2__img {
+    width: 100%;
+    height: auto
+  }
+}

@@ -1,0 +1,67 @@
+<section class="choice-of-services container">
+  <div class="choice-of-services__wrapper-tabs">
+    <div class="choice-of-services__wrapper-btns-tabs">
+      {% for item in params.choiceOfServices %}
+        <div class="choice-of-services__wrapper-btns-tabs_border">
+          <button class="choice-of-services__btn-tabs base-link"
+                  role="tab"
+                  aria-selected="{% if loop.index0 == 0 %}true{% else %}false{% endif %}"
+                  aria-controls="panel-{{ loop.index }}"
+                  id="tab-{{ loop.index }}"
+                  tabindex="{% if loop.index0 == 0 %}0{% else %}-1{% endif %}">
+            {{ item.name }}
+          </button>
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <span class="choice-of-services__title-desc">Загородный отель "Zavidovo resort"</span>
+      <span class="choice-of-services__desc">Zavidovo Resort – загородный отель в 1 часе от Москвы. Расположен на территории национального парка «Завидово» на берегу Московского моря. Кристально чистый воздух, тишина и спокойствие.</span>
+      <div class="choice-of-services__rating-content">
+
+        <div class="choice-of-services__wrapper-rating">
+          <span class="choice-of-services__number-booking">8.6</span>
+          <span class="choice-of-services__number-booking-desc">из 10 по версии booking.com</span>
+        </div>
+
+        <div class="choice-of-services__wrapper-rating">
+          <span class="choice-of-services__number-booking">32</span>
+          <span class="choice-of-services__number-booking-desc">номера</span>
+        </div>
+
+        <div class="choice-of-services__wrapper-rating">
+          <span class="choice-of-services__number-booking">3</span>
+          <span class="choice-of-services__number-booking-desc">таунхауса и 2 коттеджа</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% for item in params.choiceOfServices %}
+    <div class="choice-of-services__back-img" id="panel-{{ loop.index }}" role="tabpanel" tabindex="0"
+         aria-labelledby="tab-{{ loop.index }}" {% if loop.index0 != 0 %}hidden{% endif %}>
+      <picture class="choice-of-services__image-wrap">
+        <source media="(max-width: 550px)"
+                srcset="/assets/images/{{ item.images.webp_m }}, /assets/images/{{ item.images.webp_m2x }} 2x"
+                type="image/webp">
+        <source media="(max-width: 550px)"
+                srcset="/assets/images/{{ item.images.img_m }}, /assets/images/{{ item.images.img_m2x }} 2x">
+        <source srcset="/assets/images/{{ item.images.webp }}, /assets/images/{{ item.images.webp2x }} 2x"
+                type="image/webp">
+        <img srcset="/assets/images/{{ item.images.img }}, /assets/images/{{ item.images.img2x }} 2x"
+             src="/assets/images/{{ item.images.img }}" class="choice-of-services__image" loading="lazy"
+             alt="article image" width="690" height="850">
+      </picture>
+      <div class="choice-of-services__content">
+        <div class="choice-of-services__wrapper-text">
+          <span class="choice-of-services__type-number">{{ item.content.title }}</span>
+          <span class="choice-of-services__sale-type-number">{{ item.content.sub_title }}</span>
+          <span class="choice-of-services__desc-type-number">{{ item.content.description }}</span>
+        </div>
+        <div class="choice-of-services__wrapper-btn">
+          <a class="choice-of-services__btn base-btn base-btn_type_primary">Забронировать</a>
+          <a class="choice-of-services__btn choice-of-services__btn-more base-btn base-btn_type_secondary">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>

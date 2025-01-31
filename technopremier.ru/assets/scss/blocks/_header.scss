@@ -1,0 +1,236 @@
+.header {
+
+  &__header-line {
+    border-bottom: 1px solid #EDEDED;
+  }
+
+  &__upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 12px;
+    gap: 16px;
+    position: relative;
+  }
+
+  &__block-img {
+    display: flex;
+    gap: 13px
+  }
+
+  &__logo {
+    position: relative;
+    top: -3px;
+  }
+
+  &__liugong {
+    width: 267px;
+    height: 60px;
+  }
+
+  &__liugong-mob {
+    display: none;
+  }
+
+  &__contact {
+    display: flex;
+    margin-right: 61px;
+    margin-bottom: 0px;
+  }
+
+  &__number {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    line-height: 1;
+  }
+
+  &__help {
+    color: #4b4350;
+    font-size: 17px;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  &__number-tel {
+    color: #4b4350;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 1;
+    letter-spacing: 0.5px;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__chime {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__callback {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+  &__callback-txt {
+    line-height: 13px;
+    position: relative;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    margin-left: 54px;
+  }
+
+  &__phone {
+    width: 18px;
+    height: 18px;
+  }
+
+  &__maps-icon {
+    width: 14px;
+    height: 20px;
+  }
+
+  &__icon-menu {
+    display: none;
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__menu-item {
+    padding: 16px 0 16px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #F2F1F5;
+    }
+  }
+
+  &__mobile-menu {
+    display: none;
+    align-items: center;
+  }
+
+  &__menu-txt {
+    color: #333333;
+    padding: 16px 19px 16px 17px;
+  }
+
+  //&__menu-item:first-child &__menu-txt {
+  //  padding: 16px 19px 16px 0;
+  //}
+
+
+  @media screen and (max-width: 1024px) {
+    &__logo,
+    &__liugong {
+    }
+    &__contact {
+      display: flex;
+      gap: 20px;
+    }
+    &__contact,
+    &__callback {
+      .header__number {
+        display: none;
+      }
+
+      .header__callback {
+        display: none;
+      }
+
+      .header__icon {
+        display: none;
+      }
+    }
+
+    &__icon-menu {
+      display: block;
+    }
+
+    &__upper {
+      padding: 10px 0;
+    }
+    &__mobile-menu {
+      display: flex;
+      margin-top: -5px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__contact {
+      position: absolute;
+      top: 5px;
+      right: -58px;
+      padding: 12px 0 17px 0px;
+    }
+    &__block-img,
+    &__upper {
+      display: block;
+    }
+
+    &__logo {
+      max-width: 90px;
+      top: -3px;
+      margin-right: 50px;
+    }
+
+    &__liugong {
+      display: none;
+    }
+
+    &__liugong-mob {
+      display: block;
+      width: 100%;
+      height: 60px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      //margin: 16px auto;
+    }
+    &__lower {
+      display: none;
+    }
+    &__mobile-menu {
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    //&__upper {
+    //  padding: 23px 0 0 16px;
+    //}
+
+    &__liugong-mob {
+      width: 288px;
+      height: 60px;
+      margin: 9px 0;
+    }
+
+    &__header-line {
+      border: none;
+    }
+  }
+}

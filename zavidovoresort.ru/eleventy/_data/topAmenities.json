@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Собственная ванная комната",
+    "svg": "bath-tub"
+  },
+  {
+    "description": "Доступный отдых",
+    "svg": "sunbed"
+  },
+  {
+    "description": "Бесплатный WiFi",
+    "svg": "wifi"
+  },
+  {
+    "description": "Собственная парковка",
+    "svg": "car-parking"
+  }
+]

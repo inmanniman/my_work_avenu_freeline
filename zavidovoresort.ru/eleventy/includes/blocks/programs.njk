@@ -1,0 +1,31 @@
+{%- from "utils/component.njk" import component -%}
+<section class="programs container">
+  <h2 class="programs__title title">Программы</h2>
+  <div class="programs__slider js-sliders">
+    <div class="swiper" data-slider-name="programs_slider">
+      <div class="swiper-wrapper">
+        {% for item in params.programs %}
+          <div class="swiper-slide">
+            <div class="programs__slide">
+              <div class="programs__content">
+                <div class="programs__text">
+                  <h3 class="programs__title-content">{{ item.title }}</h3>
+                  <p class="programs__description">{{ item.desc }}</p>
+                  {{ component('more-details') }}
+                </div>
+              </div>
+              <picture class="programs__img-wrapper">
+                <source srcset="/assets/images/{{ item.images.webp }}, /assets/images/{{ item.images.webp2x }} 2x"
+                        type="image/webp">
+                <img srcset="/assets/images/{{ item.images.img }}, /assets/images/{{ item.images.img2x }} 2x"
+                     src="/assets/images/{{ item.images.img }}" loading="lazy" alt="photo programs" width="878"
+                     height="520">
+              </picture>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <a class="programs__btn base-btn base-btn_type_tertiary">Смотреть все программы</a>
+</section>

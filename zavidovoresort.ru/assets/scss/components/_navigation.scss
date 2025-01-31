@@ -1,0 +1,30 @@
+.navigation {
+  margin-top: 18px;
+  background-color: #57acc5;
+  padding: 20px;
+  &__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+  }
+  &__link {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: -0.32px;
+    &:hover,
+    &:active {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 1024px) {
+    overflow-x: scroll;
+    &__link {
+      white-space: nowrap;
+    }
+  }
+  @media (max-width: 550px) {
+    margin-top: 0;
+  }
+}

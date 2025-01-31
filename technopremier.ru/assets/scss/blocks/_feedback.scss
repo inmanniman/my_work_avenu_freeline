@@ -1,0 +1,13 @@
+.form-view__items {
+  //margin-bottom: 20px;
+  .errors {
+    color: red;
+    font-size: 14px;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    &.error_p16{
+      margin-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

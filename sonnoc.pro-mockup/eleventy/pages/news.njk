@@ -1,0 +1,152 @@
+---
+title: Новости
+layout: page.njk
+permalink: news.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="news container">
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  title: "Новости"
+  } ]
+  }) }}
+  <h1 class="news__title">Новости</h1>
+  <div class="news__block news__block_display_grid">
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="580" height="440" src="/images/new.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="580" height="440" src="/images/new2.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+  <div class="news__block news__block_display_flex">
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="880" height="440" src="/images/new3.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+    <div class="news__column">
+      <a href="/" class="news__link link">
+        <figure>
+          <div class="news__img-wrapper news__img-wrapper_mini">
+            <img width="580" height="440" src="/images/new2.jpg" alt="" class="news__img">
+          </div>
+          <figcaption class="news__caption news__caption_col">
+            <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+            <span class="news__info">Китайский банк ICBC</span>
+            <span class="news__date">02.06.2021</span>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="/" class="news__link link">
+        <figure>
+          <div class="news__img-wrapper news__img-wrapper_mini">
+            <img width="880" height="550" src="/images/new4.jpg" alt="" class="news__img">
+          </div>
+          <figcaption class="news__caption news__caption_col">
+            <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+            <span class="news__info">Китайский банк ICBC</span>
+            <span class="news__date">02.06.2021</span>
+          </figcaption>
+        </figure>
+      </a>
+    </div>
+  </div>
+  <div class="news__block news__block_display_grid">
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="580" height="440" src="/images/new2.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="580" height="440" src="/images/new4.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+  <div class="news__block news__block_display_flex">
+    <div class="news__column">
+      <a href="/" class="news__link link">
+        <figure>
+          <div class="news__img-wrapper news__img-wrapper_mini">
+            <img width="580" height="440" src="/images/new2.jpg" alt="" class="news__img">
+          </div>
+          <figcaption class="news__caption news__caption_col">
+            <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+            <span class="news__info">Китайский банк ICBC</span>
+            <span class="news__date">02.06.2021</span>
+          </figcaption>
+        </figure>
+      </a>
+      <a href="/" class="news__link link">
+        <figure>
+          <div class="news__img-wrapper news__img-wrapper_mini">
+            <img width="880" height="440" src="/images/new3.jpg" alt="" class="news__img">
+          </div>
+          <figcaption class="news__caption news__caption_col">
+            <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+            <span class="news__info">Китайский банк ICBC</span>
+            <span class="news__date">02.06.2021</span>
+          </figcaption>
+        </figure>
+      </a>
+    </div>
+    <a href="/" class="news__link link">
+      <figure>
+        <div class="news__img-wrapper">
+          <img width="880" height="440" src="/images/new.jpg" alt="" class="news__img">
+        </div>
+        <figcaption class="news__caption">
+          <span class="news__subtitle">Выставка - октябрь 2022 года</span>
+          <span class="news__info">Китайский банк ICBC</span>
+          <span class="news__date">02.06.2021</span>
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+</div>

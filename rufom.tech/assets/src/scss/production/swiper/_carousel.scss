@@ -1,0 +1,140 @@
+.carousel {
+  display: flex;
+  gap: 64px;
+  padding-bottom: 90px;
+
+  &__title {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &__content-certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 560px;
+  }
+
+  &__content-additional {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 486px;
+  }
+
+  &__subtitle {
+    color: #989898;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  &__swiper {
+    --swiper-pagination-color: #0073ae;
+
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+
+    &_material {
+      gap: 24px;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0;
+  }
+
+  &__certificate-picture {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 272px;
+    height: auto;
+  }
+
+  &__material-picture {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 236px;
+    height: auto;
+  }
+
+  &__navigation-pagination {
+    display: flex;
+    gap: 14px;
+    align-self: center;
+  }
+
+  &__pagination {
+    --swiper-pagination-bullet-inactive-color: transparent;
+
+    position: unset;
+    display: flex;
+    gap: 18px;
+    align-self: center;
+  }
+
+  &__arrow {
+    top: unset;
+    bottom: 0;
+    z-index: 11;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+    }
+  }
+
+  &__arrow-icon {
+    width: 16px;
+    height: 16px;
+
+    &_right {
+      transform: rotate(180deg);
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    padding-bottom: 90px;
+  }
+
+  @media screen and (max-width: 1130px) {
+    &__content-additional {
+      min-width: 0;
+    }
+
+    &__content-certificate {
+      min-width: 0;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    display: grid;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__swiper {
+      gap: 16px;
+    }
+  }
+}
+
+.carousel .swiper-pagination-bullet {
+  border: 2px solid #65b2e8;
+}
+
+.carousel .swiper-pagination-bullet-active {
+  align-self: center;
+  border: none;
+}

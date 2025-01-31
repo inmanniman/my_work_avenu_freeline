@@ -1,0 +1,43 @@
+.breadcrumbs {
+  margin-bottom: 16px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__li {
+    display: inline;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+
+    a {
+      display: inline;
+      color: #a9a9a9;
+    }
+
+    span {
+      &:last-child{
+        color: #000;
+      }
+    }
+
+    &::after {
+      display: inline;
+      padding: 1px;
+      color: #a9a9a9;
+      font-size: 14px;
+      content: '/';
+    }
+
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    margin-bottom: 24px;
+  }
+}

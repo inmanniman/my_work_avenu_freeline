@@ -1,0 +1,30 @@
+.base-button {
+  padding: 14px 66px;
+  color: #fff;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+  }
+
+  &_type {
+    &_secondary {
+      background: #0073ae;
+    }
+
+    &_light {
+      background: transparent;
+      border: 1px solid #fff;
+
+      &:hover {
+        color: #0073ae;
+        background-color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+*, :after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: calc(-1 * (100vw - 100%))
+}
+
+body.nav-opened {
+  overflow: hidden
+}
+
+body, div, h1, h2, h3, li, table, td, tr {
+  position: relative
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 154%;
+  font-weight: 400;
+  color: #4f4f4f;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+.wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  overflow: hidden
+}
+
+blockquote, q {
+  quotes: none
+}
+
+.clear {
+  clear: both
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #e0e0e0
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+a:hover {
+  color: #3c6dae;
+  text-decoration: none;
+  border-color: transparent
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+  border-color: transparent
+}
+
+a:active {
+  outline: 0
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin: 0;
+  line-height: 50.4px
+}
+
+h2 {
+  color: #333;
+  font-size: 36px;
+  margin: 40px 0;
+  line-height: 50.4px;
+  font-weight: 400
+}
+
+h3 {
+  color: #333;
+  font-size: 26px;
+  margin: 20px 0 15px;
+  line-height: 28px
+}
+
+p {
+  margin: 0 0 25px;
+  text-align: justify
+}
+
+ul {
+  margin: 0 0 38px;
+  padding-left: 30px
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 4px
+}
+
+ul li:before {
+  content: "\2022";
+  position: absolute;
+  top: 0;
+  left: -20px
+}
+
+ul.pddg60 {
+  padding-left: 60px
+}
+
+ol {
+  margin: 0 0 15px;
+  padding-left: 25px
+}
+
+ol li {
+  margin-bottom: 22px
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
+
+table {
+  width: 100%;
+  margin: 0 0 15px;
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+table tbody {
+  border: none
+}
+
+table tr.even, table tr.odd {
+  background-color: transparent
+}
+
+table td, table th {
+  border: none;
+  padding: 0 14px;
+  line-height: 36px
+}
+
+table.nostyle {
+  border: none
+}
+
+table.nostyle thead, table.nostyle tr {
+  background-color: transparent
+}
+
+table.nostyle tr td, table.nostyle tr th {
+  border: none;
+  padding: 0;
+  line-height: inherit !important
+}

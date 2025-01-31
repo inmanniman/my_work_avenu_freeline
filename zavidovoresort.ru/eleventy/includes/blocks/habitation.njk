@@ -1,0 +1,33 @@
+<div class="habitation container">
+  {% for item in params.photoHabitation %}
+    <a data-fancybox="gallery-2" href="/assets/images/{{ item.images.img }}">
+      <picture>
+        <source
+          media="(max-width: 550px)"
+          srcset="/assets/images/habitation/{{ item.images.img_m }}, /assets/images/habitation/{{ item.images.img_m2x }} 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 550px)"
+          srcset="/assets/images/habitation/{{ item.images.webp_m }}, /assets/images/habitation/{{ item.images.webp_m2x }} 2x"
+        />
+        <source
+          srcset="/assets/images/habitation/{{ item.images.webp }}, /assets/images/habitation/{{ item.images.webp2x }} 2x"
+          type="image/webp"
+        />
+        <img
+          srcset="/assets/images/habitation/{{ item.images.img }}, /assets/images/habitation/{{ item.images.img2x }} 2x"
+          src="/assets/images/habitation/{{ item.images.img }}"
+          loading="lazy"
+          alt="habitation"
+          width="335"
+          height="227"
+        />
+      </picture>
+      {% if item.button === true %}
+        <button type="button" class="habitation__btn  base-btn base-btn_type_secondary">Показать все фото</button>
+      {% endif %}
+    </a>
+
+  {% endfor %}
+</div>

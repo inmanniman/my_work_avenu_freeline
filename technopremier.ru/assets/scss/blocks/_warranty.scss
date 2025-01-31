@@ -1,0 +1,120 @@
+.warranty {
+  width: 100%;
+  background: #a09fa3;
+  padding: 128px 0 168px;
+
+  &__content {
+    display: flex;
+    gap: 191px;
+    width: 90%;
+    height: 100%;
+  }
+
+  &__img {
+    position: relative;
+    max-width: 338px;
+    height: auto;
+    top: 27px;
+    left: 46px;
+    fill: #7c7b87;
+    filter: drop-shadow(0px 2.317px 1.854px rgba(0, 0, 0, 0.08))
+      drop-shadow(0px 5.388px 4.31px rgba(0, 0, 0, 0.11))
+      drop-shadow(0px 9.675px 7.74px rgba(0, 0, 0, 0.14))
+      drop-shadow(0px 16.057px 12.846px rgba(0, 0, 0, 0.16))
+      drop-shadow(0px 26.453px 21.163px rgba(0, 0, 0, 0.19))
+      drop-shadow(0px 46.233px 36.986px rgba(0, 0, 0, 0.22))
+      drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.3));
+  }
+
+  &__txt {
+    color: #f2f2f2;
+  }
+
+  h2 {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 0 45px;
+    top: 13px;
+    max-width: 459px;
+  }
+
+  p {
+    display: block;
+    max-width: 468px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__content {
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    &__img {
+      left: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 54px 0 47px 0;
+    &__content {
+      display: block;
+      gap: 0;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    &__img-wrapper {
+      margin: 0 auto;
+    }
+
+    &__img {
+      top: 0;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-top: 1px;
+    h2 {
+      font-size: 24px;
+      position: relative;
+      left: -4px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 19px;
+    }
+
+    &__img {
+      max-width: 182px;
+    }
+
+    &__img-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 51px;
+    }
+  }
+}

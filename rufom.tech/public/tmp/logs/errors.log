@@ -1,0 +1,2041 @@
+[19.08.2023 13:09:34]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:22]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/admin
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:44]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:44]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:44]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:44]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:44]
+URI: http://rufom.tech/produktsiya/uplotniteli/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:47]
+URI: http://rufom.tech/info/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/uplotniteli/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:49]
+URI: http://rufom.tech/dostavka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/info/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:51]
+URI: http://rufom.tech/dostavka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/dostavka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:52]
+URI: http://rufom.tech/info/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/dostavka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:54]
+URI: http://rufom.tech/info/stati/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/info/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:56]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/info/stati/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:10:57]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:11:03]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:11:09]
+URI: http://rufom.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:11:28]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:15:58]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:02]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:02]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:06]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:09]
+URI: http://rufom.tech/produktsiya/uplotniteli/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:48]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:16:54]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:17:16]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/uplotniteli/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:17:22]
+URI: http://rufom.tech/search/?module=search&searchword=bwm
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:17:37]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:20:24]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[19.08.2023 13:20:24]
+URI: http://rufom.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:20:33]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:20:35]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:20:47]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:21:24]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:21:42]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:22:22]
+URI: http://rufom.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:22:22]
+URI: http://rufom.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:22:58]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:23:09]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:44:51]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[19.08.2023 13:44:58]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:45:00]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:45:03]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:45:35]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:47:37]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:50:22]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:51:04]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:51:26]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: syntax error, unexpected 'echo' (T_ECHO)  called at [/var/www/rufom.tech/public/custom/upline/modules/shop/views/shop.view.buy_form_custom.php:169] 
+
+
+
+[19.08.2023 13:51:45]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:51:58]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:52:19]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:52:43]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:53:22]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:53:34]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 13:53:41]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 14:02:29]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[19.08.2023 14:02:31]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 14:02:33]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 14:02:34]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/neopren-srsbr/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 14:02:38]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 14:02:40]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 15:47:24]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:17:20]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:26:45]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:26:46]
+URI: http://rufom.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:26:46]
+URI: http://rufom.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:42]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:43]
+URI: http://rufom.tech/produktsiya/evaplast/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:47]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/lozhementy/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/evaplast/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:48]
+URI: http://rufom.tech/produktsiya/evaplast/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:53]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/lozhementy/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/evaplast/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:55]
+URI: http://rufom.tech/produktsiya/evaplast/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:27:56]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/eva-evaplast/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/evaplast/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:07]
+URI: http://rufom.tech/produktsiya/evaplast/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:08]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:09]
+URI: http://rufom.tech/produktsiya/uplotniteli/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:11]
+URI: http://rufom.tech/produktsiya/uplotniteli/uplotnitel-neopren-cr/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/uplotniteli/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:27]
+URI: http://rufom.tech/produktsiya/uplotniteli/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 16:28:29]
+URI: http://rufom.tech/produktsiya/uplotniteli/uplotnitel-tep-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/uplotniteli/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 17:35:58]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[19.08.2023 17:36:00]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 17:36:05]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 17:36:08]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 17:36:12]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[19.08.2023 17:36:52]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:09:37]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[24.08.2023 17:09:39]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:09:42]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:09:50]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:24:47]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:25:30]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:25:33]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:25:36]
+URI: http://rufom.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:25:36]
+URI: http://rufom.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:28:56]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 17:29:37]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:32:30]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[24.08.2023 18:32:32]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:33:28]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:33:46]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:33:47]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/pischevoy/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:34:03]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/pischevoy/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:34:07]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:34:11]
+URI: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:34:13]
+URI: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/frezerovanie/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:47:31]
+URI: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/frezerovanie/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:47:33]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/proizvodstvo-izdeliy/frezerovanie/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[24.08.2023 18:47:40]
+URI: http://rufom.tech/produktsiya/poristaya-rezina/termoelastoplast-tpe-s/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://rufom.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.08.2023 16:42:53]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[25.08.2023 16:42:54]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.08.2023 16:42:59]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.08.2023 16:42:59]
+URI: http://rufom.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[26.08.2023 09:44:40]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[26.08.2023 09:44:42]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[26.08.2023 09:44:44]
+URI: http://rufom.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[26.08.2023 09:44:45]
+URI: http://rufom.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[07.09.2023 22:52:05]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[07.09.2023 22:52:07]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[20.09.2023 20:57:47]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[20.09.2023 20:57:49]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[20.09.2023 20:57:51]
+URI: http://rufom.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[20.09.2023 20:57:51]
+URI: http://rufom.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[20.09.2023 20:58:02]
+URI: http://rufom.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+referer: http://rufom.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[20.09.2023 20:58:04]
+URI: http://rufom.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+referer: http://rufom.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[12.10.2023 17:53:04]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[12.10.2023 17:53:05]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[12.10.2023 17:53:10]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[12.10.2023 17:53:12]
+URI: http://rufom1.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[12.10.2023 17:53:12]
+URI: http://rufom1.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:14]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:15]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[25.10.2023 12:15:23]
+URI: http://rufom1.tech/o-kompanii/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:26]
+URI: http://rufom1.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/o-kompanii/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:29]
+URI: http://rufom1.tech/produktsiya/neopren/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:32]
+URI: http://rufom1.tech/info/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/produktsiya/neopren/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:35]
+URI: http://rufom1.tech/dostavka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/info/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:37]
+URI: http://rufom1.tech/kontakty/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/dostavka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:45]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+referer: http://rufom1.tech/kontakty/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:50]
+URI: http://rufom1.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[25.10.2023 12:15:50]
+URI: http://rufom1.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:35:11]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[02.11.2023 20:35:11]
+URI: http://rufom1.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:35:23]
+URI: http://rufom1.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:35:23]
+URI: http://rufom1.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:36:01]
+URI: http://rufom1.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom1.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:36:35]
+URI: http://rufom1.tech/produktsiya/neopren/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom1.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:36:36]
+URI: http://rufom1.tech/produktsiya/neopren/neopren-s-tkanyu/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom1.tech/produktsiya/neopren/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:37:09]
+URI: http://rufom1.tech/admin
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:37:09]
+URI: http://rufom1.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:45]
+URI: http://rufom2.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[02.11.2023 20:38:48]
+URI: http://rufom2.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:49]
+URI: http://rufom2.tech/admin/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:54]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:55]
+URI: http://rufom2.tech/js/jquery.form.min.js.map
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:55]
+URI: http://rufom2.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:58]
+URI: http://rufom2.tech/admin]
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:38:58]
+URI: http://rufom2.tech/admin]/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:39:07]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:39:07]
+URI: http://rufom2.tech/js/jquery.form.min.js.map/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:39:39]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[02.11.2023 20:40:19]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:03]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Array and string offset access syntax with curly braces is deprecated  called at [/var/www/rufom.tech/public/includes/cache/cache.files.php:217] 
+
+
+
+[09.11.2023 16:25:05]
+URI: http://rufom2.tech/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:10]
+URI: http://rufom2.tech/o-kompanii/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:13]
+URI: http://rufom2.tech/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/o-kompanii/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:16]
+URI: http://rufom2.tech/produktsiya/poristaya-rezina/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/produktsiya/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:19]
+URI: http://rufom2.tech/info/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/produktsiya/poristaya-rezina/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:25]
+URI: http://rufom2.tech/dostavka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/info/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:31]
+URI: http://rufom2.tech/info/svojstva-reziny/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/dostavka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:40]
+URI: http://rufom2.tech/kontakty/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/info/svojstva-reziny/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:45]
+URI: http://rufom2.tech/dostavka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/kontakty/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:54]
+URI: http://rufom2.tech/sertifikaty/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/dostavka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:25:56]
+URI: http://rufom2.tech/proizvodstvo/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/sertifikaty/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:26:04]
+URI: http://rufom2.tech/produktsiya/proizvodstvo-izdeliy/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/proizvodstvo/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:26:06]
+URI: http://rufom2.tech/produktsiya/proizvodstvo-izdeliy/lazernaya-rezka/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/produktsiya/proizvodstvo-izdeliy/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:26:08]
+URI: http://rufom2.tech/proizvodstvo/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/produktsiya/proizvodstvo-izdeliy/lazernaya-rezka/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 
+
+
+
+[09.11.2023 16:26:11]
+URI: http://rufom2.tech/o-kompanii/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+referer: http://rufom2.tech/proizvodstvo/
+
+
+Error #1: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`  called at [/var/www/rufom.tech/public/includes/developer.php(840) : eval()'d code(1) : eval()'d code:1] 

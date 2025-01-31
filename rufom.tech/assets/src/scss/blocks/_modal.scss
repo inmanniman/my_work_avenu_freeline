@@ -1,0 +1,37 @@
+.modal_form {
+  max-width: 400px;
+  display: none;
+  text-align: center;
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .inpfiles {
+    max-width: 100%;
+    font-size: 20px;
+  }
+  .privacy_field {
+    margin-bottom: 10px;
+  }
+  .field_wrap {
+    margin-bottom: 10px;
+      label, .infofield{
+          display: block;
+          margin-bottom: 5px;
+      }
+  }
+  .errors {
+    margin-top: 5px;
+    font-size: 12px;
+    color: darkred;
+  }
+  textarea {
+    resize: vertical;
+  }
+  @media (max-width: 600px) {
+    .inpfiles {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.right-side {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 280px
+}
+
+.right-side h3 {
+  font-weight: 300;
+  margin-top: 0;
+  color: #718192;
+  font-size: 16px;
+  line-height: 120%
+}
+
+.right-side .articles {
+  margin-top: 50px
+}
+
+.right-side .articles h3 {
+  margin-bottom: 20px;
+  color: #718192;
+  font-size: 16px;
+  line-height: 120%
+}
+
+.right-side .articles hr {
+  margin-bottom: 20px;
+  background-color: #efefef
+}
+
+.right-side_2 {
+  width: 340px
+}
+
+.right-side_2 h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 26px
+}

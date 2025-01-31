@@ -1,0 +1,45 @@
+@import '~@fancyapps/ui/dist/fancybox/fancybox.css';
+@import '~swiper/css';
+@import '~swiper/css/navigation';
+@import '~swiper/css/pagination';
+@import '~mmenu-js/dist/mmenu';
+
+@import 'blocks/reset';
+@import 'blocks/variable';
+@import 'blocks/fonts';
+@import 'blocks/default';
+@import 'blocks/slider';
+//@import 'blocks/magnific-popup';
+
+@import 'blocks/modal';
+
+@import 'blocks/typography';
+@import 'blocks/files';
+
+// vendor
+//@import 'vendor/owl.carousel.min';
+//@import 'vendor/owl.theme.default.min';
+@import 'vendor/select2.min';
+
+@import 'blocks/main-fix';
+@import 'blocks/responzive';
+@import 'blocks/mmenu';
+
+@import 'production/base/base-button';
+@import 'production/base/base-title';
+@import 'production/base/style-input';
+@import 'production/rubber-gaskets';
+@import 'production/transfer-of-services';
+@import 'production/navigation';
+@import 'production/order';
+@import 'production/default';
+@import 'production/material';
+@import 'production/guarantees';
+@import 'production/why-are-we';
+@import 'production/price-policy';
+@import 'production/delivery-and-questions';
+@import 'production/swiper/carousel';
+@import 'production/swiper/product-swiper';
+@import 'production/swiper/swiper';
+@import 'production/modal-order';
+@import 'production/modal-question';

@@ -1,0 +1,30 @@
+---
+title: Главная страница
+layout: page.njk
+permalink: index.html
+variationHeader: description
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('choice-of-services', {
+  choiceOfServices: choiceOfServices
+}) }}
+
+  {{ block('advantages',{
+    advantages: advantages
+}) }}
+
+    {{ block('wedding', {
+    wedding: wedding
+}) }}
+
+      {{ block('photo-gallery', {
+  photoGallery: photoGallery
+}) }}
+
+        {{ block('programs', {
+    programs: programs
+}) }}
+
+          {{ block('questions') }}

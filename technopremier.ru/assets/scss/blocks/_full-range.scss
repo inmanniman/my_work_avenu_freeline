@@ -1,0 +1,236 @@
+.full-range {
+  padding: 100px 91px 90px 90px;
+  background: url('~/images/background-full-spectr.jpg') no-repeat center;
+  background-color: #f2f1f5;
+  background-size: cover;
+
+  &__title {
+    color: #495053;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1.2;
+
+    &_red {
+      color: #e1282e;
+    }
+  }
+
+  &__wrapper-title {
+    margin-bottom: 64px;
+    text-align: center;
+  }
+
+  &__wrapper-box {
+    display: grid;
+    grid-gap: 20px 22px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__box {
+    padding: 30px 39px 26px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    opacity: 0.8;
+
+    &_big {
+      position: relative;
+      grid-area: 1 / 1 / 3 / 3;
+      padding: 38px 10px 90px 54px;
+    }
+
+    &_small {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+      justify-content: space-between;
+      color: #000;
+      &:hover{
+        opacity: 1;
+        transition: all 0.5s;
+      }
+    }
+  }
+
+  &__box_small:hover &__box-btn {
+      background-color: #e1282e;
+      transition: 0.5s;
+
+      svg {
+        color: #fff;
+        transition: 0.5s;
+      }
+  }
+
+  &__icon-tractor {
+    position: absolute;
+    right: 39px;
+    bottom: 59px;
+    width: 145px;
+    height: 145px;
+  }
+
+  &__subtitle {
+    color: #4f4f4f;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.21;
+
+    &_big {
+      display: block;
+      max-width: 450px;
+      margin-bottom: 41px;
+      font-size: 34px;
+      line-height: 1.21;
+    }
+  }
+
+  &__cat {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__cat-lev-link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    background-color: #f2f1f5;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+
+    &:hover {
+      color: #fff;
+      background-color: #e1282e;
+
+      .full-range {
+        &__cat-lev-link {
+          svg {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__box-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+
+    svg {
+      width: 24px;
+      height: 31px;
+    }
+
+    &:hover {
+      background-color: #e1282e;
+      transition: 0.5s;
+
+      svg {
+        color: #fff;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    padding: 50px 45px 45px;
+
+    &__box {
+      &_big {
+        padding-left: 27px;
+      }
+    }
+
+    &__icon-tractor {
+      width: 100px;
+      height: 100px;
+    }
+
+    &__cat {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    &__wrapper-box {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 35px 16px 33px;
+    background: url('~/images/background-full-spectr-mob.jpg') no-repeat center;
+    background-color: #f2f1f5;
+    background-size: cover;
+    &__cat {
+      margin-bottom: 8px;
+    }
+    &__title {
+      font-size: 24px;
+    }
+
+    &__wrapper-box {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 8px;
+    }
+
+    &__wrapper-title {
+      margin-bottom: 24px;
+    }
+
+    &__box {
+      &_big {
+        grid-area: 1;
+        padding: 5px 16px 30px;
+      }
+
+      &_small {
+        position: relative;
+        gap: 0;
+        padding: 30px;
+      }
+    }
+
+    &__box-btn {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
+
+    &__subtitle {
+      max-width: 201px;
+      font-size: 20px;
+
+      &_big {
+        margin-bottom: 27px;
+      }
+    }
+
+    &__icon-tractor {
+      right: 26px;
+      bottom: 25px;
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

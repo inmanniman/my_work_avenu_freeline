@@ -1,0 +1,19 @@
+.btn {
+  box-sizing: border-box;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s all;
+
+  &_type {
+    &_primary {
+      padding: 12px 16px;
+      color: var(--gray-color);
+      font-size: 14px;
+      letter-spacing: -0.14px;
+      background: #125aa3;
+    }
+  }
+}

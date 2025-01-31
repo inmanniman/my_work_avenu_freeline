@@ -1,0 +1,183 @@
+button, button:focus {
+  outline: 0
+}
+
+.btn {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  padding: 6px 14px 7px;
+  position: relative
+}
+
+.btn_default {
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  text-decoration: none
+}
+
+.btn_default:focus, .btn_default:hover {
+  text-decoration: none
+}
+
+.btn_primary {
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  text-decoration: none
+}
+
+.btn_primary:focus, .btn_primary:hover {
+  text-decoration: none
+}
+
+.btn_link {
+  background: 0 0;
+  border: none;
+  border-bottom: 1px solid;
+  font-weight: 400;
+  padding: 0
+}
+
+.btn_download {
+  border: none;
+  font-weight: 600;
+  position: relative;
+  padding-left: 42px;
+  padding-top: 8px
+}
+
+.btn-invest {
+  display: block;
+  position: relative;
+  padding: 11px 60px 11px 48px;
+  color: #fff;
+  font-weight: 300;
+  background: #424c57;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  transition: 0.3s ease-in-out;
+  appearance: none;
+  &::before {
+    position: absolute;
+    top: 16px;
+    right: 42px;
+    display: block;
+    width: 13px;
+    height: 12px;
+    background: url("/custom/upline/assets/img/arrow-right.svg") no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+    content: "";
+  }
+  &:hover {
+    color: rgba(255, 255, 255, 0.6);
+    &::before {
+      position: absolute;
+      top: 16px;
+      right: 42px;
+      display: block;
+      width: 13px;
+      height: 12px;
+      background: url("/custom/upline/assets/img/arrow-right-d.svg") no-repeat;
+      background-size: cover;
+      content: "";
+    }
+  }
+}
+
+.btn_download::before {
+  content: "\f56d";
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 37px;
+  font-weight: 100;
+  line-height: 1;
+  position: absolute;
+  top: -2px;
+  left: 0
+}
+
+.btn_download span {
+  border-bottom: 1px solid
+}
+
+.btn_upper {
+  text-transform: uppercase
+}
+
+.btn_block {
+  display: block;
+  width: 100%
+}
+
+.btn_lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem
+}
+
+.btn_sm {
+  padding: .25rem .5rem;
+  font-size: .875rem
+}
+
+.btn_radius {
+  border-radius: 4px
+}
+
+.btn_icon-left {
+  padding-left: 54px
+}
+
+.btn_icon-left:before {
+  position: absolute;
+  top: 1px;
+  bottom: 0;
+  left: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.btn_icon-right {
+  padding-right: 54px
+}
+
+.btn_icon-right:before {
+  position: absolute;
+  top: 1px;
+  bottom: 0;
+  right: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+@media only screen and (max-width: 1183px) {
+  .btn-invest {
+    &::before {
+      top: 14px;
+      width: 11px;
+      height: 10px;
+    }
+    &:hover {
+      &::before {
+        top: 14px;
+        width: 11px;
+        height: 10px;
+      }
+    }
+  }
+}

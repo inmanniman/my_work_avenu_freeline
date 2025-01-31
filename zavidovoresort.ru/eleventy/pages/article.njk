@@ -1,0 +1,14 @@
+---
+title: Статья
+layout: page.njk
+permalink: article.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('article') }}
+
+  {{ block('similar-articles', {
+  blogStockArticles: blogStockArticles
+}) }}

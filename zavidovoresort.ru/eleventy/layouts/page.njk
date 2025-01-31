@@ -1,0 +1,70 @@
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <title>{{ renderData.title or title }}</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="{{ preview or site.description }}"/>
+
+    <link rel="stylesheet" href="{{ '/assets/css/app.css' | url }}"/>
+  </head>
+  <body class="page__body">
+    <div>
+      {% if variationHeader == 'classical' %}
+        <div class="base-background base-background__classical">
+          {{ block ('header',{
+        logo: 'logoClassic',
+        menu: menu }) 
+        }}
+        </div>
+      {% elseif variationHeader == 'description' %}
+        <div class="base-background base-background__main">
+          {{ block ('header',{
+        logo: 'logo',
+         menu: menu }) 
+        }}
+          {{ block('zavidovo-resort') }}
+
+        </div>
+      {% elseif variationHeader == 'reservation' %}
+        <div class="base-background base-background__reservation">
+          {{ block ('header',{
+        logo: 'logo',
+         menu: menu }) 
+        }}
+
+          {{ block('zavidovo-resort') }}
+        </div>
+      {% elseif variationHeader == 'clear' %}
+        <div class="base-background base-background__clear">
+          {{ block ('header',{
+        logo: 'logo',
+         menu: menu }) 
+        }}
+        </div>
+      {% endif %}
+
+      {% if permalink != 'index.html' %}
+        {% if permalink != 'not-found.html' %}
+          {{ component( 'bread-crumbs', {item: title }) }}
+        {% endif %}
+      {% endif %}
+
+      <main class="page__main">{{ content | safe }}
+
+      </main>
+
+      {{ block('footer', {
+      footer: footer
+    }) }}
+      {{component('mobile-menu',{
+    menu: menu }) 
+    }}
+    </div>
+    <script type="module" src="{{ '/assets/js/app.js' | url }}"></script>
+  </body>
+</html>

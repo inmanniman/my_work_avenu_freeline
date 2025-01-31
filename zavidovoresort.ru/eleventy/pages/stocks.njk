@@ -1,0 +1,12 @@
+---
+title: Акции
+layout: page.njk
+permalink: stocks.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('stock', {
+  stockArticles: stockArticles
+}) }}

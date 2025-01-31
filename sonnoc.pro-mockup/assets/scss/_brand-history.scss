@@ -1,0 +1,135 @@
+.brand-history {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__content-wrapper {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+  }
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #767676;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+  }
+
+  &__title-navigation {
+    display: block;
+    margin-bottom: 8px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  &__point {
+    color: #767676;
+
+    &:hover {
+      color: #5290d0;
+    }
+  }
+
+  &__navigation-title {
+    margin-bottom: 8px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+
+  &__company-name {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  &__info-block {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  &__info {
+    max-width: 406px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__period {
+    margin-bottom: 28px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__year {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.72px;
+  }
+
+  @media (max-width: 1100px) {
+    &__content-wrapper {
+      grid-template-columns: 200px 1fr;
+    }
+  }
+
+  @media (max-width: 900px) {
+    &__navigation-wrapper {
+      display: none;
+    }
+
+    &__content-wrapper {
+      grid-template-columns: 1fr;
+    }
+
+    &__info {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    &__title-navigation {
+      font-weight: 600;
+      font-size: 26px;
+      letter-spacing: -0.52px;
+    }
+
+    &__period {
+      margin-bottom: 20px;
+    }
+
+    &__year {
+      margin-bottom: 8px;
+      font-size: 20px;
+      letter-spacing: -0.4px;
+    }
+
+    &__info-block {
+      gap: 20px;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__info-block {
+      flex-direction: column-reverse;
+      margin-bottom: 20px;
+    }
+
+    &__company-name {
+      margin-bottom: 8px;
+    }
+  }
+}

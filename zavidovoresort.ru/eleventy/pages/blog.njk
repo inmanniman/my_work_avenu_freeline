@@ -1,0 +1,12 @@
+---
+title: Блог
+layout: page.njk
+permalink: blog.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('blog', {
+  blogArticles: blogArticles
+}) }}

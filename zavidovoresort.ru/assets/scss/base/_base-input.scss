@@ -1,0 +1,27 @@
+.base-input {
+  display: block;
+  padding: 15px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+
+  &::placeholder {
+    color: #b2b2b2;
+    opacity: 0.4;
+  }
+
+  &:hover {
+    border: 1px solid var(--main-blue);
+  }
+
+  &:focus {
+    border: 1px solid var(--main-blue);
+
+    &::placeholder {
+      color: #121212;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<div class="product">
+  <a href="{{ params.data.link }}" class="product__img-wrapper link">
+    <img class="product__img" width="{{ params.data.imgWidth }}" height="{{ params.data.imgHeight }}" src="{{ params.data.img }}" alt="">
+  </a>
+  <span class="product__name">{{ params.data.name }}</span>
+  <span class="product__info">Серия: {{ params.data.series }}</span>
+  <span class="product__info">Яркость: {{ params.data.luminance }}</span>
+  <span class="product__info">Разрешение: {{ params.data.resolution }}</span>
+  <a href="{{ params.data.link }}" class="product__btn link btn btn_type_primary">Подробнее</a>
+</div>

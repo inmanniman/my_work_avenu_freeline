@@ -1,0 +1,10 @@
+{%- from "utils/component.njk" import component -%}
+
+<div class="products-grid">
+  {% for product in params.products %}
+  {{ component( 'product', {
+  data: product.data
+  }) }}
+  {% endfor %}
+</div>
+

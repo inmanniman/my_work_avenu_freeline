@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Номера",
+    "content": {
+      "title": "Номера",
+      "sub_title": "двухместный номер от 4100 ₽",
+      "description": "Звукоизолированный номер с телевизором с кабельными каналами. В собственной ванной комнате гостям бесплатно предоставляются В собственной ванной комнате гостям бесплатно предоставляются "
+    },
+    "images": {
+      "img": "standartDouble.jpg",
+      "img2x": "standartDouble@2x.jpg",
+      "webp": "standartDouble.webp",
+      "webp2x": "standartDouble@2x.webp",
+      "img_m": "standartDouble-mobile.jpg",
+      "img_m2x": "standartDouble-mobile@2x.jpg",
+      "webp_m": "standartDouble-mobile.webp",
+      "webp_m2x": "standartDouble-mobile@2x.webp"
+    }
+  },
+  {
+    "name": "Таунхаусы",
+    "content": {
+      "title": "Таунхаусы",
+      "sub_title": "двухместный номер от 4100 ₽",
+      "description": "Звукоизолированный номер с телевизором с кабельными каналами. В собственной ванной комнате гостям бесплатно предоставляются В собственной ванной комнате гостям бесплатно предоставляются "
+    },
+    "images": {
+      "img": "standartDouble.jpg",
+      "img2x": "standartDouble@2x.jpg",
+      "webp": "standartDouble.webp",
+      "webp2x": "standartDouble@2x.webp",
+      "img_m": "standartDouble-mobile.jpg",
+      "img_m2x": "standartDouble-mobile@2x.jpg",
+      "webp_m": "standartDouble-mobile.webp",
+      "webp_m2x": "standartDouble-mobile@2x.webp"
+    }
+  },
+  {
+    "name": "Коттеджи",
+    "content": {
+      "title": "Коттеджи",
+      "sub_title": "двухместный номер от 4100 ₽",
+      "description": "Звукоизолированный номер с телевизором с кабельными каналами. В собственной ванной комнате гостям бесплатно предоставляются В собственной ванной комнате гостям бесплатно предоставляются "
+    },
+    "images": {
+      "img": "standartDouble.jpg",
+      "img2x": "standartDouble@2x.jpg",
+      "webp": "standartDouble.webp",
+      "webp2x": "standartDouble@2x.webp",
+      "img_m": "standartDouble-mobile.jpg",
+      "img_m2x": "standartDouble-mobile@2x.jpg",
+      "webp_m": "standartDouble-mobile.webp",
+      "webp_m2x": "standartDouble-mobile@2x.webp"
+    }
+  }
+]

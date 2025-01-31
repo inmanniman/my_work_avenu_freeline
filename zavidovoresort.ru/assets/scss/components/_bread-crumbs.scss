@@ -1,0 +1,35 @@
+.bread-crumbs {
+  padding: 30px 0;
+
+  &__unit {
+    display: flex;
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.06em;
+    list-style-type: none;
+  }
+
+  &__link {
+    color: rgb(18 18 18 / 20%);
+    text-decoration: none;
+  }
+
+  &__text {
+    color: #121212;
+  }
+
+  @media (max-width: 550px) {
+    padding: 16px 0 32px;
+
+    &__unit {
+      padding-left: 16px;
+    }
+  }
+}

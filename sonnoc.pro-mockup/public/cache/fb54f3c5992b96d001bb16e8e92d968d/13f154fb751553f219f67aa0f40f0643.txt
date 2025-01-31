@@ -1,0 +1,1 @@
+a:4:{s:7:"cat_ids";a:0:{}s:8:"site_ids";a:1:{i:0;a:2:{s:2:"id";s:3:"156";s:4:"path";s:12:"produktsiya/";}}s:5:"price";a:5:{s:4:"name";i:1;s:6:"value1";i:0;s:6:"value2";i:0;s:3:"min";d:0;s:3:"max";d:0;}s:4:"rows";a:0:{}}

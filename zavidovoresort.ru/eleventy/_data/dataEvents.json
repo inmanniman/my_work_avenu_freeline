@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Свадьба в Zavidovo Resort",
+    "description": "Банкет от 2.500 рублей. Закрыть отель под вашу свадьбу - от 100.000 до 400.000 рублей с учетом размещения гостей.",
+    "images": {
+      "img": "family.jpg",
+      "webp": "family.webp",
+      "img2x": "family@2x.jpg",
+      "webp2x": "family@2x.webp"
+    }
+  },
+  {
+    "title": "Майские праздники в Zavidovo Resort",
+    "description": "Активные майские праздники в Завидово Резорт",
+    "images": {
+      "img": "family.jpg",
+      "webp": "family.webp",
+      "img2x": "family@2x.jpg",
+      "webp2x": "family@2x.webp"
+    }
+  },
+  {
+    "title": "Ваш день рождения в Zavidovo Resort",
+    "description": "Специальное предложение для тех, кто планирует отмечать свой день рождения",
+    "images": {
+      "img": "family.jpg",
+      "webp": "family.webp",
+      "img2x": "family@2x.jpg",
+      "webp2x": "family@2x.webp"
+    }
+  },
+  {
+    "title": "Тимбилдинг, корпоративы",
+    "description": "Квест-день (спортивные активности включены)  Йога-день (проводят мастера из Индии)",
+    "images": {
+      "img": "family.jpg",
+      "webp": "family.webp",
+      "img2x": "family@2x.jpg",
+      "webp2x": "family@2x.webp"
+    }
+  }
+]

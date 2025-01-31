@@ -1,0 +1,35 @@
+.swiper-block {
+  position: relative;
+}
+
+.js-swiper {
+  &-button {
+    &-prev {
+      position: absolute;
+      top: -65px;
+      right: 40px;
+    }
+
+    &-next {
+      position: absolute;
+      top: -65px;
+      right: 0;
+    }
+  }
+}
+.swiper-blue{
+  .swiper-two-items-button{
+    background-color: #ecf8fc;
+  }
+}
+
+.swiper-two-items-button {
+  background: no-repeat 50% 50%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  color: #468ebd;
+}

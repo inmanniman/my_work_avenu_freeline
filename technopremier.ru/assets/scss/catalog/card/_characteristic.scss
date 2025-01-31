@@ -1,0 +1,89 @@
+.characteristic {
+  position: relative;
+  left: -2px;
+  margin: 44px auto 100px auto;
+
+  &__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__description-text {
+    font-weight: 300;
+    font-size: 40px;
+
+    color: #495053;
+  }
+
+  &__wrapper-icon {
+    position: relative;
+    padding: 7px;
+    left: 9px;
+    border-radius: 100px;
+    line-height: 0;
+  }
+
+  &__icon-plus {
+    transition: 1s;
+    width: 24px;
+    height: 24px;
+  }
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 1s;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    top: 20px;
+    left: 2px;
+
+    color: #495053;
+  }
+
+  &__active .characteristic__content {
+      transition: 1s;
+      padding-top: 20px;
+			opacity: 1;
+    }
+  
+  &__text-open {
+    transition: height 1s;
+
+    & p {
+      margin: 0;
+    }
+  }
+
+  &__list {
+    margin: 30px 0 0 -10px;
+  }
+
+  &__rotate-icon {
+    transform: rotate(-45deg);
+    transition: 1s;
+  }
+
+  &__background-btn {
+    background: #F5F5F5;
+    transition: 1s;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 44px auto;
+    &__description-text{
+      font-size: 20px;
+    }
+    &__content{
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    margin: 44px 15px;
+  }
+}

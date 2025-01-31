@@ -1,0 +1,66 @@
+.cont__item_address::before, .cont__item_mail::before, .cont__item_phone::before {
+  display: inline-block;
+  background-image: url(/custom/upline/assets/img/sprite.svg);
+  background-size: 421px 271px
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  line-height: 120%
+}
+
+.cont__item {
+  padding-left: 59px;
+  position: relative;
+  margin-bottom: 22px
+}
+
+.cont__item::before {
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: 0
+}
+
+.cont__item_address::before {
+  width: 33px;
+  height: 33px;
+  background-position: -129px -170px
+}
+
+.cont__item_phone::before {
+  top: -8px;
+  width: 33px;
+  height: 33px;
+  background-position: -213px -170px
+}
+
+.cont__item_mail::before {
+  top: -4px;
+  width: 33px;
+  height: 33px;
+  background-position: -171px -170px
+}
+
+.cont:first-child {
+  margin-bottom: 27px
+}
+
+.cont:last-child .cont__item_address {
+  margin-bottom: 28px
+}
+
+.cont__item_working-hours::before {
+  background-image: url(/custom/upline/assets/img/icons/time-icon.png);
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 3px;
+}

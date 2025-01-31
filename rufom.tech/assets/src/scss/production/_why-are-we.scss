@@ -1,0 +1,65 @@
+.why-are-we {
+  display: flex;
+  gap: 28px;
+  //padding-bottom: 90px;
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    max-width: 599px;
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin: 0;
+    padding-left: 40px;
+  }
+
+  li {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+
+    &::before {
+      position: absolute;
+      left: 5px;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-image: url('~/images/check.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 16px 0px;
+
+    &__list {
+      gap: 12px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 24px;
+
+    &__list {
+      gap: 16px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

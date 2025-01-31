@@ -1,0 +1,64 @@
+input[type=email], input[type=password], input[type=text], textarea {
+  width: 100%;
+  padding: 10px 8px 11px;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  outline: 0;
+  font-family: HelveticaNeueCyr, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 2px;
+  border-color: transparent;
+  border-bottom: 1px solid transparent;
+  background-color: #f2f4f6
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, textarea:focus {
+  outline: 0
+}
+
+input[type=email]:focus::-webkit-input-placeholder, input[type=password]:focus::-webkit-input-placeholder, input[type=text]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  opacity: 0
+}
+
+input[type=email]:focus::-moz-placeholder, input[type=password]:focus::-moz-placeholder, input[type=text]:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  opacity: 0
+}
+
+input[type=email]:focus:-moz-placeholder, input[type=password]:focus:-moz-placeholder, input[type=text]:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+  opacity: 0
+}
+
+input[type=email]:focus:-ms-input-placeholder, input[type=password]:focus:-ms-input-placeholder, input[type=text]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+  opacity: 0
+}
+
+textarea {
+  resize: none
+}
+
+button[type=submit], input[type=submit] {
+  font-size: 18px;
+  font-weight: 100;
+  outline: 0;
+  background: #424c57;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  padding: 10px 10px 11px;
+  display: block;
+  width: 100%;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+button[type=submit]:active, button[type=submit]:hover, input[type=submit]:active, input[type=submit]:hover {
+  color: rgba(255, 255, 255, .6)
+}

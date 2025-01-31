@@ -1,0 +1,129 @@
+.page__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.page__inner .articles__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+@media only screen and (main-width: 1200px){
+  .page__inner .articles__inner {
+    max-width: 280px
+  }
+}
+
+.page__inner .articles__item {
+  margin-right: 0;
+  margin-bottom: 50px
+}
+
+.page__inner .articles__item.swiper-slide:last-child {
+  margin-right: 0
+}
+
+.container780 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 780px
+}
+
+.news-prev-next {
+  display: flex;
+  padding: 10px 0;
+}
+
+.news-prev-next .prevnext-d__next {
+  margin-left: auto;
+}
+
+.article-inner-links {
+  padding-left: 5px;
+}
+
+.js-article-with-links__title {
+  margin-top: 0;
+}
+
+.article-inner-links li:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #4f4f4f;
+  position: static;
+  display: block;
+  margin-right: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.article-inner-links li {
+  display: flex;
+  align-items: center;
+}
+
+.js-article-with-links__loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.js-article-with-links__loader:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #4f4f4f;
+  border-color: #4f4f4f transparent #4f4f4f transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rating-section {
+  padding: 10px 0;
+}
+
+.rating-section__title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rating-section__counter {
+  display: flex;
+  align-items: center;
+}
+
+.share-section {
+  padding: 10px 0;
+}
+
+.share-section__title {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.share-section li::before {
+  content: '';
+}

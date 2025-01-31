@@ -1,0 +1,167 @@
+.installations {
+  &__title {
+    &_center {
+      text-align: center;
+    }
+  }
+
+  &__subtitle,
+  &__title {
+    margin: 0 0 10px;
+  }
+
+  &__title-caption {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &__block {
+    margin-bottom: 60px;
+  }
+
+  &__flex-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link-wrapper {
+    position: relative;
+    cursor: pointer;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      border-radius: 12px;
+      opacity: 0;
+      transition: 0.2s all;
+      content: '';
+    }
+
+    &:hover {
+      &::after {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__text-block {
+    max-width: 580px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  &__img-wrapper {
+    position: relative;
+    display: block;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        180deg,
+        rgb(0 0 0 / 0%) 43.75%,
+        rgb(0 0 0 / 70%) 100%
+      );
+      border-radius: 12px;
+      content: '';
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    z-index: 1;
+    padding-right: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 700px) {
+    &__grid {
+      &_margin {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__title-caption {
+      margin-bottom: 10px;
+    }
+
+    &__caption {
+      bottom: 10px;
+      left: 10px;
+      font-size: 16px;
+    }
+
+    &__block {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__grid {
+      &_adaptive {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    &__flex-wrapper {
+      &_adaptive {
+        flex-direction: column;
+      }
+    }
+
+    &__column {
+      &_adaptive {
+        flex-direction: row;
+      }
+    }
+
+    &__img {
+      max-height: 320px;
+    }
+
+    &__subtitle {
+      font-weight: 400;
+      font-size: 24px;
+    }
+  }
+}

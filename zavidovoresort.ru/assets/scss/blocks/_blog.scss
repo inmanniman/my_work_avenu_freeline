@@ -1,0 +1,32 @@
+.blog {
+  padding-top: 32px;
+  padding-bottom: 50px;
+
+  &__title {
+    margin-bottom: 48px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &__pagination {
+    padding: 50px 0;
+  }
+
+  @media (max-width: 550px) {
+    padding-top: 0;
+    padding-bottom: 32px;
+
+    &__title {
+      margin-bottom: 24px;
+    }
+
+    &__content {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+}

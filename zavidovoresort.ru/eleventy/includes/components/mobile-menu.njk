@@ -1,0 +1,21 @@
+<nav class="mobile-menu js-mobile-menu" hidden>
+    <ul class="mobile-menu__list">
+        {% for menuItem in params.menu %}
+            <li class="mobile-menu__item">
+                <a href="{{ menuItem.url }}" class="mobile-menu__link">{{ menuItem.name }}
+                </a>
+                {% if menuItem.submenu %}
+                    <div class="mobile-menu__submenu">
+                        <ul class="mobile-menu__submenu-list">
+                            {% for subItem in menuItem.submenu %}
+                                <li class="mobile-menu__submenu-item">
+                                    <a href="{{ subItem.url }}" class="mobile-menu__submenu-link">{{ subItem.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

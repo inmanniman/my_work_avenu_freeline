@@ -1,0 +1,16 @@
+---
+title: Таунхаусы, Коттеджи, Номера
+layout: page.njk
+permalink: habitations.html
+variationHeader: reservation
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('hotel-rooms', {
+  hotelRooms: hotelRooms
+}) }}
+
+  {{ block('residential-buildings', {
+  residentialBuildings: residentialBuildings
+}) }}

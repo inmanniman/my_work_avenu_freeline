@@ -1,0 +1,110 @@
+.inner_items-flex .main {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1
+}
+
+.inner_items-flex .aside {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2
+}
+
+@media only screen and (max-width: 1199px) {
+  .page__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+  }
+  .page__inner .articles__inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    /*max-width: auto*/
+  }
+
+  /* .page__inner .articles__item {
+    margin-right: 20px
+  } */
+  .page__inner .articles__item.swiper-slide:last-child {
+    margin-right: 0
+  }
+
+  .right-side, .right-side_2 {
+    width: 780px
+  }
+
+  .inner_items-flex .main {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2
+  }
+
+  .inner_items-flex .aside {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .page__inner {
+    padding: 0 10px
+  }
+
+  .container780, .right-side, .right-side_2 {
+    width: 100%
+  }
+
+  .right-side_2 h3 {
+    font-size: 24px
+  }
+
+  .date-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap
+  }
+
+  .date-info__year {
+    margin-right: 40px;
+    font-size: 18px
+  }
+
+  .main_form {
+    background: #f2f4f6;
+    margin: 0 -20px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .inner_items-flex .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -20px;
+    width: auto;
+    background-color: #f2f4f6
+  }
+}

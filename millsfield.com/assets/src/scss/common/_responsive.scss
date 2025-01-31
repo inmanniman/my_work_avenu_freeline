@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1199px) {
+  .container {
+    width: 970px
+  }
+}
+@media only screen and (max-width: 991px) {
+  body {
+    font-size: 14px
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 110%;
+    margin: 30px 0 20px
+  }
+
+  p {
+    text-align: left
+  }
+
+  .table-m-column {
+    display: block;
+    margin-top: 20px;
+    border: none
+  }
+
+  .table-m-column tbody, .table-m-column tr {
+    display: block
+  }
+
+  .table-m-column td, .table-m-column th {
+    display: block;
+    width: 100% !important;
+    padding: 0
+  }
+
+  .table-m-nobg tr {
+    background-color: transparent !important
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px
+  }
+
+  a.link-arrow {
+    font-size: 16px;
+    line-height: 120%
+  }
+
+  .bg-gray {
+    padding: 30px 0 40px
+  }
+
+  .style-italic {
+    font-size: 16px;
+    line-height: 140%
+  }
+
+  .style-bg_gray {
+    margin: 24px -20px;
+    padding: 35px 10px 30px
+  }
+
+  .date {
+    left: 10px
+  }
+
+  .simple {
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 120%
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-mg56, .section-mg65 {
+    margin-bottom: 40px
+  }
+
+  .section-mg28 {
+    margin-bottom: 20px
+  }
+
+  .section-mg40 {
+    margin-bottom: 30px
+  }
+
+  .section-mgt75 {
+    margin-top: 40px
+  }
+}
+
+.answers {
+  background-color: #fff
+}
+
+.answers .infoForm__title {
+  margin-bottom: 17px;
+  letter-spacing: .1px;
+  background-color: #fff
+}
+
+@media only screen and (max-width: 991px) {
+  .answers {
+    background-color: #f2f4f6;
+    margin-bottom: 0
+  }
+
+  .answers .container {
+    padding: 0
+  }
+
+  .answers .infoForm__title {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 10px 17px;
+    font-size: 22px;
+    line-height: 120%
+  }
+}

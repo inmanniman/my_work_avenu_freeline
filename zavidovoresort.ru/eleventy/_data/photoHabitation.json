@@ -1,0 +1,63 @@
+[
+  {
+    "images": {
+      "img": "room-photo.jpg",
+      "img2x": "room-photo@2x.jpg",
+      "webp": "room-photo.webp",
+      "webp2x": "room-photo@2x.webp",
+      "img_m": "room-photo-mobile.jpg",
+      "img_m2x": "room-photo-mobile@2x.jpg",
+      "webp_m": "room-photo-mobile.webp",
+      "webp_m2x": "room-photo-mobile@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "room-photo.jpg",
+      "img2x": "room-photo@2x.jpg",
+      "webp": "room-photo.webp",
+      "webp2x": "room-photo@2x.webp",
+      "img_m": "room-photo-mobile.jpg",
+      "img_m2x": "room-photo-mobile@2x.jpg",
+      "webp_m": "room-photo-mobile.webp",
+      "webp_m2x": "room-photo-mobile@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "room-photo.jpg",
+      "img2x": "room-photo@2x.jpg",
+      "webp": "room-photo.webp",
+      "webp2x": "room-photo@2x.webp",
+      "img_m": "room-photo-mobile.jpg",
+      "img_m2x": "room-photo-mobile@2x.jpg",
+      "webp_m": "room-photo-mobile.webp",
+      "webp_m2x": "room-photo-mobile@2x.webp"
+    }
+  },
+  {
+    "images": {
+      "img": "room-photo.jpg",
+      "img2x": "room-photo@2x.jpg",
+      "webp": "room-photo.webp",
+      "webp2x": "room-photo@2x.webp",
+      "img_m": "room-photo-mobile.jpg",
+      "img_m2x": "room-photo-mobile@2x.jpg",
+      "webp_m": "room-photo-mobile.webp",
+      "webp_m2x": "room-photo-mobile@2x.webp"
+    }
+  },
+  {
+    "button": true,
+    "images": {
+      "img": "room-photo.jpg",
+      "img2x": "room-photo@2x.jpg",
+      "webp": "room-photo.webp",
+      "webp2x": "room-photo@2x.webp",
+      "img_m": "room-photo-mobile.jpg",
+      "img_m2x": "room-photo-mobile@2x.jpg",
+      "webp_m": "room-photo-mobile.webp",
+      "webp_m2x": "room-photo-mobile@2x.webp"
+    }
+  }
+]

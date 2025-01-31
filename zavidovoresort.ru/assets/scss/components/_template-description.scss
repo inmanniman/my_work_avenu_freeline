@@ -1,0 +1,121 @@
+.template-description {
+  padding-top: 32px;
+  padding-bottom: 50px;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__content {
+    max-width: 690px;
+    margin: 0 auto;
+
+    h2,
+    h3,
+    p,
+    ul {
+      margin: 0 0 24px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 37px;
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        &:not(:last-child) {
+          padding-bottom: 16px;
+        }
+
+        &::before {
+          max-width: 24px;
+          max-height: 24px;
+          content: url('~/images/circle-check.svg');
+        }
+      }
+    }
+
+    span {
+      display: block;
+      margin-bottom: 8px;
+    }
+  }
+
+  picture {
+    max-width: 1045px;
+    margin-top: 48px;
+    overflow: hidden;
+    border-radius: 48px;
+
+    &.position {
+      &_type {
+        &_left {
+          margin-right: auto;
+          margin-left: 0;
+        }
+
+        &_right {
+          margin-right: 0;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+
+  &__button {
+    margin-top: 32px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+    padding-bottom: 32px;
+
+    &__title {
+      margin-bottom: 24px;
+    }
+
+    &__content {
+      h2,
+      h3,
+      p,
+      ul {
+        margin: 0 0 16px;
+      }
+    }
+
+    picture {
+      margin-top: 24px;
+      border-radius: 24px;
+    }
+
+    &__button {
+      width: 100%;
+      margin-top: 24px;
+      text-align: center;
+    }
+  }
+}

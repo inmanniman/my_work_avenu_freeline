@@ -1,0 +1,13 @@
+.about-hotel {
+  &__navigation {
+    background-color: #57acc5;
+  }
+  &__unit {
+    padding-top: 48px;
+  }
+  @media (max-width: 550px) {
+    &__unit {
+      padding-top: 32px;
+    }
+  }
+}

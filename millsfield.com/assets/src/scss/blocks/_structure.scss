@@ -1,0 +1,23 @@
+.structure__title {
+  margin-bottom: 26px
+}
+
+.structure {
+  margin-top: 32px;
+  margin-bottom: 100px;
+  background: 0 0
+
+}
+
+@media only screen and (max-width: 991px) {
+  .structure {
+    width: 780px
+  }
+}
+
+@media only screen and (max-width: 859px) {
+  .structure {
+    width: auto;
+    margin: 0 0 30px;
+  }
+}

@@ -1,0 +1,44 @@
+<div class="hotel-info">
+  <h2 class="hotel-info__title title">
+    {{ params.title }}
+  </h2>
+  <div class="hotel-info__unit">
+    <p>
+      {{ params.description }}
+    </p>
+    <p>
+      {{ params.description }}
+    </p>
+    <a href="/" class="base-btn base-btn_type_primary hotel-info__button"
+    >Забронировать</a
+  >
+  </div>
+
+  <picture class="hotel-info__pict {{ params.imageRight }}">
+    <source
+      media="(max-width: 550px)"
+      srcset="/assets/images/{{ params.images.webp_m }}, /assets/images/{{ params.images.webp_m2x }} 2x"
+      type="image/webp"/>
+    <source
+      media="(max-width: 550px)"
+      srcset="/assets/images/{{ params.images.img_m }}, /assets/images/{{ params.images.img_m2x }} 2x"/>
+    <source
+      srcset="
+              /assets/images/{{ params.images.webp }},
+              /assets/images/{{ params.images.webp2x }} 2x
+            "
+      type="image/webp"/>
+    <img
+      class=" hotel-info__image"
+      
+      srcset="
+              /assets/images/{{ params.images.img }},
+              /assets/images/{{ params.images.img2x }} 2x
+            "
+      src="/assets/images/{{ params.images.img }}"
+      loading="lazy"
+      width="1045"
+      height="424"
+      alt="Hotel-info"
+/></picture>
+</div>

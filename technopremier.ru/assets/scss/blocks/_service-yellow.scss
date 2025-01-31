@@ -1,0 +1,137 @@
+.service-yellow {
+  background: url('~/images/scheme-service.jpg') no-repeat center;
+  background-size: cover;
+
+  &__row {
+    display: flex;
+    background: url('~/images/scheme-service.jpg') no-repeat center;
+    background-size: cover;
+    gap: 83px;
+    width: 100%;
+    max-width: 1440px;
+    padding: 56px 0 41px;
+  }
+
+  &__column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    use {
+      display: block;
+      width: 40px;
+      height: 40px;
+    }
+
+    .service-yellow {
+      &__text {
+        max-width: 324px;
+      }
+    }
+
+    &:first-child {
+      gap: 19px;
+
+      use {
+        width: 48px;
+        height: 48px;
+      }
+
+      .service-yellow {
+        &__text {
+          max-width: 308px;
+        }
+      }
+    }
+
+    &:last-child {
+      gap: 10px;
+
+      use {
+        width: 58px;
+        height: 58px;
+      }
+
+      .service-yellow {
+        &__text {
+          max-width: 212px;
+        }
+      }
+    }
+  }
+
+  &__text {
+    color: #312a05;
+    font-weight: 400;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+
+  @media screen and (max-width: 1024px) {
+    &__text {
+      font-size: 16px;
+    }
+
+    &__column {
+      gap: 5px;
+    }
+
+    &__row {
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    background: none;
+
+    &__text {
+      font-size: 16px;
+      align-self: center;
+    }
+
+    &__row {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      gap: 1px;
+      max-width: none;
+    }
+
+    &__column {
+      flex-direction: row;
+      gap: 46px;
+      background-color: #ffd913;
+
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      padding: 30px 41px 23px 25px;
+
+      use {
+        width: 43px;
+        height: 43px;
+      }
+
+      &:first-child {
+        gap: 56px;
+        padding: 30px 41px 23px 22px;
+
+        use {
+          width: 49px;
+          height: 40px;
+        }
+      }
+
+      &:last-child {
+        gap: 44px;
+        padding: 30px 41px 23px 17px;
+
+        use {
+          width: 58px;
+          height: 58px;
+        }
+      }
+    }
+  }
+}

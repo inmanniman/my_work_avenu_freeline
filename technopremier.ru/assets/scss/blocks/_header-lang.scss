@@ -1,0 +1,54 @@
+.header-lang {
+  display: flex;
+  align-items: center;
+  margin-left: 41px;
+  position: relative;
+  width: 24px;
+
+  &__current {
+    width: 24px;
+    height: 24px;
+    display: none!important;
+  }
+
+  &__ru {
+    background: url('~/images/russia.svg');
+  }
+
+  &__kg {
+    background: url('~/images/kyrgyzstan.svg');
+  }
+
+  &__en {
+    background: url('~/images/english.svg');
+  }
+
+  &__icons {
+    display: none;
+    position: absolute;
+    bottom: -38px;
+    gap: 5px;
+  }
+
+  &__item {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background-size: 24px;
+  }
+
+  &:hover &__icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__icons{
+      bottom: -70px;
+      left: -5px;
+      background: #fff;
+      padding: 5px;
+      border-radius: 20px;
+    }
+  }
+}

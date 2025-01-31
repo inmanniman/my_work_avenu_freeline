@@ -1,0 +1,40 @@
+.aside-nav hr {
+  margin-bottom: 0;
+  background-color: #efefef
+}
+
+.aside-nav__title {
+  font-weight: 300;
+  margin-bottom: 25px
+}
+
+.aside-nav__item {
+  margin-bottom: 14px
+}
+
+.aside-nav__item a {
+  font-size: 20px;
+  line-height: 120%;
+  color: #333
+}
+
+.aside-nav__item a:hover {
+  color: #3c6dae
+}
+
+.aside-nav__item:last-child {
+  margin-bottom: 0
+}
+
+ul.aside-nav__list {
+  padding-left: 0;
+  margin-bottom: 60px
+}
+
+ul.aside-nav__list li::before {
+  content: ""
+}
+
+ul.aside-nav__list:last-child {
+  margin-bottom: 0
+}

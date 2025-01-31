@@ -1,0 +1,52 @@
+---
+title: product
+layout: page.njk
+permalink: product.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+
+<div class="container">
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  href: "/products.html",
+  title: "Продукция"
+  },{
+  title: "SNP-ELH500E"
+  } ]
+  }) }}
+  {{ block('product-block',{
+  data: {
+  img: '/images/product-big.jpg',
+  imgWidth: 580,
+  imgHeight: 436,
+  name: 'Короткофокусный SNP-AS355LX',
+  series: 'A1S',
+  advantages: [{
+  info: 'Технология 3LCD'
+  }, {
+  info: 'Проекция с близкого расстояния'
+  }, {
+  info: 'Беспроводная трансляция экрана'
+  }, {
+  info: 'Различные режимы управления'
+  }],
+  icons: [{
+  src: '/assets/sprite.svg#laser',
+  caption: 'Лазерный источник'
+  }, {
+  src: '/assets/sprite.svg#lens',
+  caption: 'Короткофокусный объектив'
+  }, {
+  src: '/assets/sprite.svg#3lcd',
+  caption: '3LCD технология'
+  }]
+  }
+  }) }}
+  {{ block('product-info') }}
+</div>

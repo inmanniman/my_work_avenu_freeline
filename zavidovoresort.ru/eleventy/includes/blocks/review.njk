@@ -1,0 +1,67 @@
+{%- from "utils/component.njk" import component -%}
+
+<div class="review container">
+  <h1 class="review__title title">
+    Отзывы клиентов
+  </h1>
+  <div class="review__content">
+    <span class="review__desc">
+<<<<<<< HEAD
+        «Здесь лучшее соотношение цены и качества в городе Завидово! По сравнению с другими вариантами в этом городе, гости получают больше за те же деньги» - booking.com
+    </span>
+    <form class="review__wrapper-input">
+        <input type="text" class="review__input base-input" placeholder="Имя" required />
+        <input type="text" class="review__input base-input" placeholder="Фамилия" required />
+        <textarea class="review__input-textarea base-input" placeholder="Напишите отзыв..." rows="6"></textarea>
+        <div class="review__checkbox-wrapper">
+            <input id="personal-data_" type="checkbox" class="review__checkbox" required>
+            <label class="review__label-checkbox" for="personal-data_">Я согласен с политикой обрабокти персональных данных</label>
+  	    </div>
+        <button class="review__btn base-btn base-btn_type_primary">Отправить</button>
+    </form>
+    <div class="review__wrapper-review">
+      {% for item in params.reviews %}
+        {{ component('review',
+          {
+            name: item.name,
+            data: item.data,
+            review: item.review
+=======
+        «Здесь лучшее соотношение цены и качества в городе Завидово! По сравнению с другими вариантами в этом городе, гости получают больше за те же деньги» - <span class="review__desc_bold">booking.com</span>
+    </span>
+    <form class="review__wrapper-form">
+      <div class="review__wrapper-input">
+        <input type="text" class="review__input base-input" placeholder="Имя" required/>
+        <input type="text" class="review__input base-input" placeholder="Фамилия" required/>
+        <input type="text" class="review__input base-input" placeholder="Имя" required/>
+        <input type="text" class="review__input base-input" placeholder="Фамилия" required/>
+        <textarea class="review__input-textarea base-input" placeholder="Напишите отзыв..." rows="6"></textarea>
+      </div>
+
+      <div class="review__checkbox-wrapper">
+        <input id="personal-data_" type="checkbox" class="review__checkbox base-checkbox base-checkbox_checkbox" required>
+        <label class="review__label-checkbox base-checkbox base-checkbox_label-checkbox" for="personal-data_">
+          <div class="review__label-text">Я согласен с <a class="review__link">политикой обрабокти персональных данных</a>
+          </div>
+        </label>
+      </div>
+
+      <button class="review__btn base-btn base-btn_type_primary" type="submit">Отправить</button>
+    </form>
+    <div class="review__wrapper-review">
+      {% for item in params.reviews %}
+        {{ component('review-answer',
+          {
+            name: item.name,
+            data: item.data,
+            review: item.review,
+             images: item.images
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+          }) }}
+      {% endfor %}
+    </div>
+    <div class="review__pagination">
+      {{ component('pagination') }}
+    </div>
+  </div>
+</div>

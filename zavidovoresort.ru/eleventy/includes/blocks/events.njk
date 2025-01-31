@@ -1,0 +1,15 @@
+{%- from "utils/component.njk" import component -%}
+
+<div class="events container">
+
+    <h1 class="events__title  title">Мероприятия</h1>
+    <div class="events__main">
+        {{ component('event-card',
+            {
+                content: params.dataEvents 
+            }) }}
+
+    </div>
+    {{ component('pagination') }}
+
+</div>

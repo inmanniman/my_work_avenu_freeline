@@ -1,0 +1,56 @@
+[
+  {
+    "data": {
+      "time": "30 августа 2023",
+      "datetime": "30 августа 2023"
+    },
+    "title": "Акции на ноябрь",
+    "description": "Предложения действуют до 31.10. 2023",
+    "images": {
+      "img": "ayurvedic-programs.jpg",
+      "img2x": "ayurvedic-programs@2x.jpg",
+      "webp": "ayurvedic-programs.webp",
+      "webp2x": "ayurvedic-programs@2x.webp",
+      "img_m": "ayurvedic-programs-mobile.jpg",
+      "img_m2x": "ayurvedic-programs-mobile@2x.jpg",
+      "webp_m": "ayurvedic-programs-mobile.webp",
+      "webp_m2x": "ayurvedic-programs-mobile@2x.webp"
+    }
+  },
+  {
+    "data": {
+      "time": "09.03.2023",
+      "datetime": "09.03.2023"
+    },
+    "title": "Скидка до -15% на бронирование",
+    "description": "Наше очень выгодное предложение! Скидка до 15% на бронирование номеров, таунхаусов и коттеджей! Бронируйте со скидкой сейчас - приезжайте, когда хотите!",
+    "images": {
+      "img": "ayurvedic-programs.jpg",
+      "img2x": "ayurvedic-programs@2x.jpg",
+      "webp": "ayurvedic-programs.webp",
+      "webp2x": "ayurvedic-programs@2x.webp",
+      "img_m": "ayurvedic-programs-mobile.jpg",
+      "img_m2x": "ayurvedic-programs-mobile@2x.jpg",
+      "webp_m": "ayurvedic-programs-mobile.webp",
+      "webp_m2x": "ayurvedic-programs-mobile@2x.webp"
+    }
+  },
+  {
+    "data": {
+      "time": "14.02.2023",
+      "datetime": "14.02.2023"
+    },
+    "title": "Скидка 10% на аюрведический массаж",
+    "description": "Массаж делают ТОЛЬКО специалисты из Индии. Попробуйте!",
+    "images": {
+      "img": "ayurvedic-programs.jpg",
+      "img2x": "ayurvedic-programs@2x.jpg",
+      "webp": "ayurvedic-programs.webp",
+      "webp2x": "ayurvedic-programs@2x.webp",
+      "img_m": "ayurvedic-programs-mobile.jpg",
+      "img_m2x": "ayurvedic-programs-mobile@2x.jpg",
+      "webp_m": "ayurvedic-programs-mobile.webp",
+      "webp_m2x": "ayurvedic-programs-mobile@2x.webp"
+    }
+  }
+]

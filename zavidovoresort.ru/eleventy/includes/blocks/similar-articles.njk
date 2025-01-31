@@ -1,0 +1,35 @@
+{%- from "utils/component.njk" import component -%}
+<div class="similar-articles container">
+  <h1 class="similar-articles__title title">
+    Похожие статьи
+  </h1>
+  <div class="similar-articles__swiper js-sliders">
+    <div class="swiper" data-slider-name="classic_photo_slider">
+      <div class="swiper-wrapper">
+        {% for item in params.blogStockArticles %}
+          <div class="swiper-slide">
+            {{ component('article-mini',
+              {
+                data: item.data,
+                title: item.title,
+                description: item.description,
+                images: item.images
+              }) }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="similar-articles__button">
+      <button type="button" class="js-swiper-button-prev base-pagination ">
+        <svg width="20" height="20">
+          <use href="/assets/sprite.svg#arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="js-swiper-button-next base-pagination base-pagination_type_right">
+        <svg width="20" height="20">
+          <use href="/assets/sprite.svg#arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>

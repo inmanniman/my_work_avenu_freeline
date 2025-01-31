@@ -1,0 +1,147 @@
+.card {
+  display: grid;
+  grid-template-columns: 56% 39%;
+  gap: 20px;
+  padding: 62px 0 45px 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__title {
+    font-weight: 300;
+    margin: 0;
+    font-size: 56px;
+    line-height: 1;
+    position: relative;
+    color: #495053;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    position: relative;
+    color: #4F4F4F;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__wrapper-description-cars {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__description-cars {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 8px;
+
+    color: #4F4F4F;
+
+    &:nth-child(odd) {
+      background-color: #F2F1F5;
+    }
+  }
+
+  &__btn, &__btn-red {
+    position: relative;
+    display: flex;
+    column-gap: 15px;
+    border-radius: 66px;
+    padding: 23px 0px 22px 14px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #F2F1F5;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  &__btn {
+    color: #383A45;
+
+    &:hover {
+      background: #d6d3e0;
+    }
+  }
+
+  &__btn-red {
+    background-color: #D80027;
+    color: #FFFFFF;
+    width: 100%;
+
+    &:hover {
+      background-color: #ff0f3b;
+    }
+  }
+
+  &__btn-img {
+    width: 22px;
+    height: 22px;
+  }
+
+  &__wrapper-swiper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__wrapper-description-cars {
+    }
+    &__wrapper-swiper {
+      gap: 0;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__description-cars {
+      font-size: 16px;
+    }
+
+    &__description-cars span {
+    }
+
+    &__btn {
+      font-size: 16px;
+    }
+
+    &__btn-red {
+      font-size: 16px;
+    }
+
+    &__btn, &__btn-red {
+    }
+
+    &__btn-img {
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+  }
+  @media screen and (max-width: 768px) {
+    grid-template-columns: minmax(0px, 1fr);
+    padding-top: 20px;
+  }
+  @media screen and (max-width: 425px) {
+
+  }
+}
+

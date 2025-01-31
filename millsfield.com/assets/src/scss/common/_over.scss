@@ -1,0 +1,80 @@
+ol.list-strong li {
+  font-weight: 700
+}
+
+ol.list-strong li div {
+  font-weight: 400;
+  margin-left: -20px
+}
+
+.date {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: -40px;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 15px
+}
+
+.mg-bttm0 {
+  margin-bottom: 0
+}
+
+.mg-top0 {
+  margin-top: 0
+}
+
+.caps {
+  text-transform: uppercase
+}
+
+.more {
+  position: relative;
+  display: inline-block;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  padding-right: 30px;
+  font-size: 20px;
+  margin-bottom: 6px
+}
+
+.more svg {
+  position: absolute;
+  content: '';
+  right: 7px;
+  top: 50%;
+  width: 9px;
+  height: 16px;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0)
+}
+
+.more path {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s
+}
+
+.more:hover path {
+  fill: #3c6dae;
+  stroke: #3c6dae
+}
+
+.blue-link {
+  color: #3c6dae
+}
+
+.blue-link:hover {
+  color: #000
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #828282
+}
+
+.compensate-for-scrollbar {
+  margin-right: 0 !important
+}

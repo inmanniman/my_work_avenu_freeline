@@ -1,0 +1,93 @@
+.check-checkout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    position: absolute;
+    top: 105px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 70px;
+    color: var(--main-black);
+  }
+
+  &__btn-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #57acc5;
+      transition: all 0.5s;
+    }
+  }
+
+  &__content {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  &__date,
+  &__people {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  &__wrapper-btn {
+    align-self: center;
+  }
+
+  &__btn {
+    align-self: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__wrapper {
+      top: -30px;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    &__date {
+      flex: 1;
+    }
+
+    &__btn {
+      width: 100%;
+    }
+
+    &__arrow {
+      width: 100%;
+      max-width: 20px;
+      height: 100%;
+      max-height: 20px;
+    }
+
+    &__icon {
+      width: 100%;
+      max-width: 24px;
+      height: 100%;
+      max-height: 24px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    &__wrapper {
+      top: -20px;
+    }
+  }
+}

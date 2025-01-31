@@ -1,0 +1,18 @@
+{%- from "utils/component.njk" import component -%}
+<div class="about-hotel container">
+  <div class="about-hotel__unit">
+    <div class="about-hotel__info">
+      {% for item in params.dataHotel %}
+        {{
+          component('hotel-info', {
+            title: item.title,
+            description: item.description,
+            images: item.images,
+            imageRight: item.imageRight
+          })
+        }}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "ES2021",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "es2020",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": [
+        "./assets/*"
+      ],
+      "@/*": [
+        "./assets/*"
+      ]
+    }
+  },
+  "include": [
+    "assets/js/**/*"
+  ]
+}

@@ -1,0 +1,45 @@
+{%- from "utils/component.njk" import component -%}
+
+<header class="header container">
+  <a href="/" class="header__logo-link link">
+    <svg class="header__logo" width="171" height="41">
+      <use href="/assets/sprite.svg#{{ params.logo }}"></use>
+    </svg>
+  </a>
+  <div class="header__menu-wrapper">
+    <nav class="header__menu">
+      <ul class="header__list">
+        {% for menuItem in params.menu %}
+          <li class="header__item">
+            <a href="{{ menuItem.url }}" class="header__link">{{ menuItem.name }}
+              {% if menuItem.submenu %}
+                <svg width="20" height="20">
+                  <use href="/assets/sprite.svg#arrowMenu" ></use>
+                </svg>
+              {% endif %}
+            </a>
+            {% if menuItem.submenu %}
+              <div class="header__submenu">
+                <ul class="header__submenu-list">
+                  {% for subItem in menuItem.submenu %}
+                    <li class="header__submenu-item">
+                      <a href="{{ subItem.url }}" class="header__submenu-link">{{ subItem.name }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+  <div class="header__contacts">
+    <a href="tel:+79661741192" class="header__contact-link link">+7 (966) 174-11-92</a>
+  </div>
+  <button class="header__burger js-mobile-menu-trigger">
+    <svg width="24" height="24">
+      <use href="/assets/sprite.svg#burger"></use>
+    </svg>
+  </button>
+</header>

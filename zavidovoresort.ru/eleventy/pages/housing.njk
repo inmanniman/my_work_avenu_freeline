@@ -1,0 +1,16 @@
+---
+title: Номера
+layout: page.njk
+permalink: housing.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+{{ block('habitation', {
+  photoHabitation: photoHabitation
+   }) }}
+  {{ block('description-housing', {
+  topAmenities: topAmenities,
+  allAmenities: allAmenities,
+  housingCharacteristics: housingCharacteristics
+}) }}

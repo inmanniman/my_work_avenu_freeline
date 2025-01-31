@@ -1,0 +1,41 @@
+.form {
+  background-color: #fff;
+  padding: 30px 21px 21px
+}
+
+.form__fields {
+  margin-bottom: 18px
+}
+
+.form__field {
+  margin-bottom: 12px
+}
+
+.form__field label {
+  display: none
+}
+
+.form__field:last-child {
+  margin-bottom: 0
+}
+
+.form__action {
+  margin-bottom: 15px
+}
+
+.privacy-policy {
+  text-align: center;
+  color: #888d93;
+  font-size: 12px;
+  line-height: 14.74px;
+  font-weight: 400
+}
+
+a.call-privacy-policy {
+  color: #666
+}
+
+.form__field .error {
+  border-bottom: 1px solid #d81c1c;
+  color: #d81c1c
+}

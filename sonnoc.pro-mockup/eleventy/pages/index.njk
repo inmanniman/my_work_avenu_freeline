@@ -1,0 +1,16 @@
+---
+title: Главная страница
+layout: page.njk
+permalink: index.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="page__blocks">
+  {{ block('main-swiper') }}
+  {{ block('products-main-block') }}
+  {{ block('advantages') }}
+  {{ block('installations') }}
+  {{ block('form-block') }}
+</div>

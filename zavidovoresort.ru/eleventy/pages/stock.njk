@@ -1,0 +1,11 @@
+---
+title: Статья
+layout: page.njk
+permalink: stock.html
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('stock', {
+  stockArticles: stockArticles
+}) }}

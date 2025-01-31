@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <title>Главная страница</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/assets/css/app.css" />
+</head>
+
+<body class="page__body">
+  <div class="page__layout">
+    <header class="header container">
+      <a href="/" class="header__logo-link link">
+        <svg class="header__logo" width="121" height="28">
+          <use href="/assets/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <div class="header__search-menu-wrapper">
+        <div class="header__search-wrapper js-search-wrapper">
+          <button class="header__search-btn btn js-search-btn">
+            <svg class="header__search-svg" width="16" height="16">
+              <use href="/assets/sprite.svg#search"></use>
+            </svg>
+          </button>
+          <input type="text" class="header__search js-search">
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="/about-the-company.html" class="header__link link">О компании</a>
+            </li>
+            <li class="header__item header__item_dropdown js-elem-with-dropdown">
+              <a href="/products.html" class="header__link link">Продукция</a>
+              <div class="header__dropdown js-dropdown">
+                <ul class="header__list">
+                  <li class="header__item">
+                    <a href="/" class="header__link link">Короткофокусные проекторы</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="/" class="header__link link">Портативные проекторы</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="/" class="header__link link">Инсталляционные проекторы</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="header__item">
+              <a href="/news.html" class="header__link link">Новости</a>
+            </li>
+            <li class="header__item">
+              <a href="/" class="header__link link">Калькулятор</a>
+            </li>
+            <li class="header__item">
+              <a href="/contacts.html" class="header__link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__contacts">
+        <a href="tel:+79661741192" class="header__contact-link link">+7 (966) 174-11-92</a>
+        <a href="mailto:info@sonnoc.pro" class="header__contact-link link">info@sonnoc.pro</a>
+        <button data-fancybox data-src="#form-request" class="header__btn-application btn btn_type_primary">Оставить
+          заявку</button>
+      </div>
+      <button class="header__burger btn js-m-menu-btn-open">
+        <svg width="28" height="18">
+          <use href="/assets/sprite.svg#burger"></use>
+        </svg>
+      </button>
+    </header>
+
+    <form id="form-request" class="form form_fancybox" action="">
+      <h3 class="form__title title">Оставить заявку</h3>
+      <span class="form__caption">Если есть вопросы или заказать проектор,
+        оставьте заявку и в течение 5-10 минут перезвоним.
+      </span>
+      <input type="text" class="form__input" placeholder="Имя">
+      <input type="tel" class="form__input" placeholder="+7 (___) ___ __ __">
+      <textarea class="form__input form__input_textarea" placeholder="Комментарий"></textarea>
+      <div class="form__checkbox-wrapper">
+        <input id="personal-data_form-request" type="checkbox" class="form__checkbox">
+        <label class="form__label-checkbox" for="personal-data_form-request">
+          Согласен с обработкой персональных данных
+        </label>
+      </div>
+      <button class="form__btn btn btn_type_primary">Отправить</button>
+    </form>
+
+
+
+    <main class="page__main">
+      <div class="page__blocks">
+        <div class="container">
+          <div class="swiper main-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="main-swiper__img" width="1180" height="550" src="/images/main-banner.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="main-swiper__img" width="1180" height="550" src="/images/main-banner.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="main-swiper__img" width="1180" height="550" src="/images/main-banner.jpg" alt="">
+              </div>
+            </div>
+            <div class="main-swiper__numbering swiper-pagination"></div>
+            <div class="main-swiper__navigation">
+              <button class="btn main-swiper__prev swiper-button-prev"></button>
+              <button class="btn main-swiper__next swiper-button-next"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-main-block">
+          <div class="container">
+            <h1 class="products-main-block__title title">Продукция</h1>
+            <p class="products-main-block__caption caption">Cовременный модельный ряд Sonnoc включает в себя
+              короткофокусные,
+              портативные и инсталляционные проекторы как с ламповыми,
+              так и с лазерными источниками света
+            </p>
+          </div>
+          <div class="products-main-block__grid container">
+            <a href="/" class="products-main-block__product link">
+              <img width="380" height="280" src="/images/product.jpg" alt="" class="products-main-block__img">
+              <span class="products-main-block__product-name">Короткофокусные проекторы</span>
+              <span class="products-main-block__product-info caption">Проекторы оснащены высококачественным объективом с
+                улучшенными оптическими характеристиками
+              </span>
+              <button class="products-main-block__btn btn btn_type_primary">Подробнее</button>
+            </a>
+            <a href="/" class="products-main-block__product link">
+              <img width="380" height="280" src="/images/product2.jpg" alt="" class="products-main-block__img">
+              <span class="products-main-block__product-name">Портативные проекторы</span>
+              <span class="products-main-block__product-info caption">Проекторы Sonnoc серии A1 оснащены 3LCD матрицами,
+                которые
+                создают высококачественную картинку
+              </span>
+              <button class="products-main-block__btn btn btn_type_primary">Подробнее</button>
+            </a>
+            <a href="/" class="products-main-block__product link">
+              <img width="380" height="280" src="/images/product3.jpg" alt="" class="products-main-block__img">
+              <span class="products-main-block__product-name">Инсталляционные проекторы</span>
+              <span class="products-main-block__product-info caption">Проекторы Sonnoc серии LU – это
+                высокопроизводительные
+                лазерные модели, базирующиеся на DLP технологии
+              </span>
+
+            </a>
+
+          </div>
+        </div>
+
+        <div class="advantages container">
+          <div class="advantages__item">
+            <svg class="advantages__svg" width="28" height="28">
+              <use href="/assets/sprite.svg#watch"></use>
+            </svg>
+            Более 10 лет на рынке
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__svg" width="28" height="28">
+              <use href="/assets/sprite.svg#assortment"></use>
+            </svg>
+            Широкий модельный ряд
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__svg" width="28" height="28">
+              <use href="/assets/sprite.svg#technology"></use>
+            </svg>
+            Новые проекционные технологии
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__svg" width="28" height="28">
+              <use href="/assets/sprite.svg#profiles"></use>
+            </svg>
+            Широкая сфера применения
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__svg" width="28" height="28">
+              <use href="/assets/sprite.svg#performance"></use>
+            </svg>
+            Высокая производительность
+          </div>
+        </div>
+
+        <div class="installations container">
+          <h2 class="installations__title installations__title_center title">Примеры инсталляций</h2>
+          <p class="installations__title-caption">Можете убедиться в качестве нашей продукции по их работам.</p>
+          <div class="installations__grid installations__grid_adaptive">
+            <div class="installations__column">
+              <div class="installations__grid">
+                <a href="/" class="installations__img-wrapper">
+                  <figure>
+                    <img width="280" height="265" src="/images/installation2.jpg" alt="" class="installations__img">
+                    <figcaption>Музеи и выставки</figcaption>
+                  </figure>
+                </a>
+                <a href="/" class="installations__img-wrapper">
+                  <figure>
+                    <img width="280" height="265" src="/images/installation3.jpg" alt="" class="installations__img">
+                    <figcaption>Сфера образования</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <a href="/" class="installations__img-wrapper">
+                <figure>
+                  <img width="580" height="265" src="/images/installation4.jpg" alt="" class="installations__img">
+                  <figcaption>Правительства и предприятия</figcaption>
+                </figure>
+              </a>
+            </div>
+            <a href="/" class="installations__img-wrapper">
+              <figure>
+                <img width="580" height="549" src="/images/installation.jpg" alt="" class="installations__img">
+                <figcaption>Ещё немного примеров</figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <div class="form-block container">
+          <div class="form-block__first-block">
+            <img width="580" height="549" src="/images/installation5.jpg" alt="" class="form-block__img">
+          </div>
+          <div class="form-block__form">
+            <form id="" class="form" action="">
+              <h3 class="form__title title">Оставить заявку</h3>
+              <span class="form__caption">Если есть вопросы или заказать проектор,
+                оставьте заявку и в течение 5-10 минут перезвоним.
+              </span>
+              <input type="text" class="form__input" placeholder="Имя">
+              <input type="tel" class="form__input" placeholder="+7 (___) ___-__-__">
+              <textarea class="form__input form__input_textarea" placeholder="Комментарий"></textarea>
+              <div class="form__checkbox-wrapper">
+                <input id="personal-data_" type="checkbox" class="form__checkbox">
+                <label class="form__label-checkbox" for="personal-data_">
+                  Согласен с обработкой персональных данных
+                </label>
+              </div>
+              <button class="form__btn btn btn_type_primary">Отправить</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <footer class="footer container">
+      <a href="/" class="footer__logo-link link">
+        <svg width="121" height="28" class="footer__logo">
+          <use href="/assets/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <div class="footer__line">
+        <nav class="footer__menu">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="/about-the-company.html" class="footer__link link">О компании</a>
+            </li>
+            <li class="footer__item">
+              <a href="/products.html" class="footer__link link">Продукция</a>
+            </li>
+            <li class="footer__item">
+              <a href="/news.html" class="footer__link link">Новости</a>
+            </li>
+            <li class="footer__item">
+              <a href="/" class="footer__link link">Калькулятор</a>
+            </li>
+            <li class="footer__item">
+              <a href="/contacts.html" class="footer__link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <a href="tel:+79661741192" class="footer__contact-link link">+7 (966) 174-11-92</a>
+          <a href="mailto:info@sonnoc.pro" class="footer__contact-link link">info@sonnoc.pro</a>
+          <button data-fancybox data-src="#form-request" class="footer__btn btn btn_type_primary">Оставить
+            заявку</button>
+        </div>
+      </div>
+      <div class="footer__line">
+        <span class="footer__copyright">2023 © Sonnoc ™</span>
+        <a href="/" class="footer__personal-data link">Политика персональных данных</a>
+      </div>
+    </footer>
+    <nav hidden class="js-m-menu m-menu">
+      <button class="btn m-menu__close-btn js-m-menu-btn-close">
+        <svg class="m-menu__svg" width="28" height="28">
+          <use href="/assets/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <ul>
+        <li>
+          <a href="/about-the-company.html">О компании</a>
+        </li>
+        <li>
+          <details class="m-menu__dropdown-wrapper">
+            <summary>
+              <a class="mm-listitem__text" href="/products.html">Продукция</a>
+            </summary>
+            <div class="m-menu__dropdown NoPanel">
+              <ul>
+                <li class="mm-listitem">
+                  <a href="" class="mm-listitem__text">Короткофокусные проекторы</a>
+                </li>
+                <li class="mm-listitem">
+                  <a href="" class="mm-listitem__text">Портативные проекторы</a>
+                </li>
+                <li class="mm-listitem">
+                  <a href="" class="mm-listitem__text">Инсталляционные проекторы</a>
+                </li>
+              </ul>
+            </div>
+          </details>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+        <li>
+          <a href="/">Калькулятор</a>
+        </li>
+        <li>
+          <a href="/contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <template id="mmenu-top">
+      <div class="m-menu__top-block">
+        <a class="m-menu__logo-wrapper" href="/">
+          <svg class="m-menu__logo" width="121" height="28">
+            <use href="/assets/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <div class="m-menu__search-wrapper">
+          <button class="m-menu__search-btn btn">
+            <svg class="m-menu__svg" width="16" height="16">
+              <use href="/assets/sprite.svg#search"></use>
+            </svg>
+          </button>
+          <input class="m-menu__search" type="text">
+        </div>
+      </div>
+    </template>
+    <template id="mmenu-bottom"><a class="m-menu__link-contact" href="tel:+79661741192">+7 (966) 174-11-92</a>
+      <a class="m-menu__link-contact" href="mailto:info@sonnoc.pro">info@sonnoc.pro</a>
+      <button class="base-btn btn btn_type_primary m-menu__callback" data-fancybox data-src="#form-request">Обратная
+        связь</button>
+    </template>
+
+
+  </div>
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+
+</html>

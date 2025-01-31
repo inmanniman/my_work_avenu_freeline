@@ -1,0 +1,126 @@
+.residential-building-card {
+  position: relative;
+  max-width: 1400px;
+  max-height: 652px;
+  overflow: hidden;
+  border-radius: 48px;
+
+  &__image {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        360deg,
+        rgb(18 18 18 / 80%) 0%,
+        rgb(18 18 18 / 10%) 100%
+      );
+      content: '';
+    }
+  }
+
+  &__content {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    left: 32px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  &__content-description {
+    max-width: 610px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -1.92px;
+  }
+
+  &__subtitle {
+    margin-bottom: 24px;
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
+
+  &__description {
+    font-size: 16px;
+    letter-spacing: -0.64px;
+  }
+
+  &__button-list {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+  }
+
+  @media (max-width: 768px) {
+    border-radius: 36px;
+
+    &__button-list {
+      gap: 8px;
+    }
+
+    &__button {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__content {
+      right: 28px;
+      bottom: 28px;
+      left: 28px;
+      flex-direction: column;
+    }
+
+    &__title {
+      margin-bottom: 8px;
+      font-size: 32px;
+      letter-spacing: -1.28px;
+    }
+
+    &__subtitle {
+      margin-bottom: 16px;
+      font-size: 16px;
+      letter-spacing: -0.64px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    height: 536px;
+    border-radius: 24px;
+
+    &__button-list {
+      flex-direction: column;
+    }
+
+    &__image {
+      height: 100%;
+
+      picture {
+        height: 100%;
+
+        img {
+          object-fit: cover;
+          object-position: 90%;
+        }
+      }
+    }
+
+    &__content {
+      right: 24px;
+      bottom: 24px;
+      left: 24px;
+    }
+  }
+}

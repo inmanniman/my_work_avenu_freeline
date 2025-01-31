@@ -1,0 +1,15 @@
+<section class="advantages container">
+    <div class="advantages__wrapper-text">
+        <h2 class="advantages__title title">Преимущества нашего отеля</h2>
+    </div>
+    <div class="advantages__wrapper-block">
+        {% for advantage in params.advantages %}
+            <div class="advantages__wrapper-content">
+                <svg class="advantages__icon" width="64" height="64">
+                    <use href="/assets/sprite.svg#{{ advantage.icon }}"></use>
+                </svg>
+                <span class="advantages__desc">{{ advantage.name }}</span>
+            </div>
+        {% endfor %}
+    </div>
+</section>

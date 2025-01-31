@@ -1,0 +1,11 @@
+td.param_value_td1 {
+    display: flex;
+}
+.shop_param_unit {
+    position: relative;
+    margin: 37px 4px 0;
+    min-width: 140px;
+}
+.shop_param_unit+.shop_param_unit {
+    margin-top: 37px;
+}

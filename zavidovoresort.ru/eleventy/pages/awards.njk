@@ -1,0 +1,12 @@
+---
+title: Награды и свидетельства
+layout: page.njk
+permalink: awards.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('awards', {
+  awardsData: awardsData
+}) }}

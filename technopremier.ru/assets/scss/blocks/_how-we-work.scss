@@ -1,0 +1,478 @@
+.how-work {
+  width: 100%;
+  background-color: #f2f1f5;
+  padding-bottom: 133px;
+
+  &__block {
+    display: flex;
+  }
+
+  &__wrapper-content {
+    max-width: 1160px;
+    padding: 0 15px;
+  }
+
+  &__title {
+    flex: 1;
+    font-weight: 300;
+    font-size: 56px;
+    margin: 0;
+    padding-top: 94px;
+    margin-bottom: 47px;
+  }
+
+  &__img-wrapper {
+    position: relative;
+    flex: 1;
+    text-align: end;
+  }
+
+  &__car-techno-premier {
+    position: absolute;
+    max-width: 481px;
+    width: 100%;
+    height: auto;
+    left: 104px;
+    top: -90px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 65px 0 40px;
+    padding-left: 0;
+  }
+
+  &__box {
+    position: relative;
+    display: flex;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 63px 0 32px 36px;
+
+    &:nth-child(3),
+    &:nth-child(6) {
+      &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -31px;
+        display: block;
+        width: 31px;
+        height: 31px;
+        margin: auto;
+        background: url('~/images/right.svg') center center no-repeat;
+        transform: rotate(90deg);
+        content: '';
+      }
+    }
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      &::after {
+        position: absolute;
+        right: -36px;
+        bottom: 0;
+        top: 15px;
+        display: block;
+        width: 31px;
+        height: 31px;
+        margin: auto;
+        background: url('~/images/right.svg') center center no-repeat;
+        content: '';
+      }
+    }
+
+    &:nth-child(4),
+    &:nth-child(5) {
+      &::after {
+        position: absolute;
+        top: 2px;
+        left: -36px;
+        bottom: 0;
+        display: block;
+        width: 31px;
+        height: 31px;
+        margin: auto;
+        background: url('~/images/right.svg') center center no-repeat;
+        transform: rotate(180deg);
+        content: '';
+      }
+    }
+
+    &:nth-child(4) {
+      grid-column-start: 3;
+      grid-row-start: 2;
+    }
+
+    &:nth-child(5) {
+      grid-column-start: 2;
+      grid-row-start: 2;
+    }
+
+    &:nth-child(6) {
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+  }
+
+  &__box-lower {
+    font-weight: 400;
+    font-size: 36px;
+    color: #495053;
+    background: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    padding: 59px 0 58px 0;
+    left: 5px;
+    box-shadow: 0px 100px 50px rgba(149, 145, 165, 0.07),
+      0px 41.7776px 33.4221px rgba(149, 145, 165, 0.0503198),
+      0px 22.3363px 17.869px rgba(149, 145, 165, 0.0417275),
+      0px 12.5216px 10.0172px rgba(149, 145, 165, 0.035),
+      0px 6.6501px 5.32008px rgba(149, 145, 165, 0.0282725),
+      0px 2.76726px 2.21381px rgba(149, 145, 165, 0.0196802);
+  }
+
+  &__txt {
+    padding: 0;
+    width: 100%;
+  }
+
+  &__desc {
+    max-width: 289px;
+    z-index: 1;
+    white-space: break-spaces;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.21;
+    color: #495053;
+  }
+
+  &__number {
+    position: absolute;
+    display: block;
+    font-weight: 600;
+    font-size: 192px;
+    color: #f2f1f5;
+    opacity: 0.6;
+    line-height: 140px;
+    right: 15px;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  @media screen and (max-width: 1191px) {
+    &__desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    &__box {
+      &:nth-child(2) {
+        &::after {
+          top: unset;
+          top: 0;
+          bottom: 0;
+          right: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(0deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(3) {
+        &::after {
+          right: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(5) {
+        grid-column-start: 2;
+        grid-row-start: 2;
+
+        &::after {
+          position: absolute;
+          top: 2px;
+          left: -36px;
+          bottom: 0;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(180deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(4) {
+        grid-column-start: 3;
+        grid-row-start: 2;
+      }
+
+      &:nth-child(6) {
+        grid-column-start: 1;
+        grid-row-start: 2;
+      }
+    }
+
+    &__car-techno-premier {
+      left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    &__title {
+      padding-left: 16px;
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 791px) {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+
+    &__box {
+      &:nth-child(1) {
+        &::after {
+          top: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(2) {
+        grid-column-start: 1;
+        grid-row-start: 2;
+
+        &::after {
+          top: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(3) {
+        grid-column-start: 1;
+        grid-row-start: 3;
+
+        &::after {
+          top: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(4) {
+        grid-column-start: 1;
+        grid-row-start: 4;
+
+        &::after {
+          top: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(5) {
+        grid-column-start: 1;
+        grid-row-start: 5;
+
+        &::after {
+          top: unset;
+          left: 0;
+          right: 0;
+          bottom: -31px;
+          display: block;
+          width: 31px;
+          height: 31px;
+          margin: auto;
+          background: url('~/images/right.svg') center center no-repeat;
+          transform: rotate(90deg);
+          content: '';
+        }
+      }
+
+      &:nth-child(6) {
+        grid-column-start: 1;
+        grid-row-start: 6;
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    &__list {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 48px;
+      margin-bottom: 24px;
+    }
+
+    &__block {
+      display: block;
+      justify-content: start;
+    }
+
+    &__desc {
+      padding-top: 76px;
+      padding-left: 16px;
+    }
+
+    &__title {
+      width: 90%;
+      margin: 0;
+      padding-top: 131px;
+      font-size: 32px;
+    }
+
+    &__box {
+      width: none;
+      height: 161px;
+      margin: 0;
+      padding: 0;
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        &::after {
+          bottom: -27px;
+        }
+      }
+    }
+
+    &__box-lower {
+      padding: 59px 0 44px;
+      font-size: 24px;
+    }
+
+    &__number {
+      right: 12px;
+    }
+
+    &__car-techno-premier {
+      top: -270px;
+      left: 27px;
+      max-width: 347px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding-bottom: 90px;
+
+    &__wrapper-content {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    &__title {
+      padding-top: 131px;
+      top: 51px;
+      padding-left: 3px;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    &__list {
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    &__box {
+      &:nth-child(1) > span {
+        max-width: 181px;
+      }
+
+      &:nth-child(2) > span {
+        max-width: 239px;
+      }
+
+      &:nth-child(3) > span {
+        max-width: 142px;
+      }
+
+      &:nth-child(4) > span {
+        max-width: 170px;
+      }
+
+      &:nth-child(5) > span {
+        max-width: 223px;
+      }
+
+      &:nth-child(6) > span {
+        max-width: 155px;
+      }
+    }
+
+    &__box-lower {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      padding: 0;
+      width: 288px;
+      height: 161px;
+    }
+
+    &__txt {
+      position: relative;
+      margin: 0 2px;
+      top: 45px;
+      left: -2px;
+    }
+  }
+}

@@ -1,0 +1,263 @@
+.questions {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 100px;
+
+  &__wrapper-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 562px;
+    padding: 72px 64px;
+    background-color: #fff;
+    border-radius: 32px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    color: #121212;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.06em;
+  }
+
+  &__desc {
+    max-width: 380px;
+    color: #616161;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  &__wrapper-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  &__wrapper-checkbox {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  &__label-checkbox {
+    align-self: center;
+    color: #b2b2b2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0;
+    cursor: pointer;
+  }
+
+  &__link {
+    color: #57acc5;
+
+    &:hover {
+      color: #89d4eb;
+    }
+  }
+
+  &__wrapper-maps {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    padding: 32px;
+    background: url(~/images/maps.jpg) center center/cover no-repeat;
+    border-radius: 32px;
+  }
+
+  &__wrapper-adres {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-height: 224px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 32px;
+  }
+
+  &__wrapper-btn-title {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__title-form {
+    align-self: center;
+    color: var(--main-black);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  &__wrapper-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__wrapper-icon-adres {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__wrapper-icon-email {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    color: #416b3e;
+  }
+  &__adres,
+  &__mail {
+    line-height: 1.15;
+    color: var(--main-black);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+  }
+
+  &__adres {
+    max-width: 268px;
+  }
+  &__mail {
+    align-self: center;
+    text-decoration: none;
+  }
+
+  &__wrapper-btn-mob {
+    display: none;
+  }
+  &__checkbox {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
+  @media screen and (max-width: 1439px) {
+    &__title-form {
+      font-size: 24px;
+    }
+
+    &__wrapper-adres {
+      padding: 16px;
+    }
+
+    &__btn-form {
+      padding: 10px 24px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+
+    &__wrapper-btn-title {
+      flex-direction: column;
+      align-self: start;
+    }
+
+    &__wrapper-form {
+      max-width: unset;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 62px;
+
+    &__wrapper-maps {
+      padding: 280px 0 0;
+    }
+
+    &__wrapper-adres {
+      padding: 24px;
+    }
+
+    &__btn-form {
+      padding: 16px 36px;
+      font-size: 16px;
+    }
+
+    &__wrapper-btn {
+      display: none;
+    }
+
+    &__wrapper-btn-mob {
+      display: flex;
+      margin-top: 16px;
+    }
+
+    &__wrapper-content-text {
+      gap: 10px;
+    }
+
+    &__btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__adres {
+      max-width: none;
+    }
+
+    &__wrapper-form {
+      padding: 24px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__text {
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    &__icon {
+      width: 100%;
+      max-width: 24px;
+      height: 100%;
+      max-height: 24px;
+    }
+
+    &__btn-form-mob {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__wrapper-checkbox {
+      gap: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    gap: 32px;
+    &__title {
+      letter-spacing: -0.02em;
+    }
+    &__wrapper-checkbox {
+      margin-left: 5px;
+    }
+    &__label-checkbox {
+      font-size: 12px;
+    }
+    &__checkbox {
+      width: 24px;
+      height: 24px;
+      margin: -5px -5px 0 5px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.banner-promotion {
+  &__description {
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

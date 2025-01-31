@@ -1,0 +1,46 @@
+.tabs {
+  margin-top: 24px;
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__btn {
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    border-radius: 24px;
+
+    &:hover {
+      color: #163172;
+    }
+
+    &[aria-selected='true'] {
+      color: var(--gray-color);
+      background: #125aa3;
+    }
+  }
+
+  @media (max-width: 700px) {
+    &__buttons {
+      gap: 0;
+    }
+
+    &__btn {
+      padding: 6px 16px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+  }
+}

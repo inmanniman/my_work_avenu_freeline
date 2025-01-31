@@ -1,0 +1,23 @@
+{%- from "utils/component.njk" import component -%}
+<<<<<<< HEAD
+<div class="question container">
+  <h1 class="question__title title">
+    Вопросы и ответы
+  </h1>
+  <div class="question__content">
+=======
+<div class="question-answer container">
+  <h1 class="question-answer__title title">
+    Вопросы и ответы
+  </h1>
+  <div class="question-answer__content">
+>>>>>>> 6c96364df5788ef1dc477f847a698d25eba33019
+    {% for item in params.qa %}
+      {{ component('question',
+        {
+          question: item.question,
+          answer: item.answer
+        }) }}
+    {% endfor %}
+  </div>
+</div>

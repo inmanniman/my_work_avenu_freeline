@@ -1,0 +1,34 @@
+{% for item in params.content %}
+  <div class="event-card">
+    <div class="event-card__text-unit">
+      <h2 class="event-card__title">
+        {{ item.title }}
+      </h2>
+      <p class="event-card__text">
+        {{ item.description }}
+      </p>
+      <div class="event-card__button-unit">
+        <a href="/" class="base-btn base-btn_type_primary event-card__button"
+        >Забронировать</a>
+        <a href="/" class="base-btn base-btn_type_secondary event-card__button event-card__button-add"
+        >Подробнее</a>
+      </div>
+    </div>
+    <picture class="event-card__pict">
+
+      <source srcset="/assets/images/events/{{ item.images.webp }}, /assets/images/events/{{ item.images.webp2x }} 2x"
+        type="image/webp"/>
+      <img
+        class="event-card__image"
+        srcset="
+        /assets/images/events/{{ item.images.img }},
+        /assets/images/events/{{ item.images.img2x }} 2x
+      "
+        src="/assets/images/events/{{ item.images.img }}"
+        loading="lazy"
+        width="690"
+        height="589"
+        alt="Event page"
+/></picture>
+  </div>
+{% endfor %}

@@ -1,0 +1,27 @@
+<div class="room-card">
+  <div class="room-card__image">
+    <picture>
+      <source
+        srcset="/assets/images/hotel-rooms/hotel-room.webp, /assets/images/hotel-rooms/hotel-room@2x.webp 2x"
+        type="image/webp">
+      <img srcset="/assets/images/hotel-rooms/hotel-room.jpg, /assets/images/hotel-rooms/hotel-room@2x.jpg 2x"
+           src="/assets/images/hotel-rooms/hotel-room.jpg" loading="lazy" alt="hotel room" width="453" height="652">
+    </picture>
+  </div>
+  <div class="room-card__content">
+    <h3 class="room-card__title">
+      {{ params.title }}
+    </h3>
+    <div class="room-card__subtitle">
+      {{ params.subtitle }}
+    </div>
+    <p class="room-card__description">
+      {{ params.description }}
+    </p>
+
+    <div class="room-card__button-list">
+      <a href="{{ params.hrefBook }}" class="room-card__button base-btn base-btn_type_primary">Забронировать</a>
+      <a href="{{ params.hrefMoreDetails }}" class="room-card__button base-btn base-btn_type_secondary">Подробнее</a>
+    </div>
+  </div>
+</div>

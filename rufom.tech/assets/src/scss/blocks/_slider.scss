@@ -1,0 +1,186 @@
+$ratio: 4 / 3;
+.slider-gallery {
+  //max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider-gallery__items {
+  padding-top: 100% / $ratio / 2;
+  position: relative;
+}
+
+.slider-gallery__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1.5s;
+  box-sizing: border-box;
+  transform: translate(-100%);
+  img {
+    transition: all 1.5s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.slider-gallery__first {
+  padding: 0;
+  transform: translate(0);
+}
+
+.slider-gallery__item {
+  width: 50%;
+  height: 100%;
+  &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0;
+        transition: all .3s ease-out;
+    }
+ .item-block{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        padding: 30px 45px;
+        opacity: 0;
+        transition: all .3s ease-out;
+  }
+  &:nth-child(n+2){
+    .item-block{
+        padding: 10px 20px;
+        bottom: 5px;
+        .item__title{
+            margin-bottom: 10px;
+            font-size: 0.8rem;
+        }
+        .item-increase{
+            font-size: 0.8rem;
+            top: 5px;
+            margin-right: 8px;
+            .ic--increase {
+                background-image: url('~/img/icons/increase.svg');
+                width: 18px;
+                height: 18px;
+            }
+        }
+     }
+ }
+    &:hover{
+        &:before{
+            opacity: .5;
+        }
+        .item{
+            &-block{
+                opacity: 1;
+            }
+        }
+    }
+    .item{
+        &__title{
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        &-increase{
+            color: #42beff;
+            font-weight: 700;
+            .ic{
+                top: 8px;
+                margin-right: 15px;
+            }
+            .link{
+                color: #42beff;
+                &::after{
+                    border-color: #42beff;
+                }
+            }
+        }
+    }
+}
+
+.slider-gallery__first {
+  ~ .slider-gallery__item {
+    width: 25%;
+    padding-left: 1px;
+    height: 50%;
+    overflow: hidden;
+    img {
+      width: calc(100% + 1px);
+    }
+  }
+  + .slider-gallery__item {
+    transform: translate(200%);
+    border-bottom: solid 1px transparent;
+    + .slider-gallery__item {
+      transform: translate(200%, 100%);
+      + .slider-gallery__item {
+        border-bottom: solid 1px transparent;
+        transform: translate(300%);
+        + .slider-gallery__item {
+          transform: translate(300%, 100%);
+          ~ .slider-gallery__item {
+            transform: translate(400%, 100%);
+          }
+        }
+      }
+    }
+  }
+}
+.slider-gallery__btn-prev {
+    left: 65px;
+}
+.slider-gallery__btn-next {
+    right: 65px;
+}
+.slider-gallery__nav-btn{
+    margin: 0;
+    top: 50%;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    transform: translateY(-50%);
+    span {
+        display: block;
+        height: 56px;
+        width: 56px;
+        background-color: #0071ce;
+        border-radius: 3px;
+        transform: rotate(-45deg);
+        position: relative;
+        transition: all .3s ease-out;
+            &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -6px;
+            margin-top: -6px;
+            width: 12px;
+            height: 12px;
+            background: url('~/img/icons/s-prev.svg') no-repeat 50% 50%;
+            background-size: 12px 12px;
+            z-index: 1;
+        }
+    }
+}
+.slider-gallery__btn-next span:before{
+    transform: rotate(-135deg);
+}
+.slider-gallery__btn-prev span:before {
+    transform: rotate(45deg);
+}

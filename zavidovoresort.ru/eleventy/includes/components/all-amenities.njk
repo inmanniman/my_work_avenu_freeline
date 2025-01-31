@@ -1,0 +1,28 @@
+{%- from "utils/component.njk" import component -%}
+<div class="all-amenities">
+  <h4 class="all-amenities__title">
+    Какие удобства вас ждут
+  </h4>
+  <div class="all-amenities__content">
+    {{ component('convenience-elements', {
+      content: params.content
+    }) }}
+  </div>
+  <button type="button" data-fancybox data-src="#all-amenities-modal" class="all-amenities__button base-btn base-btn_type_tertiary">Показать все удобства: 39</button>
+</div>
+
+<div hidden id="all-amenities-modal" class="custom-fancybox all-amenities-modal">
+  <button data-fancybox-close class="custom-fancybox__button">
+    <svg width="16" height="16">
+      <use href="/assets/sprite.svg#close-mini"></use>
+    </svg>
+  </button>
+  <h4 class="all-amenities-modal__title">
+    Какие удобства вас ждут
+  </h4>
+  <div class="all-amenities-modal__content">
+    {{ component('convenience-elements', {
+      content: params.content
+    }) }}
+  </div>
+</div>

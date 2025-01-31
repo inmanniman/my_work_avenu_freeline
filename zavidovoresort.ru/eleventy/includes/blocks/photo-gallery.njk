@@ -1,0 +1,33 @@
+<section class="photo-gallery container">
+  <h2 class="photo-gallery__title title">Фотогалерея</h2>
+
+  <div class="photo-gallery__swiper js-sliders">
+    <div class="swiper" data-slider-name="classic_photo_slider">
+      <div class="swiper-wrapper">
+        {% for item in params.photoGallery %}
+          <div class="swiper-slide">
+            <picture class="photo-gallery__img-wrapper">
+              <source srcset="/assets/images/{{ item.images.webp }}, /assets/images/{{ item.images.webp2x }} 2x"
+                      type="image/webp">
+              <img srcset="/assets/images/{{ item.images.img }}, /assets/images/{{ item.images.img2x }} 2x"
+                   src="/assets/images/{{ item.images.img }}" loading="lazy" alt="wedding ceremony" width="690"
+                   height="690">
+            </picture>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="photo-gallery__button">
+      <button type="button" class="js-swiper-button-prev base-pagination ">
+        <svg width="20" height="20">
+          <use href="/assets/sprite.svg#arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="js-swiper-button-next base-pagination base-pagination_type_right">
+        <svg width="20" height="20">
+          <use href="/assets/sprite.svg#arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,44 @@
+{%- from "utils/component.njk" import component -%}
+
+<div class="template-program container">
+  <div class="template-program__grid">
+    <picture class="position_type_right">
+      <source media="(max-width: 550px)"
+              srcset="/assets/images/blog/ayurvedic-programs.webp, /assets/images/blog/ayurvedic-programs.webp 2x"
+              type="image/webp">
+      <source media="(max-width: 550px)"
+              srcset="/assets/images/blog/ayurvedic-programs.jpg, /assets/images/blog/ayurvedic-programs.jpg 2x">
+      <source srcset="/assets/images/blog/ayurvedic-programs.webp, /assets/images/blog/ayurvedic-programs@2x.webp 2x"
+              type="image/webp"/>
+      <img class="event-card__image"
+           srcset="/assets/images/blog/ayurvedic-programs.jpg, /assets/images/blog/ayurvedic-programs@2x.jpg 2x"
+           src="/assets/images/blog/ayurvedic-programs.jpg"
+           loading="lazy"
+           width=""
+           height=""
+           alt=""/>
+    </picture>
+    <div class="template-program__description">
+      <div class="template-program__content">
+        <h2 class="template-program__title">
+          Настоящий индийский массаж
+        </h2>
+        <ul>
+          <li>Обязательная первичная консультация</li>
+          <li>Обязательная первичная консультация</li>
+          <li>Обязательная первичная консультация</li>
+          <li>Обязательная первичная консультация</li>
+        </ul>
+        <p>
+          Также <b> разработаны короткие программы выходного дня и полноценные программы от 7 до 28 дней. </b>
+        </p>
+        <p>
+          В «Атрея Аюрведа» работают только специалисты из Индии, окончившие Университеты или другие учебные заведения
+          Аюрведической медицины в штате Керала (Индия).
+        </p>
+        <span>Длительность: <b> 60-75 минут</b></span>
+      </div>
+      {{ component('read-more') }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.banner-promotion-button {
+  &__button-link {
+    width: 100%;
+    //margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: center;
+    border-radius: 16px;
+  }
+
+  @media (max-width: 550px) {
+    &__button-link {
+      margin-bottom: 24px;
+      padding: 16px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.fancybox {
+  &__container {
+    --fancybox-bg: rgb(18 18 18 / 45%);
+  }
+
+  &__backdrop {
+    backdrop-filter: blur(7px);
+  }
+}

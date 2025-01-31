@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Общее описание",
+    "description": "Уровень сервиса и комфортабельность нашего отеля соответствуют самым высоким стандартам гостеприимства, которые подтверждены 'Национальной гостиничной премией 2019'. В январе 2020 года отель прошел официальную аккредитацию объектов туристической индустрии России и заслуженно получил 3 звезды.",
+
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Оздоровительный центр",
+    "description": "На территории отеля находится оздоровительный центр «Атрея Аюрведа». Программы центра основаны на древней традиционной Индийской медицине. Прием ведут доктора и специалисты из Индии, окончившие Университеты или другие учебные заведения Аюрведической медицины в штате Керала (Индия).",
+    "imageRight": "hotel-info__pict_type_right",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Банный комплекс с чаном",
+    "description": "На берегу Волги в 10 метрах от воды расположен банный комплекс с чаном под открытым небом. Впечатляющие пейзажи Московского моря и сказочная атмосфера позволят отдохнуть и душой и телом.",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Питание",
+    "description": "В отеле предусмотрено 3 вида питания: завтрак, полупансион (завтрак и обед) или полный пансион (завтрак, обед и ужин). Вы можете выбрать тип питания в момент бронирования номера или заказать его уже в отеле.",
+    "imageRight": "hotel-info__pict_type_right",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Отдых с детьми",
+    "description": "Завидово Резорт отлично подходит для отдыха с детьми. В основном корпусе есть круглосуточная бесплатная зона с игрушками для маленьких детей. Территория отеля охраняется. В 50 метрах от отеля – пристань и частный пляж, где дети могут играть.",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Яхтинг и водные виды спорта",
+    "description": "Если вы увлекаетесь яхтингом, гидроциклами, катанием на SUP-досках, кайт или винд-серфингом, то Zavidovo Resort – идеальное место. Рядом с отелем собственная пристань с удобным спуском для яхт и лодок. Также вы можете оставить у нас на хранение свою яхту или снаряжение (стоимость хранения подскажет администратор).",
+    "imageRight": "hotel-info__pict_type_right",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Рыбалка на Иваньковском водохранилище",
+    "description": "Любите рыбалку? Иваньковское водохранилище - хорошее место для весенней, летней и осенней рыбалки. Удобное расположение, тишина и спокойствие, некоторая удаленность Завидово Резорт от раскрученных и широко известных отелей Конаково и Дубны сделают ваш отдых и рыбалку особенно приятными.",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  },
+  {
+    "title": "Что есть рядом?",
+    "description": "В 5 км проходит автомагистраль M10. Железнодорожный вокзал Завидово расположен в 7 км, а Москва — в 110 км. Парам особенно нравится расположение — они оценили проживание в этом районе для поездки вдвоем на 8,5 (по версии booking.com).",
+    "imageRight": "hotel-info__pict_type_right",
+    "images": {
+      "img": "field.jpg",
+      "webp": "field.webp",
+      "img2x": "field@2x.jpg",
+      "webp2x": "field@2x.webp",
+      "img_m": "field-mobile.jpg",
+      "img_m2x": "field-mobile@2x.jpg",
+      "webp_m": "field-mobile.webp",
+      "webp_m2x": "field-mobile@2x.webp"
+    }
+  }
+]

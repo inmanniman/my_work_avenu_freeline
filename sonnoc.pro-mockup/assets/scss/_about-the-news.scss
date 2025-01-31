@@ -1,0 +1,39 @@
+.about-the-news {
+  &__content {
+    max-width: 580px;
+    margin: auto;
+  }
+
+  p,
+  &__back {
+    margin-bottom: 20px;
+  }
+
+  &__back {
+    display: block;
+  }
+
+  &__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  &__images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 700px) {
+    &__images {
+      margin-bottom: 20px;
+    }
+
+    &__img {
+      max-height: 197px;
+    }
+  }
+}

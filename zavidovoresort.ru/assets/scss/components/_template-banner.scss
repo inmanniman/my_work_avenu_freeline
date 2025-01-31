@@ -1,0 +1,55 @@
+.template-banner {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1440px;
+    max-height: 300px;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin: auto;
+    padding: 16px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  picture {
+    max-height: inherit;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__grid {
+      grid-template-columns: 1fr;
+      max-height: 500px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 32px;
+      line-height: 37px;
+    }
+  }
+}

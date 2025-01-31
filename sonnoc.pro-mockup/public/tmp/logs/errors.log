@@ -1,0 +1,471 @@
+[31.08.2023 14:16:47]
+URI: http://sonnoc.test/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: syntax error, unexpected 'echo' (T_ECHO)  called at [/var/www/sonnoc.pro-mockup/public/custom/modules/bs/views/bs.view.show_block_product-main.php:68] 
+
+
+
+[02.09.2023 17:19:45]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+
+
+Error #1: syntax error, unexpected '}', expecting ';' or ','  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(173) : eval()'d code:4] 
+
+
+
+[03.09.2023 17:02:05]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Allowed memory size of 268435456 bytes exhausted (tried to allocate 132136960 bytes)  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(173) : eval()'d code:3] 
+
+
+
+[03.09.2023 17:10:56]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: syntax error, unexpected end of file  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(173) : eval()'d code:6] 
+
+
+
+[03.09.2023 17:10:57]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: syntax error, unexpected end of file  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(173) : eval()'d code:6] 
+
+
+
+[03.09.2023 17:11:50]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Allowed memory size of 268435456 bytes exhausted (tried to allocate 132136960 bytes)  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(173) : eval()'d code:3] 
+
+
+
+[03.09.2023 18:18:50]
+URI: http://sonnoc.test/o-kompanii155/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Unexpected character in input:  '  called at [/var/www/sonnoc.pro-mockup/public/custom/modules/bs/views/bs.view.show_block_brand-history-navig.php:65] 
+
+
+
+[05.09.2023 16:03:30]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+
+
+Error #1: syntax error, unexpected 'echo' (T_ECHO)  called at [/var/www/sonnoc.pro-mockup/public/custom/modules/shop/views/shop.view.rows.php:31] 
+
+
+
+[05.09.2023 16:03:52]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+
+
+Error #1: Unexpected character in input:  '  called at [/var/www/sonnoc.pro-mockup/public/custom/modules/shop/views/shop.view.rows.php:187] 
+
+
+
+[05.09.2023 16:11:08]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:11:57]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:11:59]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:12:00]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:16:56]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/news/novosti/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:17:31]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/news/novosti/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:17:44]
+URI: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/news/novosti/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:19:08]
+URI: http://sonnoc.test/produktsiya/portativnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 16:19:16]
+URI: http://sonnoc.test/produktsiya/installyatsionnye-proektory/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/korotkofokusnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:14:57]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/portativnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:18:49]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/portativnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:22:07]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/portativnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:27:54]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/portativnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:35:31]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/produktsiya/portativnye-proektory/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:36:30]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 
+
+
+
+[05.09.2023 18:37:36]
+URI: http://sonnoc.test/produktsiya/
+client: 172.19.0.1
+host: 172.19.0.1
+agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+referer: http://sonnoc.test/
+
+
+Error #1: Uncaught Error: Class 'Site' not found in /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435
+Stack trace:
+#0 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#1 /var/www/sonnoc.pro-mockup/public/themes/functions/show_include.php(35): Parser_theme->get_function_in_theme('\r\n\r\n\r\n\r\n<sectio...', true)
+#2 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(466): include('/var/www/sonnoc...')
+#3 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(447): Parser_theme->functions('show_include', Array)
+#4 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(144): Parser_theme->start_element(Array)
+#5 /var/www/sonnoc.pro-mockup/public/includes/parser_theme.php(73): Parser_theme->get_function_in_theme('\n\n\n\n\n\n<insert n...', true)
+#6 /var/www/sonnoc.pro-mockup/public/includes/init.php(186): Parser_theme->show_theme()
+#7 /var/www/sonnoc.pro-mockup/public/index.php(103): Init->start()
+#8 {main}
+  thrown  called at [/var/www/sonnoc.pro-mockup/public/includes/parser_theme.php:435] 

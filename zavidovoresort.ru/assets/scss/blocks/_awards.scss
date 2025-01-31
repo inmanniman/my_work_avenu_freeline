@@ -1,0 +1,25 @@
+.awards {
+  &__title {
+    padding-top: 34px;
+  }
+  &__unit {
+    margin: 32px 0 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 720px) {
+    &__unit {
+      justify-content: center;
+    }
+  }
+  @media (max-width: 550px) {
+    &__title {
+      padding-top: 0;
+    }
+    &__unit {
+      margin: 32px 0 64px;
+      gap: 16px;
+    }
+  }
+}

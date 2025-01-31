@@ -1,0 +1,106 @@
+.modal-order {
+  --fancybox-color: #e2e6ec;
+
+  display: none;
+  padding: 66px 86px 66px 68px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__wrapper-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__input {
+    &[type='text'],
+    &[type='tel'],
+    &[type='email'] {
+      padding: 16px 22px;
+      font-size: 16px;
+    }
+
+    &_big {
+      padding: 22px 0 0 16px;
+      padding-top: 22px;
+      padding-left: 16px;
+
+      &::placeholder {
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+    }
+  }
+
+  &__wrapper-file {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__input-file {
+    position: relative;
+    display: inline-block;
+
+    span {
+      position: relative;
+      display: inline-block;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 4px 40px;
+      color: #242424;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      background-color: transparent;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    input {
+      &[type='file'] {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        width: 0;
+        height: 0;
+        opacity: 0;
+      }
+    }
+  }
+
+  &__attach-file-text {
+    align-self: center;
+    color: #878787;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &__wrapper-privacy-policy {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+    label {
+      color: #797979;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 47px 16px;
+  }
+
+  @media screen and (max-width: 425px) {
+    &__attach-file-text {
+      font-size: 12px;
+    }
+  }
+}

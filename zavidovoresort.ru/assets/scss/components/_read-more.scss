@@ -1,0 +1,23 @@
+.read-more {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  color: var(--main-blue);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--main-font-family);
+  letter-spacing: -0.64px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  svg {
+    transform: rotate(135deg);
+  }
+}

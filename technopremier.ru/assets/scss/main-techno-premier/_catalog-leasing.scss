@@ -1,0 +1,255 @@
+.catalog-leasing {
+  width: 100%;
+  padding-bottom: 124px;
+
+  &__content {
+    max-width: 1166px;
+    margin: 0 auto;
+    padding: 5px 0 0 37px;
+  }
+
+  &__img-wrapper {
+    background: url('~/images/product-bg.jpg') top left no-repeat;
+    background-size: 360px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  &__title {
+    font-weight: 300;
+    font-size: 56px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0;
+    padding: 100px 0 0 5px;
+    color: #495053;
+  }
+
+  &__aside {
+    display: grid;
+    gap: 40px;
+    margin: 80px 0 0 0;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 28px 0 20px 33px;
+    color: #000;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__number {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  &__name, &__number {
+    display: block;
+  }
+
+  &__parameter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0 32px 0 0;
+    margin: 0;
+  }
+
+  &__parameter-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__parameter-data {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+  }
+
+  &__payment {
+    background: url("~/images/background-second-box.png") no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 21px 32px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__sale {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+
+    &:nth-child(2) {
+      font-weight: 900;
+      font-size: 24px;
+      margin-top: -4px;
+    }
+  }
+
+  &__box {
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    border-radius: 16px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 360px;
+
+    &:hover {
+      box-shadow: 0 0 100px 57px rgba(111, 111, 111, 0.2) inset;
+      transition: 1s;
+    }
+
+  }
+
+  &__label-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: block;
+    margin: auto;
+
+  }
+
+  &__label {
+    padding: 5px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 5px;
+    display: table;
+
+    &-sale {
+      background-color: #D80027;
+    }
+
+    &-new {
+      background-color: #27AE60;
+    }
+
+    &-hit {
+      background-color: #2D9CDB;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    border-radius: 16px 16px 0 0;
+    height: auto;
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+  }
+  &__home{
+    padding-bottom: 124px;
+  }
+  &__home &__aside{
+    margin-top: 105px;
+  }
+  &__leasing{
+    margin-top: 100px;
+    .leasing-leasing__header{
+      font-weight: 300;
+      font-size: 56px;
+      color: #495053;
+      line-height: 1.17;
+      @media screen and (max-width: 768px) {
+        font-size: 32px;
+      }
+    }
+    .catalog-leasing__aside {
+      margin: 100px 0 0 0;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    &__aside {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    //&__box:nth-child(3) {
+    //  display: none;
+    //}
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 50px;
+    &__aside {
+      margin: 40px 0 0 0;
+      grid-template-columns: minmax(0, 1fr);
+    }
+    &__content {
+      padding-right: 37px;
+    }
+
+    &__title {
+      font-size: 24px;
+      text-align: center;
+    }
+    &__leasing{
+      margin-top: 50px;
+      .catalog-leasing__aside {
+        margin: 50px 0 0 0;
+      }
+    }
+    &__sale {
+      color: #fff;
+      font-weight: 400;
+      font-size: 16px;
+
+    }
+
+    &__name {
+      font-size: 18px;
+    }
+    &__number{
+      font-size: 18px;
+    }
+
+    &__aside {
+      margin-left: auto;
+      flex-direction: column;
+    }
+    &__payment{
+      padding: 16px 15px 20px 15px;
+    }
+    &__sale {
+      &:nth-child(2) {
+        font-size: 20px;
+      }
+    }
+  }
+  &__under-title{
+    font-size: 28px;
+  }
+  &__home .catalog-leasing__aside{
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 425px) {
+    &__text {
+      margin: 20px 10px 20px 10px;
+    }
+    &__parameter{
+      padding: 0;
+    }
+  }
+}

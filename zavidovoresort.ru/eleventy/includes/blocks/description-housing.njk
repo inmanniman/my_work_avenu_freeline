@@ -1,0 +1,36 @@
+{%- from "utils/component.njk" import component -%}
+<div class="description-housing container">
+  <div class="description-housing__wrap-title">
+    <h3 class="description-housing__title">Люкс с видом на реку</h3>
+  </div>
+  <div class="description-housing__content">
+    <div class="description-housing__content-item">
+      {{
+        component('convenience-elements', {
+          content: params.topAmenities
+        })
+      }}
+    </div>
+    <div class="description-housing__content-item">
+      {{ component('banner-promotion') }}
+    </div>
+    <div class="description-housing__content-item">
+      {{
+        component('all-amenities', {
+          content: params.allAmenities
+        })
+      }}
+    </div>
+    <div class="description-housing__content-item">
+      {{
+        component('housing-characteristics', {
+          content: params.housingCharacteristics
+        })
+      }}
+    </div>
+
+  </div>
+  <div class="description-housing__booking">
+    {{ component('booking') }}
+  </div>
+</div>

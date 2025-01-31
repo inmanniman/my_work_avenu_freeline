@@ -1,0 +1,1 @@
+a:2:{i:0;a:7:{s:2:"id";s:1:"1";s:4:"name";s:47:"ФИО или название компании";s:4:"type";s:4:"text";s:8:"required";s:1:"1";s:4:"text";N;s:6:"config";N;s:4:"info";s:4:"name";}i:1;a:7:{s:2:"id";s:1:"3";s:4:"name";s:66:"Контактные телефоны (с кодом города)";s:4:"type";s:5:"phone";s:8:"required";s:1:"1";s:4:"text";N;s:6:"config";N;s:4:"info";s:5:"phone";}}

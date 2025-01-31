@@ -1,0 +1,22 @@
+.mm-page {
+  background: #fff;
+}
+
+.mmenu-socials {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  &__item {
+  }
+
+  &__link {
+
+  }
+
+  &__img {
+    width: 30px;
+    vertical-align: middle;
+  }
+}

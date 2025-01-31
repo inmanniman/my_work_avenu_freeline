@@ -1,0 +1,30 @@
+{%- from "utils/component.njk" import component -%}
+
+<a href="/" class="template-banner">
+  <div class="template-banner__grid">
+    <div class="template-banner__description">
+      <div class="template-banner__title">
+        Почему сейчас выгодно?
+      </div>
+      <p>До летнего сезона самые низкие тарифы на проживание в отеле.</p>
+      <p><b>+7 (910) 649 45 84 </b> Елена (есть возможность общения через WhatsApp).</p>
+      {{ component('read-more') }}
+    </div>
+    <picture>
+      <source media="(max-width: 550px)"
+              srcset="/assets/images/blog/ayurvedic-programs.webp, /assets/images/blog/ayurvedic-programs.webp 2x"
+              type="image/webp">
+      <source media="(max-width: 550px)"
+              srcset="/assets/images/blog/ayurvedic-programs.jpg, /assets/images/blog/ayurvedic-programs.jpg 2x">
+      <source srcset="/assets/images/blog/ayurvedic-programs.webp, /assets/images/blog/ayurvedic-programs@2x.webp 2x"
+              type="image/webp"/>
+      <img class="event-card__image"
+           srcset="/assets/images/blog/ayurvedic-programs.jpg, /assets/images/blog/ayurvedic-programs@2x.jpg 2x"
+           src="/assets/images/blog/ayurvedic-programs.jpg"
+           loading="lazy"
+           width=""
+           height=""
+           alt=""/>
+    </picture>
+  </div>
+</a>

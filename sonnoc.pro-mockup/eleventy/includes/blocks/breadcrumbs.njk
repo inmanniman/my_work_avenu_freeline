@@ -1,0 +1,13 @@
+<div class="breadcrumbs">
+  <ul class="breadcrumbs__list">
+    {% for page in params.pages %}
+    <li class="breadcrumbs__li">
+      {% if page.href %}
+      <a href="{{ page.href }}" class="link">{{ page.title }}</a>
+      {% else %}
+      <span>{{ page.title }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

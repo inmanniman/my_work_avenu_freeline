@@ -1,0 +1,12 @@
+---
+title: Фотогалерея
+layout: page.njk
+permalink: gallery-pict.html
+variationHeader: clear
+---
+
+{%- from "utils/block.njk" import block -%}
+
+{{ block('gallery-pict', {
+  galleryPict: galleryPict
+}) }}

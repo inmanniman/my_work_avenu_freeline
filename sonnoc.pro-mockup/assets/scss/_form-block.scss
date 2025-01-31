@@ -1,0 +1,40 @@
+.form-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+
+  &__img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 800px) {
+    grid-template-areas:
+      'form'
+      'first-block';
+    grid-template-columns: 1fr;
+
+    &__first-block {
+      grid-area: first-block;
+    }
+
+    &__form {
+      grid-area: form;
+    }
+
+    &__img {
+      max-height: 300px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  }
+
+  @media (max-width: 500px) {
+    &__img {
+      max-height: 116px;
+      object-position: bottom;
+    }
+  }
+}

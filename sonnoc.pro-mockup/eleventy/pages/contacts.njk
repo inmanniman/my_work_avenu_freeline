@@ -1,0 +1,32 @@
+---
+title: Контакты
+layout: page.njk
+permalink: contacts.html
+---
+
+{%- from "utils/block.njk" import block -%}
+{%- from "utils/component.njk" import component -%}
+
+<div class="container">
+  {{ block('breadcrumbs',{
+  pages: [{
+  href: "/",
+  title: "Главная"
+  },{
+  title: "Контакты"
+  } ]
+  }) }}
+  <div class="contacts">
+    <div class="contacts__content">
+      <h1 class="contacts__title title">Контакты</h1>
+      <span class="contacts__caption">Телефон</span>
+      <a href="tel:+76263758388" class="contacts__link link">+7 (626) 375 83 88</a>
+      <span class="contacts__caption">Почта</span>
+      <a href="mailto:david.lee@sonnoc.com" class="contacts__link link">david.lee@sonnoc.com</a>
+      <span class="contacts__caption">Адрес</span>
+      <a href="/" class="contacts__link link">Sonnoc Inc. 5924,
+        парк Спринг-Сент-Буэна, Калифорния 90621</a>
+    </div>
+    {{ component('form') }}
+  </div>
+</div>

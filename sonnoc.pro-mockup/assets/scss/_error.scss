@@ -1,0 +1,44 @@
+.error {
+  margin-top: 100px;
+
+  &__number,
+  &__info {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__number {
+    color: #1a2932;
+    font-weight: 500;
+    font-size: 260px;
+    line-height: 1;
+    letter-spacing: -7.8px;
+  }
+
+  &__info {
+    color: #125aa3;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+  }
+
+  &__btn {
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 60px;
+
+    &__number,
+    &__info {
+      margin-bottom: 20px;
+    }
+
+    &__number {
+      font-size: 160px;
+    }
+  }
+}

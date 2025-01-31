@@ -1,0 +1,91 @@
+.underconstr {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.underconstr__logo {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 250px;
+  height: 60px;
+  margin-bottom: -5px
+}
+
+.underconstr__logo img {
+  width: 250px
+}
+
+.underconstr__content {
+  background-color: #fff;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 456px;
+  height: 640px;
+  padding: 87px 60px 60px;
+  font-weight: 300;
+  font-size: 24px
+}
+
+.underconstr__info {
+  line-height: 28.8px
+}
+
+.underconstr__contacts {
+  line-height: 36.72px
+}
+
+@media only screen and (max-width: 767px) {
+  .underconstr__logo {
+    width: 211px;
+    height: 50px
+  }
+
+  .underconstr__logo img {
+    width: 211px
+  }
+
+  .underconstr__content {
+    width: 280px;
+    height: 445px;
+    padding: 55px 30px 48px;
+    font-size: 20px
+  }
+
+  .underconstr__info {
+    line-height: 24px
+  }
+
+  .underconstr__contacts {
+    line-height: 30.6px
+  }
+}
