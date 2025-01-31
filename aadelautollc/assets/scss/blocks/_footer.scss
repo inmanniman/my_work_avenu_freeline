@@ -1,0 +1,144 @@
+.footer {
+  width: 100%;
+  background: #333;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 50px 0;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 60px;
+  }
+
+  &__wrapper-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    padding: 0 10px;
+    color: #fff;
+    list-style: none;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+
+    &:first-child {
+      border-left: none;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  &__item-link {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #f7ae3c;
+    }
+  }
+
+  &__wrapper-copyright {
+    margin-top: 110px;
+    text-align: center;
+    background-color: #4e4e4e;
+  }
+
+  &__copyright {
+    color: #fff;
+  }
+
+  &__wrapper-about {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 400px;
+  }
+
+  &__about-title {
+    display: block;
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 32px;
+  }
+
+  &__about-subtitle {
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1440px) {
+    &__wrapper {
+      padding: 55px 16px 0;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    &__wrapper {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    &__wrapper-menu-img {
+      grid-area: 1 / 1 / 2 / 3;
+      justify-self: center;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__about-subtitle {
+      font-size: 12px;
+    }
+
+    &__wrapper-item {
+      flex-direction: column;
+    }
+
+    &__item {
+      padding: 16px 0;
+      color: #fff;
+      border: none;
+      border-bottom: 1px solid #fff;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    &__wrapper-about {
+      justify-content: center;
+    }
+
+    &__wrapper-menu-img {
+      width: 100%;
+    }
+
+    &__about-title {
+      font-size: 14px;
+    }
+
+    &__item-link {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    &__wrapper {
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__about-title {
+      align-self: center;
+    }
+  }
+}

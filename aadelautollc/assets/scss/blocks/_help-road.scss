@@ -1,0 +1,84 @@
+.help-road {
+  padding: 180px 0;
+
+  &__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__title {
+    color: #ffb801;
+    font-weight: 800;
+    font-size: 60px;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  &__wrapper-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 78px;
+    padding-left: 27px;
+  }
+
+  &__item {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    list-style: none;
+
+    &::after {
+      position: absolute;
+      top: 3px;
+      left: -26px;
+      display: block;
+      width: 22px;
+      height: 22px;
+      background-image: url('~/images/marker.svg');
+      content: '';
+    }
+  }
+
+  &__btn {
+    padding: 25px 50px;
+    color: rgb(0 0 0 / 70%);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #d8d8d8;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: #1100ff;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 100px 16px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__subtitle {
+      font-size: 21px;
+    }
+
+    &__item {
+      font-size: 18px;
+    }
+
+    &__wrapper-btn {
+      text-align: center;
+    }
+  }
+}

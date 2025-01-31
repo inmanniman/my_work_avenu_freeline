@@ -1,0 +1,106 @@
+.swiper-reviews {
+  padding: 120px 0 137px;
+
+  &__title {
+    display: block;
+    color: #333;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+  }
+
+  .swiper {
+    height: 251px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__wrapper-img-name {
+    display: flex;
+    gap: 12px;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 25px 25px 6px;
+  }
+
+  &__wrapper-img {
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__wrapper-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__data {
+    color: #a8a8a8;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__wrapper-txt {
+    display: block;
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 25px 25px 32px;
+  }
+
+  .swiper-button-next {
+    right: 0;
+    top: 100px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('~/images/right-arrow.svg');
+      background-size: contain;
+      right: 0;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .swiper-button-prev {
+    left: 0;
+    top: 100px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('~/images/left-arrow.svg');
+      background-size: contain;
+      left: 0;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #ffb801;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__title {
+      font-size: 32px;
+    }
+  }
+}

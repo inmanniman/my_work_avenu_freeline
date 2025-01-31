@@ -1,0 +1,74 @@
+.swiper-support {
+  background-color: #333;
+  padding: 120px 0 137px;
+
+  &__title {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+  }
+
+  .swiper-wrapper {
+    height: 448px;
+    z-index: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    max-height: 450px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+
+  .swiper-slide {
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('~/images/left-arrow.svg');
+      background-size: contain;
+      left: 0;
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .swiper-button-next {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('~/images/right-arrow.svg');
+      background-size: contain;
+      right: 0;
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .swiper-wrapper {
+      height: 287px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

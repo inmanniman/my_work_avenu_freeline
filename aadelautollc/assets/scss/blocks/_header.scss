@@ -1,0 +1,247 @@
+.header {
+  &__wrapper-item {
+    clear: both;
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    transition: max-height 0.2s ease-out;
+
+    &_mobmenu {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      background-color: #333;
+
+      .header {
+        &__item-link {
+          color: #fff;
+        }
+
+        &__item {
+          display: flex;
+          justify-content: center;
+          border-bottom: 1px solid #fff;
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__item-link {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #f90;
+      transition: 0.3s ease-out;
+    }
+  }
+
+  &__menu-btn {
+    display: none;
+
+    &:checked ~ .header {
+      &__wrapper-item {
+        max-height: 100%;
+      }
+
+      &:checked ~ .header {
+        &__menu-icon {
+          .header {
+            &__navicon {
+              background: transparent;
+
+              &::before {
+                transform: rotate(-45deg);
+              }
+
+              &::after {
+                transform: rotate(45deg);
+              }
+            }
+          }
+
+          &:not(.steps) {
+            .header {
+              &__navicon {
+                &::before {
+                  top: 0;
+                }
+
+                &::after {
+                  top: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+
+  &__logo {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__menu-icon {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &__navicon {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    transition: background 0.2s ease-out;
+
+    &::after {
+      position: absolute;
+      top: -5px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      transition: all 0.2s ease-out;
+      content: '';
+    }
+
+    &::before {
+      position: absolute;
+      top: 5px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      transition: all 0.2s ease-out;
+      content: '';
+    }
+  }
+
+  &__wrapper-icon {
+    align-self: center;
+  }
+
+  &__wrapper-contact-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+  }
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__wrapper-contact {
+    display: flex;
+    gap: 10px;
+
+    &_mob {
+      justify-content: center;
+      padding: 10px 0;
+    }
+  }
+
+  &__logo-link-t {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+
+    &:hover {
+      color: #f90;
+    }
+  }
+
+  &__wrapper-btn {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__btn {
+    display: block;
+    padding: 20px 40px;
+    color: rgb(0 0 0 / 70%);
+    font-weight: 700;
+    background-color: #d8d8d8;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: #1100ff;
+    }
+  }
+
+  @media screen and (min-width: 1097px) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+
+    &__item {
+      float: left;
+    }
+
+    &__item-link {
+      padding: 20px 15px;
+    }
+
+    &__wrapper-item {
+      align-self: center;
+      float: right;
+      clear: none;
+      max-height: none;
+
+      &_mobmenu {
+        display: none;
+      }
+    }
+
+    &__menu-icon {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1097px) {
+    &__wrapper-item {
+      &_topmenu {
+        display: none;
+      }
+    }
+
+    &__wrapper-contact-btn {
+      display: none;
+    }
+
+    &__logo {
+      padding: 10px;
+    }
+  }
+}

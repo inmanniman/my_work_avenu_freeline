@@ -1,0 +1,74 @@
+.about {
+  display: flex;
+  padding: 30px 16px;
+  gap: 40px;
+
+  &__wrapper-img {
+    background-image: url('~/images/car-mechanic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    object-fit: cover;
+  }
+
+  &__wrapper-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  &__title {
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    display: block;
+    color: #1100ff;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  &__desc {
+    margin-left: 36px;
+    font-size: 17px;
+  }
+
+  &__wrapper-item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    margin-left: 36px;
+
+    &_column {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    &__title {
+      font-size: 35px;
+    }
+
+    &__subtitle {
+      font-size: 25px;
+    }
+
+    &__item,
+    &__desc {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__wrapper-img {
+      display: none;
+    }
+  }
+}

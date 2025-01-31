@@ -1,0 +1,90 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__wrapper-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    max-width: 409px;
+    color: #3a3a3a;
+  }
+
+  &__wrapper-date {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__input {
+    background-color: #f6f6f8;
+    padding: 15px 24px;
+    border-color: #f6f6f8;
+    border-width: 0;
+    outline: none;
+    border-radius: 7px;
+
+    &_select {
+      display: block;
+      padding: 15px 24px;
+      cursor: pointer;
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 0.3);
+    }
+
+    option {
+      padding: 10px 0;
+    }
+  }
+
+  &__btn {
+    display: block;
+    padding: 25px 50px;
+    color: rgb(0 0 0 / 70%);
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: #d8d8d8;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: #1100ff;
+    }
+  }
+
+  &__txt,
+  &__number {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+
+    &_bold {
+      font-weight: 700;
+    }
+  }
+
+  &__around {
+    color: rgb(0, 131, 0);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__btn {
+      padding: 13px 25px;
+    }
+  }
+}

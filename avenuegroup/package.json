@@ -1,0 +1,51 @@
+{
+    "scripts": {
+        "test": "npm run prettier-check && npm run eslint-check && npm run stylelint-check",
+        "prettier-check": "prettier --check .",
+        "prettier-fix": "prettier --write .",
+        "eslint-check": "eslint assets",
+        "eslint-fix": "eslint --fix assets",
+        "stylelint-check": "stylelint assets/**/*.{scss,css}",
+        "stylelint-fix": "stylelint --fix assets/**/*.{scss,css}",
+        "dev": "mix",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "mix --production",
+        "production": "mix --production",
+        "build:eleventy": "eleventy",
+        "start": "eleventy --serve --quiet"
+    },
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.1",
+        "@up-line/eslint-config": "^1.0.0",
+        "@up-line/stylelint-config": "^1.0.0",
+        "laravel-mix": "^6.0.18",
+        "laravel-mix-svg-sprite": "^2.0.0",
+        "postcss": "^8.2.13",
+        "prettier": "2.8.8",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.12",
+        "sass-loader": "^13.0.2",
+        "ts-loader": "^9.3.0",
+        "typescript": "^4.6.4",
+        "webpack-config-composer": "^1.2.1"
+    },
+    "private": true,
+    "dependencies": {
+        "browserify-fs": "^1.0.0",
+        "crypto-browserify": "^3.12.0",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "file-saver": "^2.0.5",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.7.0",
+        "passport": "^0.7.0",
+        "passport-local": "^1.0.0",
+        "path-browserify": "^1.0.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "stylelint": "^14.16.1"
+    }
+}

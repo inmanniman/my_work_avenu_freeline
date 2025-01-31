@@ -1,0 +1,115 @@
+.authorization {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 16px;
+
+  &__title {
+    color: #000;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  }
+
+  &__wrapper {
+    margin: 0;
+    padding: 40px;
+    background-color: #ededed;
+    border: 1px solid #a8a8a8;
+    border-radius: 20px;
+  }
+
+  &__txt {
+    display: block;
+    color: #000;
+  }
+
+  &__input {
+    display: block;
+    margin: 10px 0;
+    padding: 15px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+
+    &::placeholder {
+      color: #949393;
+      opacity: 0.4;
+    }
+
+    &:hover {
+      border: 1px solid #57acc5;
+    }
+
+    &:focus {
+      border: 1px solid #57acc5;
+
+      &::placeholder {
+        color: #121212;
+      }
+    }
+  }
+
+  &__wrapper-btn {
+    text-align: center;
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+    background: transparent;
+    background: #ccc6cf;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: inset 2px 2px 2px 0 rgb(255 255 255 / 50%),
+      7px 7px 20px 0 rgb(0 0 0 / 10%), 4px 4px 5px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      width: 0;
+      height: 100%;
+      background-color: #57acc5;
+      border-radius: 5px;
+      box-shadow: inset 2px 2px 2px 0 rgb(255 255 255 / 50%),
+        7px 7px 20px 0 rgb(0 0 0 / 10%), 4px 4px 5px 0 rgb(0 0 0 / 10%);
+      transition: all 0.3s ease;
+      content: '';
+    }
+
+    &:hover {
+      color: #fff;
+
+      &::after {
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    &:active {
+      top: 2px;
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+  }
+}

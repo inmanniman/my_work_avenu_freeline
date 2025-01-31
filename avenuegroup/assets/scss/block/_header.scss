@@ -1,0 +1,50 @@
+.header {
+  padding: 10px 16px;
+  background-color: #343e48;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__wrapper-icon {
+    display: flex;
+    gap: 88px;
+    align-items: center;
+
+    span {
+      display: block;
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+
+  &__logout {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #57acc5;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__wrapper-icon {
+      gap: 30px;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    &__icon {
+      display: none;
+    }
+  }
+}

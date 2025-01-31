@@ -1,0 +1,159 @@
+.filter {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e9ecf0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &__wrapper-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+  }
+
+  &__wrapper-reset-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  &__wrapper-radioinput-ten {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search-departament,
+  &__search-data,
+  &__search-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s;
+      outline: none;
+
+      &:focus {
+        border-color: #808080;
+      }
+    }
+  }
+
+  &__wrapper-radioinput {
+    label {
+      display: inline-block;
+      padding: 8px 15px;
+      margin-right: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  &__wrapper-ten {
+    align-self: center;
+  }
+
+  &__ten {
+    margin-right: 5px;
+    display: none;
+
+    & + {
+      .filter {
+        &__ten-label {
+          padding: 8px 15px;
+          background-color: #d1e4f8;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+        }
+      }
+    }
+    &:checked + .filter__ten-label {
+      background-color: #0056b3;
+    }
+  }
+
+  &__rr {
+    display: none;
+
+    &:checked + .filter__rr-label {
+      background-color: #0056b3;
+    }
+  }
+
+  &__rt {
+    display: none;
+
+    &:checked + .filter__rt-label {
+      background-color: #0056b3;
+    }
+  }
+
+  &__wrapper-reset,
+  &__wrapper-btn,
+  &__wrapper-download-btn {
+    button {
+      padding: 10px 15px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+        color: #fff;
+      }
+    }
+  }
+
+  &__btn-reset {
+    background-color: #ccc;
+  }
+
+  &__btn,
+  &__download-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  &__wrapper-btn-radioinput {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__wrapper-input {
+      flex-direction: column;
+    }
+
+    &__wrapper-input {
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    &__wrapper-reset-btn,
+    &__wrapper-radioinput-ten {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__wrapper-btn-radioinput {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #f4f4f4;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#content-application {
+  display: block; /* делаем видимым */
+  opacity: 1; /* устанавливаем непрозрачность */
+}
+
+#content-number {
+  display: none; /* делаем скрытым */
+  opacity: 0; /* устанавливаем прозрачность */
+}
+
+.user-select {
+  user-select: none;
+}
